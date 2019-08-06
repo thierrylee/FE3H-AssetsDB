@@ -1,0 +1,3 @@
+ID	Faction	Gender	RecruitReq	GrowthHP	GrowthStr	GrowthMag	GrowthDex	GrowthSpd	GrowthLck	GrowthDef	GrowthRes	GrowthCha	MaxHp	MaxStr	MaxMag	MaxDex	MaxSpd	MaxLuck	MaxDef	MaxRes	MaxCha	SwordProficiency	LanceProficiency	AxeProficiency	BowProficiency	BrawlingProficiency	ReasonProficiency	FaithProficiency	AuthorityProficiency	ArmorProficiency	RidingProficiency	FlyingProficiency	BaseSword	BaseLance	BaseAxe	BaseBow	BaseBrawling	BaseReason	BaseFaith	BaseAuthority	BaseArmor	BaseRiding	BaseFlying	Major Crest	Minor Crest	Supports
+~BylethM _!-!°		M		45	45	35	45	45	45	35	30	45	88	77	55	66	66	66	55	55	99	U	-	-	-	U	-	-	U	-	-	D	S+	S	A+	A	B+	B	C+	C	D+	D	-	Flames	-
+BylethM		M		45	45	35	45	45	45	35	30	45	88	77	55	66	66	66	55	55	99	U	-	-	-	U	-	-	U	-	-	-	D+	-	-	-	E+	-	-	D	-	-	-	Flames	-

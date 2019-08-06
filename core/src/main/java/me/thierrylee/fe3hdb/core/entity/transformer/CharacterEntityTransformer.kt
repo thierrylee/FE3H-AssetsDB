@@ -5,7 +5,7 @@ import me.thierrylee.fe3hdb.core.utils.toId
 
 internal object CharacterEntityTransformer{
 
-    private const val COLUMN_COUNT = 47
+    private const val COLUMN_COUNT = 46
 
     fun toCharacterEntity(rawValues : List<String>): CharacterEntity{
         if (rawValues.size != COLUMN_COUNT) throw IllegalArgumentException("rawValues should have $COLUMN_COUNT columns")

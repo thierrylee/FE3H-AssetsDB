@@ -1,5 +1,6 @@
 package me.thierrylee.fe3hdb.core.entity.transformer
 
+import me.thierrylee.fe3hdb.core.assets.AssetFileExtractor
 import me.thierrylee.fe3hdb.core.entity.CharacterEntity
 import me.thierrylee.fe3hdb.core.entity.ProficiencyEntity
 import me.thierrylee.fe3hdb.core.entity.RankEntity
@@ -20,55 +21,7 @@ class CharacterEntityTransformerTest {
     @Test
     fun `toCharacterEntity - when correct size - should return expected entity`() {
         // Given
-        val characterRawValue = listOf(
-            "~BylethM _!-!°",
-            "",
-            "M",
-            "",
-            "45",
-            "45",
-            "35",
-            "45",
-            "45",
-            "45",
-            "35",
-            "30",
-            "45",
-            "88",
-            "77",
-            "55",
-            "66",
-            "66",
-            "66",
-            "55",
-            "55",
-            "99",
-            "U",
-            "-",
-            "-",
-            "-",
-            "U",
-            "-",
-            "-",
-            "U",
-            "-",
-            "-",
-            "D",
-            "D+",
-            "-",
-            "-",
-            "-",
-            "E+",
-            "-",
-            "-",
-            "D",
-            "-",
-            "-",
-            "-",
-            "Flames",
-            "",
-            ""
-        )
+        val characterRawValue = AssetFileExtractor().extractRawValues("dummy_characters.tsv")[1]
 
         // When
         val characterEntity = CharacterEntityTransformer.toCharacterEntity(characterRawValue)
@@ -110,16 +63,16 @@ class CharacterEntityTransformerTest {
                 armorProficiency = ProficiencyEntity.NEUTRAL,
                 ridingProficiency = ProficiencyEntity.NEUTRAL,
                 flyingProficiency = ProficiencyEntity.WEAK,
-                baseSwordSkill = RankEntity.D_PLUS,
-                baseLanceSkill = RankEntity.E,
-                baseAxeSkill = RankEntity.E,
-                baseBowSkill = RankEntity.E,
-                baseBrawlingSkill = RankEntity.E_PLUS,
-                baseReasonSkill = RankEntity.E,
-                baseFaithSkill = RankEntity.E,
-                baseAuthoritySkill = RankEntity.D,
-                baseArmorSkill = RankEntity.E,
-                baseRidingSkill = RankEntity.E,
+                baseSwordSkill = RankEntity.S_PLUS,
+                baseLanceSkill = RankEntity.S,
+                baseAxeSkill = RankEntity.A_PLUS,
+                baseBowSkill = RankEntity.A,
+                baseBrawlingSkill = RankEntity.B_PLUS,
+                baseReasonSkill = RankEntity.B,
+                baseFaithSkill = RankEntity.C_PLUS,
+                baseAuthoritySkill = RankEntity.C,
+                baseArmorSkill = RankEntity.D_PLUS,
+                baseRidingSkill = RankEntity.D,
                 baseFlyingSkill = RankEntity.E,
                 majorCrest = "Flames",
                 minorCrest = ""
