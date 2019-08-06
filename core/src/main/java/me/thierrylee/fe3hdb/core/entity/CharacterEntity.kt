@@ -4,7 +4,7 @@ internal data class CharacterEntity(
     val id: String,
     val name: String,
     val faction: String,
-    val gender: String,
+    val gender: GenderEntity,
     val recruitmentRequirements: String,
     val growthHp: Int,
     val growthStr: Int,

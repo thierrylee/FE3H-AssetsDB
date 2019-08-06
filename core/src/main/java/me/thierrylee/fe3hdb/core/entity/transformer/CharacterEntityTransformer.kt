@@ -13,7 +13,7 @@ internal object CharacterEntityTransformer{
             id = rawValues[0].toId(),
             name = rawValues[0],
             faction = rawValues[1],
-            gender = rawValues[2],
+            gender = rawValues[2].toGenderEntity(),
             recruitmentRequirements = rawValues[3],
             growthHp = rawValues[4].toInt(),
             growthStr = rawValues[5].toInt(),

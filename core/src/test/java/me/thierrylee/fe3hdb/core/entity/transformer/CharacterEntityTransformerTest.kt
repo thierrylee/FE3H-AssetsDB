@@ -2,6 +2,7 @@ package me.thierrylee.fe3hdb.core.entity.transformer
 
 import me.thierrylee.fe3hdb.core.assets.AssetFileExtractor
 import me.thierrylee.fe3hdb.core.entity.CharacterEntity
+import me.thierrylee.fe3hdb.core.entity.GenderEntity
 import me.thierrylee.fe3hdb.core.entity.ProficiencyEntity
 import me.thierrylee.fe3hdb.core.entity.RankEntity
 import org.assertj.core.api.Assertions.assertThat
@@ -32,7 +33,7 @@ class CharacterEntityTransformerTest {
                 id = "BylethM",
                 name = "~BylethM _!-!°",
                 faction = "",
-                gender = "M",
+                gender = GenderEntity.MALE,
                 recruitmentRequirements = "",
                 growthHp = 45,
                 growthStr = 45,
