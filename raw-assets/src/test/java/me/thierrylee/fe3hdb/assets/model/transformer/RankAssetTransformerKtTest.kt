@@ -41,10 +41,10 @@ class RankAssetTransformerKtTest {
         valueToExpected: Pair<String, RankAsset>
     ) {
         // When
-        val rankEntity = valueToExpected.first.toRankAsset()
+        val rankAsset = valueToExpected.first.toRankAsset()
 
         // Then
-        assertThat(rankEntity).isEqualTo(valueToExpected.second)
+        assertThat(rankAsset).isEqualTo(valueToExpected.second)
     }
 
 }

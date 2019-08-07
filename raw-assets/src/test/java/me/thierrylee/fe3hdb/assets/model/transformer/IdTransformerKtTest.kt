@@ -1,6 +1,5 @@
 package me.thierrylee.fe3hdb.assets.model.transformer
 
-import me.thierrylee.fe3hdb.assets.model.transformer.toId
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.Test
 

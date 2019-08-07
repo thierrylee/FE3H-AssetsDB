@@ -31,10 +31,10 @@ class ProficiencyAssetTransformerKtTest {
         valueToExpected: Pair<String, ProficiencyAsset>
     ) {
         // When
-        val proficiencyEntity = valueToExpected.first.toProficiencyAsset()
+        val proficiencyAsset = valueToExpected.first.toProficiencyAsset()
 
         // Then
-        assertThat(proficiencyEntity).isEqualTo(valueToExpected.second)
+        assertThat(proficiencyAsset).isEqualTo(valueToExpected.second)
     }
 
 }

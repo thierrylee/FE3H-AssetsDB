@@ -6,7 +6,6 @@ import java.io.InputStreamReader
 class RawAssetFileExtractor {
 
     companion object {
-        const val CHARACTERS_FILE = "characters.tsv"
         const val CRESTS_FILE = "crests.tsv"
     }
 

@@ -10,25 +10,16 @@ import org.junit.Test
 
 class CharacterAssetTransformerTest {
 
-    @Test(expected = IllegalArgumentException::class)
-    fun `toCharacterAsset - when list is not the correct size - should throw exception`() {
-        // When
-        CharacterAssetTransformer.toCharacterAsset(emptyList())
-
-        // Then
-        // Expect exception
-    }
-
     @Test
-    fun `toCharacterAsset - when correct size - should return expected entity`() {
+    fun `buildAsset - should return expected character`() {
         // Given
-        val characterRawValue = RawAssetFileExtractor().extractRawValues("dummy_characters.tsv")[1]
+        val rawValues = RawAssetFileExtractor().extractRawValues("dummy_characters.tsv")[1]
 
         // When
-        val characterEntity = CharacterAssetTransformer.toCharacterAsset(characterRawValue)
+        val characterAsset = CharacterAssetTransformer.buildAsset(rawValues)
 
         // Then
-        assertThat(characterEntity).isEqualTo(
+        assertThat(characterAsset).isEqualTo(
             CharacterAsset(
                 id = "BylethM",
                 name = "~BylethM _!-!°",

@@ -1,6 +1,5 @@
 package me.thierrylee.fe3hdb.assets
 
-import me.thierrylee.fe3hdb.assets.RawAssetFileExtractor.Companion.CHARACTERS_FILE
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.Test
 
@@ -20,7 +19,7 @@ class RawAssetFileExtractorTest {
     @Test
     fun `extractRawValues - when characters - should return not empty list`() {
         // When
-        val result = assetFileExtractor.extractRawValues(CHARACTERS_FILE)
+        val result = assetFileExtractor.extractRawValues("characters.tsv")
 
         // Then
         assertThat(result).isNotEmpty
