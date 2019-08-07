@@ -9,7 +9,6 @@ sourceSets {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation project(':raw-assets')
 
     testImplementation 'junit:junit:4.12'
     testImplementation "org.assertj:assertj-core:3.10.0"
