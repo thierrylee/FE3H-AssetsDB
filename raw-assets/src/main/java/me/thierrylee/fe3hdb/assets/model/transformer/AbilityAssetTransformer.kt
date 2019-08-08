@@ -2,7 +2,7 @@ package me.thierrylee.fe3hdb.assets.model.transformer
 
 import me.thierrylee.fe3hdb.assets.model.AbilityAsset
 
-object AbilityAssetTransformer : AbstractAssetTransformer<AbilityAsset>() {
+internal object AbilityAssetTransformer : AbstractAssetTransformer<AbilityAsset>() {
 
     override fun getAssetFile() = "abilities.tsv"
     override fun getColumnCount() = 2

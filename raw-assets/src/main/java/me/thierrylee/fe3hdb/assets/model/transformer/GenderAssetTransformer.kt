@@ -7,7 +7,7 @@ internal object GenderEntityValue {
     const val FEMALE = "F"
 }
 
-fun String.toGenderAsset() = when (this.toUpperCase().trim()) {
+internal fun String.toGenderAsset() = when (this.toUpperCase().trim()) {
     GenderEntityValue.MALE -> GenderAsset.MALE
     GenderEntityValue.FEMALE -> GenderAsset.FEMALE
     else -> throw IllegalArgumentException("Invalid gender : $this")

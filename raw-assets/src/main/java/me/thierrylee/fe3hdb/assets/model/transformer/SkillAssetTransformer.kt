@@ -16,7 +16,7 @@ internal object SkillAssetValue {
     const val FLYING = "FLYING"
 }
 
-fun String.toSkillAsset() = when (this.toUpperCase().trim()) {
+internal fun String.toSkillAsset() = when (this.toUpperCase().trim()) {
     SkillAssetValue.SWORD -> SkillAsset.SWORD
     SkillAssetValue.LANCE -> SkillAsset.LANCE
     SkillAssetValue.AXE -> SkillAsset.AXE

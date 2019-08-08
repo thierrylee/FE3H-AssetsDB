@@ -2,7 +2,7 @@ package me.thierrylee.fe3hdb.assets.model.transformer
 
 import me.thierrylee.fe3hdb.assets.RawAssetFileExtractor
 
-abstract class AbstractAssetTransformer<E> {
+internal abstract class AbstractAssetTransformer<E> {
 
     abstract fun getAssetFile(): String
     abstract fun getColumnCount(): Int

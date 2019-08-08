@@ -8,7 +8,7 @@ internal object ProficiencyValue {
     const val WEAK = "D"
 }
 
-fun String.toProficiencyAsset() = when (this.toUpperCase().trim()) {
+internal fun String.toProficiencyAsset() = when (this.toUpperCase().trim()) {
     ProficiencyValue.STRONG -> ProficiencyAsset.STRONG
     ProficiencyValue.NEUTRAL -> ProficiencyAsset.NEUTRAL
     ProficiencyValue.WEAK -> ProficiencyAsset.WEAK

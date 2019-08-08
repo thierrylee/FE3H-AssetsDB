@@ -2,7 +2,7 @@ package me.thierrylee.fe3hdb.assets.model.transformer
 
 import me.thierrylee.fe3hdb.assets.model.ClassAsset
 
-object ClassAssetTransformer : AbstractAssetTransformer<ClassAsset>() {
+internal object ClassAssetTransformer : AbstractAssetTransformer<ClassAsset>() {
 
     private const val DELIMITER = ","
 

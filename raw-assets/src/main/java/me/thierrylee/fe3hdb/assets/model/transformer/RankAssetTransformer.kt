@@ -18,7 +18,7 @@ internal object RankEntityValue {
     const val S_PLUS = "S+"
 }
 
-fun String.toRankAsset() = when (this.toUpperCase().trim()) {
+internal fun String.toRankAsset() = when (this.toUpperCase().trim()) {
     RankEntityValue.E, RankEntityValue.E_ALT -> RankAsset.E
     RankEntityValue.E_PLUS -> RankAsset.E_PLUS
     RankEntityValue.D -> RankAsset.D

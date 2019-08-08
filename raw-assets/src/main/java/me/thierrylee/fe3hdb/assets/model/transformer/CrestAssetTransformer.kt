@@ -2,7 +2,7 @@ package me.thierrylee.fe3hdb.assets.model.transformer
 
 import me.thierrylee.fe3hdb.assets.model.CrestAsset
 
-object CrestAssetTransformer : AbstractAssetTransformer<CrestAsset>() {
+internal object CrestAssetTransformer : AbstractAssetTransformer<CrestAsset>() {
 
     override fun getAssetFile() = "crests"
     override fun getColumnCount() = 2
