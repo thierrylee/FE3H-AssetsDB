@@ -4,6 +4,10 @@ import me.thierrylee.fe3hdb.assets.RawAssetFileExtractor
 
 internal abstract class AbstractAssetTransformer<E> {
 
+    companion object {
+        private const val DELIMITER = ","
+    }
+
     abstract fun getAssetFile(): String
     abstract fun getColumnCount(): Int
     protected abstract fun internalBuildAsset(rawValues: List<String>): E
@@ -18,4 +22,7 @@ internal abstract class AbstractAssetTransformer<E> {
         return internalBuildAsset(rawValues)
     }
 
+    fun String.toIntOrZero() = if (this == "-") 0 else toInt()
+
+    fun String.split() = split(DELIMITER).map { it.trim() }
 }

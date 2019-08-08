@@ -4,8 +4,6 @@ import me.thierrylee.fe3hdb.assets.model.ClassAsset
 
 internal object ClassAssetTransformer : AbstractAssetTransformer<ClassAsset>() {
 
-    private const val DELIMITER = ","
-
     override fun getAssetFile() = "classes.tsv"
     override fun getColumnCount() = 28
 
@@ -44,8 +42,4 @@ internal object ClassAssetTransformer : AbstractAssetTransformer<ClassAsset>() {
     private fun extractRequiredSkills(rawValues: List<String>) = rawValues[2].split().map { it.toSkillAsset() }
 
     private fun extractRequiredRanks(rawValues: List<String>) = rawValues[3].split().map { it.toRankAsset() }
-
-    private fun String.toIntOrZero() = if (this == "-") 0 else toInt()
-
-    private fun String.split() = split(DELIMITER).map { it.trim() }
 }

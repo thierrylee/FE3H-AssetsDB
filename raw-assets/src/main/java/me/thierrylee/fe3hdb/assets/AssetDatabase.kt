@@ -9,5 +9,6 @@ data class AssetDatabase(
     val characterAssets: List<CharacterAsset>,
     val crestAssets: List<CrestAsset>,
     val classAssets: List<ClassAsset>,
-    val abilityAssets: List<AbilityAsset>
+    val abilityAssets: List<AbilityAsset>,
+    val combatArtAssets: List<CombatArtAsset>
 )

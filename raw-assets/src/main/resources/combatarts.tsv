@@ -1,0 +1,78 @@
+ID	UseSkill	Might	Hit	Crit	Range	Cost	Description
+Sunder	Sword	4		15	1	3	-
+Wrath Strike	Sword	5	10		1	3	-
+Grounder	Sword	3	20	5	1	4	Effective against Flying foes.
+Hexblade	Sword	7	10		1	3	Deals magic-based damage.
+Windsweep	Sword	3	20	10	1	5	Prevent enemy counter-attack.
+Haze Slice	Sword	2			1	5	Avoid +30.
+Subdue	Sword	0	20		1	3	Leaves foe with at least 1 HP.
+Bane of Monsters	Sword	6		10	1	4	Effective against Monster foes.
+Finesse Blade	Sword	2			1	4	Avoid +10; Might increases based on user’s Dexterity.
+Soulblade	Sword	2	10		1	4	Deals magic-based damage. Might increases based on user’s Resistance.
+Foudroyant Strike	Sword	6	30	30	1	3	Thunderbrand only; effective against Armoured and Dragon foes.
+Beast Fang	Sword	10		30	1	3	Blutgang only; effective against Cavalry and Dragon foes.
+Ruptured Heaven	Sword	7	10	10	1~2	3	Sword of the Creator only; Might increases based on user’s Magic, effective against Dragon foes.
+Heaven’s Fall	Sword	10	10	10	1~2	3	Dark Creator Sword only; Might increases based on user’s Magic
+Assassinate	Sword	0	15		1	5	Assassin only; Avoid +15, can kill enemies instantly.
+Astra	Sword	0	-10		1	9	Swordmaster only; triggers 5 consecutive hits at 30% Might.
+Sublime Heaven	Sword	10	10	20	1~2	3	Sublime Creator Sword only; Might increases based on user’s Magic, effective against Dragon foes.
+Sword Dance	Sword	1			1	2	Avoid +20, Might increases based on user’s Charm.
+Tempest Lance	Lance	8	10		1	5	–
+Shatter Slash	Lance	4	10		1	3	After combat, inflicts Def -5 on foe for 1 turn.
+Knightkneeler	Lance	5	15		1	4	Effective against Cavalry foes.
+Hit and Run	Lance	4	10		1	4	Avoid +20; after combat, user moves 1 space backwards.
+Monster Piercer	Lance	7			1	4	Avoid +10; effective against Monster foes.
+Lance Jab	Lance	3		10	1	5	Might increases based on user’s Speed.
+Vengeance	Lance	2		10	1	4	Damage increases in relation to the user’s missing HP.
+Glowing Ember	Lance	2			1	4	Avoid +10; Might increases based on user’s Defence.
+Swift Strikes	Lance	2			1	4	Triggers 2 consecutive hits.
+Frozen Lance	Lance	3	5		1	4	Deals magic-based damage. Might increases based on user’s Dexterity.
+Ruined Sky	Lance	13	10	10	1	3	Lance of Ruin only; Avoid +10, effective against Flying and Dragon foes.
+Atrocity	Lance	15	20		1	3	Areadbhar only; effective against all foes.
+Burning Quake	Lance	8		20	1	3	Lúin only; Avoid +10; Might increases based on user’s Speed, effective against Dragon foes.
+Paraselene	Lance	10			1	3	Great Lord only; Avoid +10, after combat, user moves 1 space backwards.
+Smash	Axe	3	20	20	1	5	–
+Spike	Axe	5	15	10	1	5	–
+Helm Splitter	Axe	7		5	1	5	Effective against Armoured foes.
+Monster Breaker	Axe	9			1	5	Effective against Monster foes.
+Diamond Axe	Axe	14	-20		1	7	–
+Exhaustive Strike	Axe	3	10		1	1	Depletes all of the weapon’s remaining durability and adds 30% of that value to Might.
+Armored Strike	Axe	3		10	1	4	Might increases based on user’s Defence.
+Wild Abandon	Axe	10	-30	30	1	5	–
+Focused Strike	Axe	0	30		1	3	–
+Lightning Axe	Axe	4			1	3	Deals magic-based damage. Might increases based on user’s Resistance.
+Apocalyptic Flame	Axe	15	20		1	3	Freikugel only; inflicts Str -5 on foe for 1 turn, effective against Dragon foes.
+Dust	Axe	20			1	3	Crusher only; inflicts Def -5 on foe for 1 turn, effective against Dragon foes.
+Raging Storm	Axe	14	10		1	3	Aymr only; if attack lands, user can move again, effective against Dragon foes.
+Flickering Flower	Axe	10	10	10	1	3	Emperor only; prevents foe from moving for 1 turn?
+Curved Shot	Bow	1	30		2~3	3	–
+Deadeye	Bow	6			3~5	5	–
+Heavy Draw	Bow	8	10		2	5	–
+Encloser	Bow	4	15		2	3	Prevents foe from moving for 1 turn?
+Ward Arrow	Bow	4	15		2	3	Prevents foe from using magic for 1 turn?
+Point-Blank Volley	Bow	3	10		1	4	Avoid +10; triggers 2 consecutive hits.
+Monster Blast	Bow	5		10	2	4	Effective against Monster foes.
+Waning Shot	Bow	4	10		2~3	3	After combat, inflicts Str -5 on foe for 1 turn.
+Break Shot	Bow	4	5		2~3	3	After combat, inflicts Def -5 on foe for 1 turn.
+Schism Shot	Bow	4	15		2~3	3	After combat, inflicts Res -5 on foe for 1 turn.
+Fallen Star	Bow	10	30	10	2~3	3	Failnaught only; avoids all attacks during the next round of combat; effective against Dragon foes.
+Hunter’s Volley	Bow	1	15	10	2~3	5	Sniper only; triggers 2 consecutive hits.
+Wind God	Bow	5	20		2~5	3	Barbarossa only.
+Draining Blow	Brawling	5	20		1	3	Restores HP equal to 50% of the damage inflicted to the enemy.
+Mighty Blow	Brawling	10	-5	20	1	3	–
+Bombard	Brawling	3		10	1	3	Triggers 2 consecutive hits.
+Rushing Blow	Brawling	7	20		1	3	Avoid +10; after combat, user moves 1 space in front of the enemy.
+Fading Blow	Brawling	6	10		1	3	Avoid +30; after combat, user moves 1 space backwards.
+Mystic Blow	Brawling	10	10		1	3	Deals magic-based damage.
+Nimble Combo	Brawling	4			1	3	Avoid +20; triggers 2 consecutive hits.
+One-Two Punch	Brawling	8	20		1	4	Triggers a follow-up attack.
+Monster Crusher	Brawling	13	10	10	1	4	Effective against Monster foes.
+Fierce Iron Fist	Brawling	1		10	1	5	Grappler only; triggers 3 consecutive hits.
+War Master’s Strike	Brawling	3	30		1	5	War Master only; effective against all foes.
+Healing Focus	None	–	–	–	–	–	Restores 50% of the user’s HP.
+Swap	None	–	–	–	1	–	User swaps places with the enemy.
+Shove	None	–	–	–	1	–	User pushes ally forward 1 space.
+Reposition	None	–	–	–	1	–	User moves ally to the space behind the user.
+Draw Back	None	–	–	–	1	–	User moves 1 space backwards and ally is moved to where the user was previously.
+Smite	None	–	–	–	1	–	User pushes ally forward 2 spaces.
+Triangle Attack	None	8	30	40	1	3	Can only be triggered when 3 allied Flying units (including the user) are adjacent to the same enemy.
