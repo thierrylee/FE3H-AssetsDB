@@ -5,10 +5,7 @@ import me.thierrylee.fe3hdb.assets.model.CombatArtAsset
 import me.thierrylee.fe3hdb.assets.model.SkillAsset
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.Test
-import org.junit.runner.RunWith
-import org.mockito.junit.MockitoJUnitRunner
 
-@RunWith(MockitoJUnitRunner::class)
 class CombatArtAssetTransformerTest {
 
     @Test
