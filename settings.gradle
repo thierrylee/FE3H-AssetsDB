@@ -1,1 +1,1 @@
-include ':app', ':raw-assets', ':core', ':repository'
+include ':raw-assets'

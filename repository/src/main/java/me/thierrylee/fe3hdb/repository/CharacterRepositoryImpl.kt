@@ -1,3 +1,0 @@
-package me.thierrylee.fe3hdb.repository
-
-class CharacterRepositoryImpl
