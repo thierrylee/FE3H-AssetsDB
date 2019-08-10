@@ -10,7 +10,7 @@ internal object AbilityRequirementAssetTransformer {
         override fun getColumnCount() = 3
 
         override fun internalBuildAsset(rawValues: List<String>) = AbilityRequirementAsset.UniversalLearn(
-            abilityId = rawValues[0],
+            abilityId = rawValues[0].toId(),
             skillRequired = rawValues[1].toSkillAsset(),
             rankRequired = rawValues[2].toRankAsset()
         )
@@ -23,7 +23,7 @@ internal object AbilityRequirementAssetTransformer {
         override fun getColumnCount() = 2
 
         override fun internalBuildAsset(rawValues: List<String>) = AbilityRequirementAsset.Personal(
-            abilityId = rawValues[0],
+            abilityId = rawValues[0].toId(),
             characterId = rawValues[1].toId()
         )
 
@@ -35,7 +35,7 @@ internal object AbilityRequirementAssetTransformer {
         override fun getColumnCount() = 4
 
         override fun internalBuildAsset(rawValues: List<String>) = AbilityRequirementAsset.PersonalLearn(
-            abilityId = rawValues[0],
+            abilityId = rawValues[0].toId(),
             skillRequired = rawValues[1].toSkillAsset(),
             rankRequired = rawValues[2].toRankAsset(),
             characterIds = rawValues[3].split().map { it.toId() }
@@ -49,7 +49,7 @@ internal object AbilityRequirementAssetTransformer {
         override fun getColumnCount() = 2
 
         override fun internalBuildAsset(rawValues: List<String>) = AbilityRequirementAsset.ClassUse(
-            abilityId = rawValues[0],
+            abilityId = rawValues[0].toId(),
             classIds = rawValues[1].split().map { it.toId() }
         )
 
@@ -61,7 +61,7 @@ internal object AbilityRequirementAssetTransformer {
         override fun getColumnCount() = 2
 
         override fun internalBuildAsset(rawValues: List<String>) = AbilityRequirementAsset.ClassMastered(
-            abilityId = rawValues[0],
+            abilityId = rawValues[0].toId(),
             classId = rawValues[1].toId()
         )
 

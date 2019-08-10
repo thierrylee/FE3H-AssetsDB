@@ -25,5 +25,5 @@ internal abstract class AbstractAssetTransformer<E> {
 
     fun String.toIntOrZero() = toIntOrNull() ?: 0
 
-    fun String.split() = split(DELIMITER).map { it.trim() }
+    fun String.split() = split(DELIMITER).map { it.trim() }.filter { isNotBlank() }
 }
