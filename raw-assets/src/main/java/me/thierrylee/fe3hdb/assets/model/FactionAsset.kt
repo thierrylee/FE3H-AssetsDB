@@ -5,6 +5,5 @@ enum class FactionAsset{
     BLACK_EAGLES,
     BLUE_LIONS,
     GOLDEN_DEERS,
-    CHURCH_OF_SEIROS,
-    KNIGHTS_OF_SEIROS
+    CHURCH_OF_SEIROS
 }

@@ -15,8 +15,7 @@ class FactionAssetTransformerKtTest {
         FactionValue.BLACK_EAGLES to FactionAsset.BLACK_EAGLES,
         FactionValue.BLUE_LIONS to FactionAsset.BLUE_LIONS,
         FactionValue.GOLDEN_DEERS to FactionAsset.GOLDEN_DEERS,
-        FactionValue.CHURCH_OF_SEIROS to FactionAsset.CHURCH_OF_SEIROS,
-        FactionValue.KNIGHTS_OF_SEIROS to FactionAsset.KNIGHTS_OF_SEIROS
+        FactionValue.CHURCH_OF_SEIROS to FactionAsset.CHURCH_OF_SEIROS
     )
 
     @Test(expected = IllegalArgumentException::class)
