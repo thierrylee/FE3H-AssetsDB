@@ -10,7 +10,7 @@ internal object CharacterAssetTransformer : AbstractAssetTransformer<CharacterAs
     override fun internalBuildAsset(rawValues: List<String>) = CharacterAsset(
         id = rawValues[0].toId(),
         name = rawValues[0],
-        faction = rawValues[1],
+        faction = rawValues[1].toFactionAsset(),
         gender = rawValues[2].toGenderAsset(),
         recruitmentRequirements = rawValues[3],
         growthHp = rawValues[4].toInt(),

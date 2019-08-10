@@ -1,10 +1,7 @@
 package me.thierrylee.fe3hdb.assets.model.transformer
 
 import me.thierrylee.fe3hdb.assets.RawAssetFileExtractor
-import me.thierrylee.fe3hdb.assets.model.CharacterAsset
-import me.thierrylee.fe3hdb.assets.model.GenderAsset
-import me.thierrylee.fe3hdb.assets.model.ProficiencyAsset
-import me.thierrylee.fe3hdb.assets.model.RankAsset
+import me.thierrylee.fe3hdb.assets.model.*
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.Test
 
@@ -23,7 +20,7 @@ class CharacterAssetTransformerTest {
             CharacterAsset(
                 id = "BylethM",
                 name = "BylethM",
-                faction = "",
+                faction = FactionAsset.NONE,
                 gender = GenderAsset.MALE,
                 recruitmentRequirements = "",
                 growthHp = 45,
