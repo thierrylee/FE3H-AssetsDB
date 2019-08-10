@@ -14,12 +14,14 @@ object AssetDatabaseBuilder {
         combatArtRequirements = listOf(
             *CombatArtRequirementAssetTransformer.UniversalLearn.retrieveAssets().toTypedArray(),
             *CombatArtRequirementAssetTransformer.PersonalLearn.retrieveAssets().toTypedArray(),
+            *CombatArtRequirementAssetTransformer.BuddingTalent.retrieveAssets().toTypedArray(),
             *CombatArtRequirementAssetTransformer.ClassMastered.retrieveAssets().toTypedArray()
         ),
         abilityRequirements = listOf(
             *AbilityRequirementAssetTransformer.UniversalLearn.retrieveAssets().toTypedArray(),
             *AbilityRequirementAssetTransformer.Personal.retrieveAssets().toTypedArray(),
             *AbilityRequirementAssetTransformer.PersonalLearn.retrieveAssets().toTypedArray(),
+            *AbilityRequirementAssetTransformer.BuddingTalent.retrieveAssets().toTypedArray(),
             *AbilityRequirementAssetTransformer.ClassUse.retrieveAssets().toTypedArray(),
             *AbilityRequirementAssetTransformer.ClassMastered.retrieveAssets().toTypedArray()
         ),

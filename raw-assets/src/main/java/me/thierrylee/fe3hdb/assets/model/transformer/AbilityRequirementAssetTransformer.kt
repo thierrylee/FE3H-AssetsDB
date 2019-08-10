@@ -29,6 +29,19 @@ internal object AbilityRequirementAssetTransformer {
 
     }
 
+    object BuddingTalent : AbstractAssetTransformer<AbilityRequirementAsset.BuddingTalent>() {
+
+        override fun getAssetFile() = "abilities_req_buddingtalents"
+        override fun getColumnCount() = 3
+
+        override fun internalBuildAsset(rawValues: List<String>) = AbilityRequirementAsset.BuddingTalent(
+            abilityId = rawValues[0].toId(),
+            skillRequired = rawValues[1].toSkillAsset(),
+            characterIds = rawValues[2].split().map { it.toId() }
+        )
+
+    }
+
     object PersonalLearn : AbstractAssetTransformer<AbilityRequirementAsset.PersonalLearn>() {
 
         override fun getAssetFile() = "abilities_req_personallearn"

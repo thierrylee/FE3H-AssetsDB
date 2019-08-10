@@ -15,6 +15,12 @@ sealed class CombatArtRequirementAsset(open val combatArtId: String) {
         val characterIds: List<String>
     ) : CombatArtRequirementAsset(combatArtId)
 
+    data class BuddingTalent(
+        override val combatArtId: String,
+        val skillRequired: SkillAsset,
+        val characterIds: List<String>
+    ) : CombatArtRequirementAsset(combatArtId)
+
     data class ClassMastered(
         override val combatArtId: String,
         val classId: String

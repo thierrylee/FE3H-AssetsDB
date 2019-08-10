@@ -31,6 +31,19 @@ internal object CombatArtRequirementAssetTransformer {
 
     }
 
+    object BuddingTalent : AbstractAssetTransformer<CombatArtRequirementAsset.BuddingTalent>() {
+
+        override fun getAssetFile() = "combatarts_req_buddingtalents"
+        override fun getColumnCount() = 3
+
+        override fun internalBuildAsset(rawValues: List<String>) = CombatArtRequirementAsset.BuddingTalent(
+            combatArtId = rawValues[0].toId(),
+            skillRequired = rawValues[1].toSkillAsset(),
+            characterIds = rawValues[2].split().map { it.toId() }
+        )
+
+    }
+
     object ClassMastered : AbstractAssetTransformer<CombatArtRequirementAsset.ClassMastered>() {
 
         override fun getAssetFile() = "combatarts_req_classmastered"

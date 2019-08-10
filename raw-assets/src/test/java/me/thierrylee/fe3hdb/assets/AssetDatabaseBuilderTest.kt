@@ -38,7 +38,7 @@ class AssetDatabaseBuilderTest {
     fun `buildDatabase - should have expected combatArts and remove unrelated requirements`() {
         // Given
         val database = AssetDatabaseBuilder.buildAssetDatabase()
-        val character = database.characters.find { it.id == "Edelgard" }!!
+        val character = database.characters.find { it.id == "Hubert" }!!
 
         // When
         val combatArts = database.getCharacterCombatArts(character)
@@ -46,21 +46,21 @@ class AssetDatabaseBuilderTest {
         // Then
         assertThat(combatArts).isNotEmpty
         assertThat(combatArts.map { it.key.id }).contains("Grounder") // Universal
-//        assertThat(combatArts.map { it.key.id }).contains("Claude") // BuddingTalent TODO
-        assertThat(combatArts.map { it.key.id }).contains("Hexblade") // PersonalLearn
+        assertThat(combatArts.map { it.key.id }).contains("FrozenLance") // BuddingTalent
+        assertThat(combatArts.map { it.key.id }).contains("SchismShot") // PersonalLearn
 
-        val requirements = combatArts.getValue(combatArts.keys.first { it.id == "Hexblade" })
+        val requirements = combatArts.getValue(combatArts.keys.first { it.id == "SchismShot" })
         assertThat(requirements).hasSize(1)
         val personalLearn = requirements[0] as CombatArtRequirementAsset.PersonalLearn
         assertThat(personalLearn.rankRequired).isEqualTo(RankAsset.A)
-        // Some characters can have Hexblade at C+ rank
+        // Some characters can have SchismShot at C+ rank
     }
 
     @Test
     fun `buildDatabase - should have expected abilities and remove unrelated requirements`() {
         // Given
         val database = AssetDatabaseBuilder.buildAssetDatabase()
-        val character = database.characters.find { it.id == "Claude" }!!
+        val character = database.characters.find { it.id == "Ignatz" }!!
 
         // When
         val abilities = database.getCharacterAbilities(character)
@@ -68,17 +68,17 @@ class AssetDatabaseBuilderTest {
         // Then
         assertThat(abilities).isNotEmpty
         assertThat(abilities.map { it.key.id }).contains("SwordProwessLv1") // Universal
-        assertThat(abilities.map { it.key.id }).contains("LeicesterLineage") // Personal
+        assertThat(abilities.map { it.key.id }).contains("WatchfulEye") // Personal
         assertThat(abilities.map { it.key.id }).contains("Fistfaire") // ClassUse (Male)
         assertThat(abilities.map { it.key.id }).contains("Lifetaker") // ClassMaster (Male)
-//        assertThat(abilities.map { it.key.id }).contains("SealMovement") // BuddingTalent TODO
-        assertThat(abilities.map { it.key.id }).contains("RallyCharm") // PersonalLearn
+        assertThat(abilities.map { it.key.id }).contains("SealStrength") // BuddingTalent
+        assertThat(abilities.map { it.key.id }).contains("RallySpeed") // PersonalLearn
 
-        val requirements = abilities.getValue(abilities.keys.first { it.id == "RallyCharm" })
+        val requirements = abilities.getValue(abilities.keys.first { it.id == "RallySpeed" })
         assertThat(requirements).hasSize(1)
         val personalLearn = requirements[0] as AbilityRequirementAsset.PersonalLearn
-        assertThat(personalLearn.rankRequired).isEqualTo(RankAsset.S)
-        // Some characters can have RallyCharm at D rank
+        assertThat(personalLearn.rankRequired).isEqualTo(RankAsset.D)
+        // Some characters can have RallySpeed at C+ rank
     }
 
     @Test

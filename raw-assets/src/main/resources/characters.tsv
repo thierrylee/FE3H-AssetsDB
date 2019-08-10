@@ -1,36 +1,36 @@
 ID	Faction	Gender	RecruitReq	GrowthHP	GrowthStr	GrowthMag	GrowthDex	GrowthSpd	GrowthLck	GrowthDef	GrowthRes	GrowthCha	MaxHp	MaxStr	MaxMag	MaxDex	MaxSpd	MaxLuck	MaxDef	MaxRes	MaxCha	SwordProficiency	LanceProficiency	AxeProficiency	BowProficiency	BrawlingProficiency	ReasonProficiency	FaithProficiency	AuthorityProficiency	ArmorProficiency	RidingProficiency	FlyingProficiency	BaseSword	BaseLance	BaseAxe	BaseBow	BaseBrawling	BaseReason	BaseFaith	BaseAuthority	BaseArmor	BaseRiding	BaseFlying	Major Crest	Minor Crest	Supports
-BylethM		M		45	45	35	45	45	45	35	30	45	88	77	55	66	66	66	55	55	99	U	-	-	-	U	-	-	U	-	-	-	D+	-	-	-	E+	-	-	D	-	-	-	Flames	-	
-BylethF		F		45	45	35	45	45	45	35	30	45	88	77	55	66	66	66	55	55	99	U	-	-	-	U	-	-	U	-	-	-	D+	-	-	-	E+	-	-	D	-	-	-	Flames	-	
-Edelgard	Black Eagle	F	Black Eagle only	40	55	45	45	40	30	35	35	60	81	81	72	61	57	42	61	47	85	U	-	U	D	-	-	D	U	U	-	-	E+	-	D	-	-	-	-	D	D	-	-	Flames	Seiros	
-Hubert	Black Eagle	M	Black Eagle only	35	30	55	45	45	35	25	40	35	67	43	80	62	63	51	45	57	49	-	-	D	U	-	U	D	U	-	-	D	-	-	-	E+	-	D	-	E+	-	-	-	-	-	
-Dorothea	Black Eagle	F	High Charm & Authorithy skill level	40	20	40	45	40	35	15	35	40	76	30	61	62	57	49	38	50	58	U	-	-	-	-	U	D	-	-	D	D	E+	-	-	-	-	D	-	-	-	-	-	-	-	
-Ferdinand	Black Eagle	M	High Dexterity & Armor skill level	50	45	20	40	50	40	35	20	40	93	64	40	56	70	56	49	36	57	U	U	U	-	-	-	-	-	-	U	-	E+	D	E+	-	-	-	-	-	-	D	-	-	Cichol	
-Bernadetta	Black Eagle	F	High Strength & Bow skill level	35	35	20	55	50	25	20	30	35	70	51	40	75	69	41	41	39	49	D	U	D	U	D	-	-	-	D	-	-	-	E+	-	D	-	-	-	-	-	-	-	-	Indech	
-Caspar	Black Eagle	M	High Strength & Brawling skill level	55	45	25	45	45	40	30	20	25	97	65	41	61	62	58	51	35	46	-	-	U	D	U	D	-	D	-	-	-	-	-	D	-	E+	-	-	-	-	-	-	-	-	
-Petra	Black Eagle	F	High Dexterity & Riding skill level	45	40	25	50	60	45	30	15	35	83	59	36	69	85	63	42	35	63	-	-	D	-	D	U	U	-	-	-	-	-	-	-	-	-	E+	D+	-	-	-	-	-	-	
-Linhardt	Black Eagle	M	High Magic & Reason skill level	30	30	45	40	40	45	30	45	20	63	42	66	56	55	63	48	65	43	U	-	U	U	-	D	D	-	-	-	U	D+	-	E+	E+	-	-	-	-	-	-	D	-	Cethleann	
-Dimitri	Blue Lions	M	Blue Lions only	55	60	20	50	50	25	40	20	55	99	87	38	69	69	42	57	36	77	U	U	D	-	-	D	-	U	-	-	-	E+	D+	-	-	-	-	-	D	-	D+	-	-	Blaiddyd	
-Dedue	Blue Lions	M	Blue Lions only	60	50	15	30	20	25	50	10	30	108	74	30	42	35	44	70	35	41	-	U	U	-	U	-	D	-	U	D	D	-	E+	D+	-	E+	-	-	-	D	-	-	-	-	
-Felix	Blue Lions	M	High Speed & Sword skill level	45	55	30	45	55	40	30	20	30	84	78	42	62	77	55	51	35	42	U	-	-	U	U	D	-	D	-	-	-	D	-	-	E+	E+	-	-	-	-	-	-	Fraldarius	-	
-Mercedes	Blue Lions	F	High Magic & Bow skill level	30	25	50	45	40	30	25	45	40	64	37	72	62	58	54	44	65	58	D	D	D	-	-	U	U	-	D	-	-	-	-	-	-	-	E+	D	-	-	-	-	-	Lamine	
-Ashe	Blue Lions	M	High Charm & Lance skill level	35	35	25	55	50	40	20	35	25	68	51	36	76	71	56	43	49	36	-	-	U	U	-	D	-	-	-	-	-	-	-	E+	D	-	-	-	-	-	-	-	-	-	
-Annette	Blue Lions	F	High Magic & Faith skill level	25	30	50	50	35	35	20	30	35	55	43	73	69	50	49	40	41	49	-	-	U	D	-	U	-	U	D	-	-	-	-	E+	-	-	D+	-	E+	-	-	-	-	Dominic	
-Sylvain	Blue Lions	M	High Charm & Reason skill level	55	45	30	35	50	35	40	25	40	98	65	42	48	70	49	56	38	57	-	U	U	D	-	-	-	-	-	U	-	-	D	D	-	-	-	-	-	-	D	-	-	Gautier	
-Ingrid	Blue Lions	F	High Dexterity & Flying skill level	40	35	35	40	60	45	30	40	45	79	51	49	56	83	62	51	58	64	U	U	-	-	-	-	-	-	-	U	U	E+	D	-	-	-	-	-	-	-	D	D	-	Daphnel	
-Claude	Golden Deer	M	Golden Deer only	35	40	25	60	55	45	30	25	55	71	61	40	89	76	63	50	42	76	U	D	-	U	-	-	D	U	-	-	U	E+	-	-	D	-	-	-	D	-	E+	E+	-	Riegan	
-Lorenz	Golden Deer	M	High Charm & Reason skill level	55	40	40	45	40	25	30	40	35	99	58	57	62	57	48	55	56	46	-	U	-	-	D	U	-	-		U	-	-	D	-	-	-	E+	-	-	-	D	-	-	Gloucester	
-Hilda	Golden Deer	F	High Charm & Axe skill level, not recruitable if you choose to oppose the church	50	45	25	30	50	35	35	20	50	94	66	36	42	70	49	49	39	76	-	U	U	-	-	-	D	D	-	-	-	-	E+	D	-	-	-	-	-	-	-	-	-	Goneril	
-Raphael	Golden Deer	M	High Strength & Armor skill level	65	50	15	35	15	35	45	10	25	114	73	31	48	33	49	63	36	51	-	-	U	D	U	D	-	-	U	D	-	-	-	E+	-	D	-	-	-	D	-	-	-	-	
-Lysithea	Golden Deer	F	High Magic & Faith skill level	20	15	60	60	50	15	10	25	25	48	30	86	82	69	40	36	41	44	D	D	D	-	-	U	U	U	D	-	-	-	-	-	-	-	D	E+	E+	-	-	-	Gloucester	Charon	
-Ignatz	Golden Deer	M	High Dextirity & Authority skill level	35	35	30	50	50	55	25	35	25	70	51	42	69	70	76	43	49	45	U	-	-	U	-	-	-	U	-	-	D	E+	-	-	D	-	-	-	E+	-	-	-	-	-	
-Marianne	Golden Deer	F	High Magic & Riding skill level	35	20	50	40	40	35	15	45	40	68	30	73	56	57	49	39	64	57	U	-	-	-	D	-	U	-	D	U	U	E+	-	-	-	-	-	D+	-	-	-	-	-	The Beast	
-Leonie	Golden Deer	F	High Strength & Lance skill level	40	40	20	55	60	40	40	15	40	78	59	38	76	84	56	57	36	57	-	U	-	U	-	-	-	-	-	U	-	-	D+	-	E+	-	-	-	-	-	E+	-	-	-	
-Manuela	Church of Seiros	F	During chapter 8 or 9, at level 15 or higher	50	35	35	40	60	35	30	25	50	91	53	48	56	83	52	42	44	69	U	-	-	-	-	D	U	-	D	-	U	D	-	-	-	-	-	C	-	-	-	D	-	-	
-Hanneman	Church of Seiros	M	During chapter 8 or 9, at level 15 or higher	40	30	55	45	20	35	25	40	35	77	43	78	62	35	49	36	57	48	-	-	-	U	-	U	-	-	D	U	D	-	-	-	D	-	C	-	D	-	D	-	-	Indech	
-Seteth	Church of Seiros	M	Automatically during chapter 12, not recruitable if you choose to oppose the church	50	45	35	50	50	25	30	25	45	92	65	51	70	67	49	43	41	65	U	U	U	-	-	-	-	U	-	D	U	D+	C	C	-	-	-	-	C	-	-	C	Cichol	-	
-Flayn	Church of Seiros	F	After chapter 6	25	25	55	45	35	15	25	50	45	56	37	77	62	48	46	36	72	65	-	U	-	-	-	-	U	-	D	D	-	-	E+	-	-	-	-	D+	-	-	-	D	Cethleann	-	
-Cyril	Church of Seiros	M	During chapter 6	35	20	15	40	40	30	10	10	15	85	55	48	78	76	66	45	41	48	-	U	U	U	-	D	D	-	-	U	U	-	-	D+	D	-	-	-	-	-	-	-	-	-	
-Catherine	Knights of Seiros	F	At level 15 or higher, not recruitable if you choose to oppose the church	50	50	25	40	55	30	30	20	25	92	70	36	56	75	43	42	37	35	U	-	-	-	U	D	-	-	-	-	-	B	-	-	-	D+	-	-	D	-	-	-	-	-	
-Alois	Knights of Seiros	M	During chapter 11	45	45	20	35	40	30	40	20	40	86	71	33	48	56	42	55	37	57	-	-	U	-	U	D	-	-	U	-	D	-	-	C	-	D+	-	-	C	C	-	-	-	-	
-Gilbert	Knights of Seiros	M	During chapter 13 with Blue Lions	55	45	20	45	30	15	45	10	35	101	65	35	62	42	40	61	35	49	-	U	U	-	-	-	-	-	U	U	-	-	C	C	-	-	-	-	D+	D	C	-	-	-	
-Shamir	Knights of Seiros	F	At level 15 or higher	35	40	20	55	40	55	20	15	30	71	58	35	75	56	76	37	35	43	-	U	-	U	-	-	D	-	-	-	-	-	D+	-	B	-	-	-	D	-	-	-	-	-	
+BylethM		M		45	45	35	45	45	45	35	30	45	88	77	55	66	66	66	55	55	99	U	-	-	-	U	-	-	U	-	-	-	D+	-	-	-	E+	-	-	D	-	-	-	Flames	-	-
+BylethF		F		45	45	35	45	45	45	35	30	45	88	77	55	66	66	66	55	55	99	U	-	-	-	U	-	-	U	-	-	-	D+	-	-	-	E+	-	-	D	-	-	-	Flames	-	-
+Edelgard	Black Eagle	F	Black Eagle only	40	55	45	45	40	30	35	35	60	81	81	72	61	57	42	61	47	85	U	-	U	D	-	-	D	U	U	-	-	E+	-	D	-	-	-	-	D	D	-	-	Flames	Seiros	-
+Hubert	Black Eagle	M	Black Eagle only	35	30	55	45	45	35	25	40	35	67	43	80	62	63	51	45	57	49	-	-	D	U	-	U	D	U	-	-	D	-	-	-	E+	-	D	-	E+	-	-	-	-	-	-
+Dorothea	Black Eagle	F	High Charm & Authorithy skill level	40	20	40	45	40	35	15	35	40	76	30	61	62	57	49	38	50	58	U	-	-	-	-	U	D	-	-	D	D	E+	-	-	-	-	D	-	-	-	-	-	-	-	-
+Ferdinand	Black Eagle	M	High Dexterity & Armor skill level	50	45	20	40	50	40	35	20	40	93	64	40	56	70	56	49	36	57	U	U	U	-	-	-	-	-	-	U	-	E+	D	E+	-	-	-	-	-	-	D	-	-	Cichol	-
+Bernadetta	Black Eagle	F	High Strength & Bow skill level	35	35	20	55	50	25	20	30	35	70	51	40	75	69	41	41	39	49	D	U	D	U	D	-	-	-	D	-	-	-	E+	-	D	-	-	-	-	-	-	-	-	Indech	-
+Caspar	Black Eagle	M	High Strength & Brawling skill level	55	45	25	45	45	40	30	20	25	97	65	41	61	62	58	51	35	46	-	-	U	D	U	D	-	D	-	-	-	-	-	D	-	E+	-	-	-	-	-	-	-	-	-
+Petra	Black Eagle	F	High Dexterity & Riding skill level	45	40	25	50	60	45	30	15	35	83	59	36	69	85	63	42	35	63	-	-	D	-	D	U	U	-	-	-	-	-	-	-	-	-	E+	D+	-	-	-	-	-	-	-
+Linhardt	Black Eagle	M	High Magic & Reason skill level	30	30	45	40	40	45	30	45	20	63	42	66	56	55	63	48	65	43	U	-	U	U	-	D	D	-	-	-	U	D+	-	E+	E+	-	-	-	-	-	-	D	-	Cethleann	-
+Dimitri	Blue Lions	M	Blue Lions only	55	60	20	50	50	25	40	20	55	99	87	38	69	69	42	57	36	77	U	U	D	-	-	D	-	U	-	-	-	E+	D+	-	-	-	-	-	D	-	D+	-	-	Blaiddyd	-
+Dedue	Blue Lions	M	Blue Lions only	60	50	15	30	20	25	50	10	30	108	74	30	42	35	44	70	35	41	-	U	U	-	U	-	D	-	U	D	D	-	E+	D+	-	E+	-	-	-	D	-	-	-	-	-
+Felix	Blue Lions	M	High Speed & Sword skill level	45	55	30	45	55	40	30	20	30	84	78	42	62	77	55	51	35	42	U	-	-	U	U	D	-	D	-	-	-	D	-	-	E+	E+	-	-	-	-	-	-	Fraldarius	-	-
+Mercedes	Blue Lions	F	High Magic & Bow skill level	30	25	50	45	40	30	25	45	40	64	37	72	62	58	54	44	65	58	D	D	D	-	-	U	U	-	D	-	-	-	-	-	-	-	E+	D	-	-	-	-	-	Lamine	-
+Ashe	Blue Lions	M	High Charm & Lance skill level	35	35	25	55	50	40	20	35	25	68	51	36	76	71	56	43	49	36	-	-	U	U	-	D	-	-	-	-	-	-	-	E+	D	-	-	-	-	-	-	-	-	-	-
+Annette	Blue Lions	F	High Magic & Faith skill level	25	30	50	50	35	35	20	30	35	55	43	73	69	50	49	40	41	49	-	-	U	D	-	U	-	U	D	-	-	-	-	E+	-	-	D+	-	E+	-	-	-	-	Dominic	-
+Sylvain	Blue Lions	M	High Charm & Reason skill level	55	45	30	35	50	35	40	25	40	98	65	42	48	70	49	56	38	57	-	U	U	D	-	-	-	-	-	U	-	-	D	D	-	-	-	-	-	-	D	-	-	Gautier	-
+Ingrid	Blue Lions	F	High Dexterity & Flying skill level	40	35	35	40	60	45	30	40	45	79	51	49	56	83	62	51	58	64	U	U	-	-	-	-	-	-	-	U	U	E+	D	-	-	-	-	-	-	-	D	D	-	Daphnel	-
+Claude	Golden Deer	M	Golden Deer only	35	40	25	60	55	45	30	25	55	71	61	40	89	76	63	50	42	76	U	D	-	U	-	-	D	U	-	-	U	E+	-	-	D	-	-	-	D	-	E+	E+	-	Riegan	-
+Lorenz	Golden Deer	M	High Charm & Reason skill level	55	40	40	45	40	25	30	40	35	99	58	57	62	57	48	55	56	46	-	U	-	-	D	U	-	-		U	-	-	D	-	-	-	E+	-	-	-	D	-	-	Gloucester	-
+Hilda	Golden Deer	F	High Charm & Axe skill level, not recruitable if you choose to oppose the church	50	45	25	30	50	35	35	20	50	94	66	36	42	70	49	49	39	76	-	U	U	-	-	-	D	D	-	-	-	-	E+	D	-	-	-	-	-	-	-	-	-	Goneril	-
+Raphael	Golden Deer	M	High Strength & Armor skill level	65	50	15	35	15	35	45	10	25	114	73	31	48	33	49	63	36	51	-	-	U	D	U	D	-	-	U	D	-	-	-	E+	-	D	-	-	-	D	-	-	-	-	-
+Lysithea	Golden Deer	F	High Magic & Faith skill level	20	15	60	60	50	15	10	25	25	48	30	86	82	69	40	36	41	44	D	D	D	-	-	U	U	U	D	-	-	-	-	-	-	-	D	E+	E+	-	-	-	Gloucester	Charon	-
+Ignatz	Golden Deer	M	High Dextirity & Authority skill level	35	35	30	50	50	55	25	35	25	70	51	42	69	70	76	43	49	45	U	-	-	U	-	-	-	U	-	-	D	E+	-	-	D	-	-	-	E+	-	-	-	-	-	-
+Marianne	Golden Deer	F	High Magic & Riding skill level	35	20	50	40	40	35	15	45	40	68	30	73	56	57	49	39	64	57	U	-	-	-	D	-	U	-	D	U	U	E+	-	-	-	-	-	D+	-	-	-	-	-	The Beast	-
+Leonie	Golden Deer	F	High Strength & Lance skill level	40	40	20	55	60	40	40	15	40	78	59	38	76	84	56	57	36	57	-	U	-	U	-	-	-	-	-	U	-	-	D+	-	E+	-	-	-	-	-	E+	-	-	-	-
+Manuela	Church of Seiros	F	During chapter 8 or 9, at level 15 or higher	50	35	35	40	60	35	30	25	50	91	53	48	56	83	52	42	44	69	U	-	-	-	-	D	U	-	D	-	U	D	-	-	-	-	-	C	-	-	-	D	-	-	-
+Hanneman	Church of Seiros	M	During chapter 8 or 9, at level 15 or higher	40	30	55	45	20	35	25	40	35	77	43	78	62	35	49	36	57	48	-	-	-	U	-	U	-	-	D	U	D	-	-	-	D	-	C	-	D	-	D	-	-	Indech	-
+Seteth	Church of Seiros	M	Automatically during chapter 12, not recruitable if you choose to oppose the church	50	45	35	50	50	25	30	25	45	92	65	51	70	67	49	43	41	65	U	U	U	-	-	-	-	U	-	D	U	D+	C	C	-	-	-	-	C	-	-	C	Cichol	-	-
+Flayn	Church of Seiros	F	After chapter 6	25	25	55	45	35	15	25	50	45	56	37	77	62	48	46	36	72	65	-	U	-	-	-	-	U	-	D	D	-	-	E+	-	-	-	-	D+	-	-	-	D	Cethleann	-	-
+Cyril	Church of Seiros	M	During chapter 6	35	20	15	40	40	30	10	10	15	85	55	48	78	76	66	45	41	48	-	U	U	U	-	D	D	-	-	U	U	-	-	D+	D	-	-	-	-	-	-	-	-	-	-
+Catherine	Knights of Seiros	F	At level 15 or higher, not recruitable if you choose to oppose the church	50	50	25	40	55	30	30	20	25	92	70	36	56	75	43	42	37	35	U	-	-	-	U	D	-	-	-	-	-	B	-	-	-	D+	-	-	D	-	-	-	-	-	-
+Alois	Knights of Seiros	M	During chapter 11	45	45	20	35	40	30	40	20	40	86	71	33	48	56	42	55	37	57	-	-	U	-	U	D	-	-	U	-	D	-	-	C	-	D+	-	-	C	C	-	-	-	-	-
+Gilbert	Knights of Seiros	M	During chapter 13 with Blue Lions	55	45	20	45	30	15	45	10	35	101	65	35	62	42	40	61	35	49	-	U	U	-	-	-	-	-	U	U	-	-	C	C	-	-	-	-	D+	D	C	-	-	-	-
+Shamir	Knights of Seiros	F	At level 15 or higher	35	40	20	55	40	55	20	15	30	71	58	35	75	56	76	37	35	43	-	U	-	U	-	-	D	-	-	-	-	-	D+	-	B	-	-	-	D	-	-	-	-	-	-
