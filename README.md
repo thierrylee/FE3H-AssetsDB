@@ -8,8 +8,7 @@ For those only interested on data itself, you can find it on [this spreadsheet: 
 # How to use
 
 First, compile this project as a JAR, AAR, or use it directly as a Gradle Module. Then import it in your projet.
-To retrieve the whole database, simply call `AssetDatabaseBuilder.buildAssetDatabase()`
-Il will return an `AssetDatabase` containing :
+To retrieve the whole database, simply call `AssetDatabaseBuilder.buildAssetDatabase()`, it will return an `AssetDatabase` containing :
 - Genders
 - Skills (Sword, Lance, Axe, Bow, Brawling,...)
 - Ranks (S+, S, A+,...)
