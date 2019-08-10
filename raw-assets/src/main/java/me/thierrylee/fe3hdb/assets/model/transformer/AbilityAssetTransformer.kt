@@ -9,6 +9,7 @@ internal object AbilityAssetTransformer : AbstractAssetTransformer<AbilityAsset>
 
     override fun internalBuildAsset(rawValues: List<String>) = AbilityAsset(
         id = rawValues[0].toId(),
+        name = rawValues[0],
         description = rawValues[1]
     )
 

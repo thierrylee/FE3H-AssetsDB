@@ -9,6 +9,7 @@ internal object CrestAssetTransformer : AbstractAssetTransformer<CrestAsset>() {
 
     override fun internalBuildAsset(rawValues: List<String>) = CrestAsset(
         id = rawValues[0].toId(),
+        name = rawValues[0],
         description = rawValues[1]
     )
 

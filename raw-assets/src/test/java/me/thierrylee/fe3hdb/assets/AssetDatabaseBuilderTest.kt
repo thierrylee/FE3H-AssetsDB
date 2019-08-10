@@ -53,7 +53,7 @@ class AssetDatabaseBuilderTest {
         assertThat(requirements).hasSize(1)
         val personalLearn = requirements[0] as CombatArtRequirementAsset.PersonalLearn
         assertThat(personalLearn.rankRequired).isEqualTo(RankAsset.A)
-        // Some characters can have Hewblade at C+ rank
+        // Some characters can have Hexblade at C+ rank
     }
 
     @Test
@@ -97,7 +97,7 @@ class AssetDatabaseBuilderTest {
         val requirements = magics.getValue(magics.keys.first { it.id == "Thunder" })
         assertThat(requirements).hasSize(1)
         assertThat(requirements[0].requiredRank).isEqualTo(RankAsset.D)
-        // Some characters can have at D+ rank
+        // Some characters can have Thunder at D+ rank
     }
 
 }
