@@ -22,7 +22,8 @@ object AssetDatabaseBuilder {
             *AbilityRequirementAssetTransformer.PersonalLearn.retrieveAssets().toTypedArray(),
             *AbilityRequirementAssetTransformer.ClassUse.retrieveAssets().toTypedArray(),
             *AbilityRequirementAssetTransformer.ClassMastered.retrieveAssets().toTypedArray()
-        )
+        ),
+        magicRequirementAssets = MagicRequirementAssetTransformer.retrieveAssets()
     )
 
 }

@@ -29,6 +29,7 @@ class AssetDatabaseBuilderTest {
         assertThat(assetDatabase.abilityRequirementAssets.filterIsInstance<AbilityRequirementAsset.PersonalLearn>()).hasSize(30)
         assertThat(assetDatabase.abilityRequirementAssets.filterIsInstance<AbilityRequirementAsset.ClassUse>()).hasSize(35)
         assertThat(assetDatabase.abilityRequirementAssets.filterIsInstance<AbilityRequirementAsset.ClassMastered>()).hasSize(36)
+        assertThat(assetDatabase.magicRequirementAssets).hasSize(54)
     }
 
 }

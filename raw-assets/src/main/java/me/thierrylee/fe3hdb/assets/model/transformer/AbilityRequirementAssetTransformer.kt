@@ -24,7 +24,7 @@ internal object AbilityRequirementAssetTransformer {
 
         override fun internalBuildAsset(rawValues: List<String>) = AbilityRequirementAsset.Personal(
             abilityId = rawValues[0],
-            characterId = rawValues[1]
+            characterId = rawValues[1].toId()
         )
 
     }
@@ -38,7 +38,7 @@ internal object AbilityRequirementAssetTransformer {
             abilityId = rawValues[0],
             skillRequired = rawValues[1].toSkillAsset(),
             rankRequired = rawValues[2].toRankAsset(),
-            characterIds = rawValues[3].split()
+            characterIds = rawValues[3].split().map { it.toId() }
         )
 
     }
@@ -50,7 +50,7 @@ internal object AbilityRequirementAssetTransformer {
 
         override fun internalBuildAsset(rawValues: List<String>) = AbilityRequirementAsset.ClassUse(
             abilityId = rawValues[0],
-            classIds = rawValues[1].split()
+            classIds = rawValues[1].split().map { it.toId() }
         )
 
     }
@@ -62,7 +62,7 @@ internal object AbilityRequirementAssetTransformer {
 
         override fun internalBuildAsset(rawValues: List<String>) = AbilityRequirementAsset.ClassMastered(
             abilityId = rawValues[0],
-            classId = rawValues[1]
+            classId = rawValues[1].toId()
         )
 
     }

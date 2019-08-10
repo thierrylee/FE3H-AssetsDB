@@ -26,7 +26,7 @@ internal object CombatArtRequirementAssetTransformer {
             combatArtId = rawValues[0],
             skillRequired = rawValues[1].toSkillAsset(),
             rankRequired = rawValues[2].toRankAsset(),
-            characterIds = rawValues[3].split()
+            characterIds = rawValues[3].split().map { it.toId() }
         )
 
     }
@@ -38,7 +38,7 @@ internal object CombatArtRequirementAssetTransformer {
 
         override fun internalBuildAsset(rawValues: List<String>) = CombatArtRequirementAsset.ClassMastered(
             combatArtId = rawValues[0],
-            classId = rawValues[1]
+            classId = rawValues[1].toId()
         )
 
     }
