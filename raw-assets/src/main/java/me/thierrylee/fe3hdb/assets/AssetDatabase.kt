@@ -3,45 +3,45 @@ package me.thierrylee.fe3hdb.assets
 import me.thierrylee.fe3hdb.assets.model.*
 
 data class AssetDatabase(
-    val genderAssets: List<GenderAsset> = GenderAsset.values().toList(),
-    val skillAssets: List<SkillAsset> = SkillAsset.values().toList(),
-    val rankAssets: List<RankAsset> = RankAsset.values().toList(),
-    val characterAssets: List<CharacterAsset>,
-    val crestAssets: List<CrestAsset>,
-    val classAssets: List<ClassAsset>,
-    val abilityAssets: List<AbilityAsset>,
-    val combatArtAssets: List<CombatArtAsset>,
-    val magicAssets: List<MagicAsset>,
-    val combatArtRequirementAssets: List<CombatArtRequirementAsset>,
-    val abilityRequirementAssets: List<AbilityRequirementAsset>,
-    val magicRequirementAssets: List<MagicRequirementAsset>
+    val genders: List<GenderAsset> = GenderAsset.values().toList(),
+    val skills: List<SkillAsset> = SkillAsset.values().toList(),
+    val ranks: List<RankAsset> = RankAsset.values().toList(),
+    val characters: List<CharacterAsset>,
+    val crests: List<CrestAsset>,
+    val classes: List<ClassAsset>,
+    val abilities: List<AbilityAsset>,
+    val combatArts: List<CombatArtAsset>,
+    val magics: List<MagicAsset>,
+    val combatArtRequirements: List<CombatArtRequirementAsset>,
+    val abilityRequirements: List<AbilityRequirementAsset>,
+    val magicRequirements: List<MagicRequirementAsset>
 ) {
 
     fun getCombatArtsAndRequirements(): Map<CombatArtAsset, List<CombatArtRequirementAsset>> {
-        return combatArtAssets.map { combatArt ->
-            combatArt to combatArtRequirementAssets.filter { it.combatArtId == combatArt.id }
+        return combatArts.map { combatArt ->
+            combatArt to combatArtRequirements.filter { it.combatArtId == combatArt.id }
         }.toMap()
     }
 
     fun getAbilitiesAndRequirements(): Map<AbilityAsset, List<AbilityRequirementAsset>> {
-        return abilityAssets.map { ability ->
-            ability to abilityRequirementAssets.filter { it.abilityId == ability.id }
+        return abilities.map { ability ->
+            ability to abilityRequirements.filter { it.abilityId == ability.id }
         }.toMap()
     }
 
     fun getMagicsAndRequirements(): Map<MagicAsset, List<MagicRequirementAsset>> {
-        return magicAssets.map { magicAsset ->
-            magicAsset to magicRequirementAssets.filter { it.magicId == magicAsset.id }
+        return magics.map { magicAsset ->
+            magicAsset to magicRequirements.filter { it.magicId == magicAsset.id }
         }.toMap()
     }
 
     fun getCharacterClasses(character: CharacterAsset): List<ClassAsset> {
-        return classAssets.filter { it.isClassAvailable(character) }
+        return classes.filter { it.isClassAvailable(character) }
     }
 
     fun getCharacterCombatArts(character: CharacterAsset): Map<CombatArtAsset, List<CombatArtRequirementAsset>> {
-        return getCombatArtsAndRequirements().filter { (_, requirements) ->
-            requirements.any { requirement ->
+        return getCombatArtsAndRequirements().mapValues { (_, requirements) ->
+            requirements.filter { requirement ->
                 when (requirement) {
                     is CombatArtRequirementAsset.UniversalLearn -> true
                     is CombatArtRequirementAsset.PersonalLearn -> requirement.characterIds.contains(character.id)
@@ -50,12 +50,12 @@ data class AssetDatabase(
                     )
                 }
             }
-        }
+        }.filterValues { it.isNotEmpty() }
     }
 
     fun getCharacterAbilities(character: CharacterAsset): Map<AbilityAsset, List<AbilityRequirementAsset>> {
-        return getAbilitiesAndRequirements().filter { (_, requirements) ->
-            requirements.any { requirement ->
+        return getAbilitiesAndRequirements().mapValues { (_, requirements) ->
+            requirements.filter { requirement ->
                 when (requirement) {
                     is AbilityRequirementAsset.UniversalLearn -> true
                     is AbilityRequirementAsset.Personal -> (requirement.characterId == character.id)
@@ -68,13 +68,13 @@ data class AssetDatabase(
                     )
                 }
             }
-        }
+        }.filterValues { it.isNotEmpty() }
     }
 
     fun getCharacterMagics(character: CharacterAsset): Map<MagicAsset, List<MagicRequirementAsset>> {
-        return getMagicsAndRequirements().filter { (_, requirements) ->
-            requirements.any { it.characterIds.contains(character.id) }
-        }
+        return getMagicsAndRequirements().mapValues { (_, requirements) ->
+            requirements.filter { it.characterIds.contains(character.id) }
+        }.filterValues { it.isNotEmpty() }
     }
 
     private fun ClassAsset.isClassAvailable(character: CharacterAsset): Boolean {

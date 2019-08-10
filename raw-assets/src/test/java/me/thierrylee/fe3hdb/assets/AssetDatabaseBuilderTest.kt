@@ -12,51 +12,92 @@ class AssetDatabaseBuilderTest {
         val database = AssetDatabaseBuilder.buildAssetDatabase()
 
         // Then
-        assertThat(database.genderAssets).isEqualTo(GenderAsset.values().toList())
-        assertThat(database.skillAssets).isEqualTo(SkillAsset.values().toList())
-        assertThat(database.rankAssets).isEqualTo(RankAsset.values().toList())
-        assertThat(database.characterAssets).hasSize(35)
-        assertThat(database.crestAssets).hasSize(25)
-        assertThat(database.classAssets).hasSize(47)
-        assertThat(database.abilityAssets).hasSize(239)
-        assertThat(database.combatArtAssets).hasSize(77)
-        assertThat(database.magicAssets).hasSize(38)
-        assertThat(database.combatArtRequirementAssets.filterIsInstance<CombatArtRequirementAsset.UniversalLearn>()).hasSize(11)
-        assertThat(database.combatArtRequirementAssets.filterIsInstance<CombatArtRequirementAsset.PersonalLearn>()).hasSize(48)
-        assertThat(database.combatArtRequirementAssets.filterIsInstance<CombatArtRequirementAsset.ClassMastered>()).hasSize(13)
-        assertThat(database.abilityRequirementAssets.filterIsInstance<AbilityRequirementAsset.UniversalLearn>()).hasSize(70)
-        assertThat(database.abilityRequirementAssets.filterIsInstance<AbilityRequirementAsset.Personal>()).hasSize(37)
-        assertThat(database.abilityRequirementAssets.filterIsInstance<AbilityRequirementAsset.PersonalLearn>()).hasSize(30)
-        assertThat(database.abilityRequirementAssets.filterIsInstance<AbilityRequirementAsset.ClassUse>()).hasSize(35)
-        assertThat(database.abilityRequirementAssets.filterIsInstance<AbilityRequirementAsset.ClassMastered>()).hasSize(36)
-        assertThat(database.magicRequirementAssets).hasSize(54)
+        with(database) {
+            assertThat(genders).isEqualTo(GenderAsset.values().toList())
+            assertThat(skills).isEqualTo(SkillAsset.values().toList())
+            assertThat(ranks).isEqualTo(RankAsset.values().toList())
+            assertThat(characters).hasSize(35)
+            assertThat(crests).hasSize(25)
+            assertThat(classes).hasSize(47)
+            assertThat(abilities).hasSize(239)
+            assertThat(combatArts).hasSize(77)
+            assertThat(magics).hasSize(38)
+            assertThat(combatArtRequirements.filterIsInstance<CombatArtRequirementAsset.UniversalLearn>()).hasSize(11)
+            assertThat(combatArtRequirements.filterIsInstance<CombatArtRequirementAsset.PersonalLearn>()).hasSize(48)
+            assertThat(combatArtRequirements.filterIsInstance<CombatArtRequirementAsset.ClassMastered>()).hasSize(13)
+            assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.UniversalLearn>()).hasSize(70)
+            assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.Personal>()).hasSize(37)
+            assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.PersonalLearn>()).hasSize(30)
+            assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.ClassUse>()).hasSize(35)
+            assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.ClassMastered>()).hasSize(36)
+            assertThat(magicRequirements).hasSize(54)
+        }
     }
 
     @Test
-    fun `buildDatabase - Byleth should have expected combatArts, abilities and magics`() {
+    fun `buildDatabase - should have expected combatArts and remove unrelated requirements`() {
         // Given
         val database = AssetDatabaseBuilder.buildAssetDatabase()
-        val character = database.characterAssets.find { it.id == "BylethM" }!!
+        val character = database.characters.find { it.id == "Edelgard" }!!
 
         // When
         val combatArts = database.getCharacterCombatArts(character)
-        val abilities = database.getCharacterAbilities(character)
-        val magics = database.getCharacterMagics(character)
 
         // Then
         assertThat(combatArts).isNotEmpty
-        assertThat(abilities).isNotEmpty
-        assertThat(magics).isNotEmpty
         assertThat(combatArts.map { it.key.id }).contains("Grounder") // Universal
-        assertThat(combatArts.map { it.key.id }).contains("Windsweep") // PersonalLearn
-//        assertThat(combatArts.map { it.key.id }).contains("Windsweep") // BuddingTalent TODO
+//        assertThat(combatArts.map { it.key.id }).contains("Claude") // BuddingTalent TODO
+        assertThat(combatArts.map { it.key.id }).contains("Hexblade") // PersonalLearn
+
+        val requirements = combatArts.getValue(combatArts.keys.first { it.id == "Hexblade" })
+        assertThat(requirements).hasSize(1)
+        val personalLearn = requirements[0] as CombatArtRequirementAsset.PersonalLearn
+        assertThat(personalLearn.rankRequired).isEqualTo(RankAsset.A)
+        // Some characters can have Hewblade at C+ rank
+    }
+
+    @Test
+    fun `buildDatabase - should have expected abilities and remove unrelated requirements`() {
+        // Given
+        val database = AssetDatabaseBuilder.buildAssetDatabase()
+        val character = database.characters.find { it.id == "Claude" }!!
+
+        // When
+        val abilities = database.getCharacterAbilities(character)
+
+        // Then
+        assertThat(abilities).isNotEmpty
         assertThat(abilities.map { it.key.id }).contains("SwordProwessLv1") // Universal
-        assertThat(abilities.map { it.key.id }).contains("ProfessorsGuidance") // Personal
-        assertThat(abilities.map { it.key.id }).contains("ModelLeader") // PersonalLearn
+        assertThat(abilities.map { it.key.id }).contains("LeicesterLineage") // Personal
         assertThat(abilities.map { it.key.id }).contains("Fistfaire") // ClassUse (Male)
         assertThat(abilities.map { it.key.id }).contains("Lifetaker") // ClassMaster (Male)
-//        assertThat(abilities.map { it.key.id }).contains("Lifetaker") // BuddingTalent TODO
+//        assertThat(abilities.map { it.key.id }).contains("SealMovement") // BuddingTalent TODO
+        assertThat(abilities.map { it.key.id }).contains("RallyCharm") // PersonalLearn
+
+        val requirements = abilities.getValue(abilities.keys.first { it.id == "RallyCharm" })
+        assertThat(requirements).hasSize(1)
+        val personalLearn = requirements[0] as AbilityRequirementAsset.PersonalLearn
+        assertThat(personalLearn.rankRequired).isEqualTo(RankAsset.S)
+        // Some characters can have RallyCharm at D rank
+    }
+
+    @Test
+    fun `buildDatabase - should have expected magics and remove unrelated requirements`() {
+        // Given
+        val database = AssetDatabaseBuilder.buildAssetDatabase()
+        val character = database.characters.find { it.id == "Dimitri" }!!
+
+        // When
+        val magics = database.getCharacterMagics(character)
+
+        // Then
+        assertThat(magics).isNotEmpty
         assertThat(magics.map { it.key.id }).contains("Thunder")
+
+        val requirements = magics.getValue(magics.keys.first { it.id == "Thunder" })
+        assertThat(requirements).hasSize(1)
+        assertThat(requirements[0].requiredRank).isEqualTo(RankAsset.D)
+        // Some characters can have at D+ rank
     }
 
 }

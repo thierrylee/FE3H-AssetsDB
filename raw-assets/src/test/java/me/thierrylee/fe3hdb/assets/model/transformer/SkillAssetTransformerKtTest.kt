@@ -11,18 +11,18 @@ import org.junit.runner.RunWith
 class SkillAssetTransformerKtTest {
 
     fun testCases() = arrayOf(
-        SkillAssetValue.SWORD to SkillAsset.SWORD,
-        SkillAssetValue.LANCE to SkillAsset.LANCE,
-        SkillAssetValue.AXE to SkillAsset.AXE,
-        SkillAssetValue.BOW to SkillAsset.BOW,
-        SkillAssetValue.BRAWLING to SkillAsset.BRAWLING,
-        SkillAssetValue.REASON to SkillAsset.REASON,
-        SkillAssetValue.FAITH to SkillAsset.FAITH,
-        SkillAssetValue.AUTHORITY to SkillAsset.AUTHORITY,
-        SkillAssetValue.ARMOR to SkillAsset.ARMOR,
-        SkillAssetValue.RIDING to SkillAsset.RIDING,
-        SkillAssetValue.FLYING to SkillAsset.FLYING,
-        SkillAssetValue.NONE to SkillAsset.NONE
+        SkillValue.SWORD to SkillAsset.SWORD,
+        SkillValue.LANCE to SkillAsset.LANCE,
+        SkillValue.AXE to SkillAsset.AXE,
+        SkillValue.BOW to SkillAsset.BOW,
+        SkillValue.BRAWLING to SkillAsset.BRAWLING,
+        SkillValue.REASON to SkillAsset.REASON,
+        SkillValue.FAITH to SkillAsset.FAITH,
+        SkillValue.AUTHORITY to SkillAsset.AUTHORITY,
+        SkillValue.ARMOR to SkillAsset.ARMOR,
+        SkillValue.RIDING to SkillAsset.RIDING,
+        SkillValue.FLYING to SkillAsset.FLYING,
+        SkillValue.NONE to SkillAsset.NONE
     )
 
     @Test(expected = IllegalArgumentException::class)
