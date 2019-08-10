@@ -4,7 +4,7 @@ import me.thierrylee.fe3hdb.assets.model.AbilityAsset
 
 internal object AbilityAssetTransformer : AbstractAssetTransformer<AbilityAsset>() {
 
-    override fun getAssetFile() = "abilities.tsv"
+    override fun getAssetFile() = "abilities"
     override fun getColumnCount() = 2
 
     override fun internalBuildAsset(rawValues: List<String>) = AbilityAsset(

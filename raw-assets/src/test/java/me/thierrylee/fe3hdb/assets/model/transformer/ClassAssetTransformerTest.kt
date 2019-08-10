@@ -24,7 +24,7 @@ class ClassAssetTransformerTest {
                 id = "Lord",
                 name = "Lord",
                 requiredLevel = 10,
-                requiredSkillLevels = listOf(
+                requiredSkillRanks = listOf(
                     SkillAsset.SWORD to RankAsset.D_PLUS,
                     SkillAsset.AUTHORITY to RankAsset.C
                 ),

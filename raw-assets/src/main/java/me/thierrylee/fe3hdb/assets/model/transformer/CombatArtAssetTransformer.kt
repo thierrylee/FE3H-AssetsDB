@@ -4,7 +4,7 @@ import me.thierrylee.fe3hdb.assets.model.CombatArtAsset
 
 internal object CombatArtAssetTransformer : AbstractAssetTransformer<CombatArtAsset>() {
 
-    override fun getAssetFile() = "combatarts.tsv"
+    override fun getAssetFile() = "combatarts"
     override fun getColumnCount() = 8
 
     override fun internalBuildAsset(rawValues: List<String>) = CombatArtAsset(

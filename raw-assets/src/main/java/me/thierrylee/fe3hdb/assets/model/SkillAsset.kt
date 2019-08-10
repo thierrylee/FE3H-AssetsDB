@@ -11,5 +11,6 @@ enum class SkillAsset{
     AUTHORITY,
     ARMOR,
     RIDING,
-    FLYING
+    FLYING,
+    NONE
 }

@@ -6,7 +6,7 @@ internal object CombatArtRequirementAssetTransformer {
 
     object UniversalLearn : AbstractAssetTransformer<CombatArtRequirementAsset.UniversalLearn>() {
 
-        override fun getAssetFile() = "combatarts_req_universallearn.tsv"
+        override fun getAssetFile() = "combatarts_req_universallearn"
         override fun getColumnCount() = 3
 
         override fun internalBuildAsset(rawValues: List<String>) = CombatArtRequirementAsset.UniversalLearn(
@@ -19,8 +19,8 @@ internal object CombatArtRequirementAssetTransformer {
 
     object PersonalLearn : AbstractAssetTransformer<CombatArtRequirementAsset.PersonalLearn>() {
 
-        override fun getAssetFile() = "combatarts_req_personallearn.tsv"
-        override fun getColumnCount() = 3
+        override fun getAssetFile() = "combatarts_req_personallearn"
+        override fun getColumnCount() = 4
 
         override fun internalBuildAsset(rawValues: List<String>) = CombatArtRequirementAsset.PersonalLearn(
             combatArtId = rawValues[0],
@@ -33,7 +33,7 @@ internal object CombatArtRequirementAssetTransformer {
 
     object ClassMastered : AbstractAssetTransformer<CombatArtRequirementAsset.ClassMastered>() {
 
-        override fun getAssetFile() = "combatarts_red_classmastered.tsv"
+        override fun getAssetFile() = "combatarts_req_classmastered"
         override fun getColumnCount() = 2
 
         override fun internalBuildAsset(rawValues: List<String>) = CombatArtRequirementAsset.ClassMastered(

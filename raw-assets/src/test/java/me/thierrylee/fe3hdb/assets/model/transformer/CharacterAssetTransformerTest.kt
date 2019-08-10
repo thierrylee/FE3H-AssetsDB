@@ -22,7 +22,7 @@ class CharacterAssetTransformerTest {
         assertThat(characterAsset).isEqualTo(
             CharacterAsset(
                 id = "BylethM",
-                name = "~BylethM _!-!°",
+                name = "BylethM",
                 faction = "",
                 gender = GenderAsset.MALE,
                 recruitmentRequirements = "",

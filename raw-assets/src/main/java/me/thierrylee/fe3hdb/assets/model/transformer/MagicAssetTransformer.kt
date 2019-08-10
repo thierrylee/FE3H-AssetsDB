@@ -4,7 +4,7 @@ import me.thierrylee.fe3hdb.assets.model.MagicAsset
 
 internal object MagicAssetTransformer : AbstractAssetTransformer<MagicAsset>() {
 
-    override fun getAssetFile() = "magics.tsv"
+    override fun getAssetFile() = "magics"
     override fun getColumnCount() = 11
 
     override fun internalBuildAsset(rawValues: List<String>) = MagicAsset(

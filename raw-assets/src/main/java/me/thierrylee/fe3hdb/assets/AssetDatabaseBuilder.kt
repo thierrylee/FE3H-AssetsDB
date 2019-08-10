@@ -2,7 +2,7 @@ package me.thierrylee.fe3hdb.assets
 
 import me.thierrylee.fe3hdb.assets.model.transformer.*
 
-class AssetDatabaseBuilder {
+object AssetDatabaseBuilder {
 
     fun buildAssetDatabase() = AssetDatabase(
         characterAssets = CharacterAssetTransformer.retrieveAssets(),
@@ -13,8 +13,15 @@ class AssetDatabaseBuilder {
         magicAssets = MagicAssetTransformer.retrieveAssets(),
         combatArtRequirementAssets = listOf(
             *CombatArtRequirementAssetTransformer.UniversalLearn.retrieveAssets().toTypedArray(),
-            *CombatArtRequirementAssetTransformer.ClassMastered.retrieveAssets().toTypedArray(),
-            *CombatArtRequirementAssetTransformer.PersonalLearn.retrieveAssets().toTypedArray()
+            *CombatArtRequirementAssetTransformer.PersonalLearn.retrieveAssets().toTypedArray(),
+            *CombatArtRequirementAssetTransformer.ClassMastered.retrieveAssets().toTypedArray()
+        ),
+        abilityRequirementAssets = listOf(
+            *AbilityRequirementAssetTransformer.UniversalLearn.retrieveAssets().toTypedArray(),
+            *AbilityRequirementAssetTransformer.Personal.retrieveAssets().toTypedArray(),
+            *AbilityRequirementAssetTransformer.PersonalLearn.retrieveAssets().toTypedArray(),
+            *AbilityRequirementAssetTransformer.ClassUse.retrieveAssets().toTypedArray(),
+            *AbilityRequirementAssetTransformer.ClassMastered.retrieveAssets().toTypedArray()
         )
     )
 

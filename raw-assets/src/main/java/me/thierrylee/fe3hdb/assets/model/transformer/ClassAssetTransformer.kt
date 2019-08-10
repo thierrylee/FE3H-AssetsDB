@@ -1,10 +1,12 @@
 package me.thierrylee.fe3hdb.assets.model.transformer
 
 import me.thierrylee.fe3hdb.assets.model.ClassAsset
+import me.thierrylee.fe3hdb.assets.model.RankAsset
+import me.thierrylee.fe3hdb.assets.model.SkillAsset
 
 internal object ClassAssetTransformer : AbstractAssetTransformer<ClassAsset>() {
 
-    override fun getAssetFile() = "classes.tsv"
+    override fun getAssetFile() = "classes"
     override fun getColumnCount() = 28
 
     override fun internalBuildAsset(rawValues: List<String>): ClassAsset {
@@ -12,7 +14,7 @@ internal object ClassAssetTransformer : AbstractAssetTransformer<ClassAsset>() {
             id = rawValues[0].toId(),
             name = rawValues[0],
             requiredLevel = rawValues[1].toIntOrZero(),
-            requiredSkillLevels = extractRequiredSkills(rawValues).zip(extractRequiredRanks(rawValues)),
+            requiredSkillRanks = toRequiredSkillRanks(rawValues),
             isOneRequirementOnly = rawValues[4] == "Y",
             availableGenders = rawValues[5].split().map { it.toGenderAsset() },
             characterExclusive = rawValues[7].split(),
@@ -37,6 +39,18 @@ internal object ClassAssetTransformer : AbstractAssetTransformer<ClassAsset>() {
             growthRes = rawValues[26].toIntOrZero(),
             growthCha = rawValues[27].toIntOrZero()
         )
+    }
+
+    private fun toRequiredSkillRanks(rawValues: List<String>): List<Pair<SkillAsset, RankAsset>> {
+        val requiredSkills = rawValues[2]
+        val requiredRanks = rawValues[3]
+        return if (requiredSkills.isBlank() || requiredRanks.isBlank()) {
+            emptyList()
+        } else {
+            requiredSkills.split().map { it.toSkillAsset() }.zip(
+                requiredRanks.split().map { it.toRankAsset() }
+            )
+        }
     }
 
     private fun extractRequiredSkills(rawValues: List<String>) = rawValues[2].split().map { it.toSkillAsset() }

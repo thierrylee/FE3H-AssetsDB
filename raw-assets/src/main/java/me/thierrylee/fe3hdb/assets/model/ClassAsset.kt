@@ -4,7 +4,7 @@ data class ClassAsset(
     val id: String,
     val name: String,
     val requiredLevel: Int,
-    val requiredSkillLevels: List<Pair<SkillAsset, RankAsset>>,
+    val requiredSkillRanks: List<Pair<SkillAsset, RankAsset>>,
     val isOneRequirementOnly: Boolean,
     val availableGenders: List<GenderAsset>,
     val characterExclusive: List<String>,

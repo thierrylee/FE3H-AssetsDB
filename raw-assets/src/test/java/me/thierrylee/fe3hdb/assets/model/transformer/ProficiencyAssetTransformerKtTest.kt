@@ -13,6 +13,7 @@ class ProficiencyAssetTransformerKtTest {
     fun testCases() = arrayOf(
         "U" to ProficiencyAsset.STRONG,
         "-" to ProficiencyAsset.NEUTRAL,
+        "" to ProficiencyAsset.NEUTRAL,
         "D" to ProficiencyAsset.WEAK
     )
 

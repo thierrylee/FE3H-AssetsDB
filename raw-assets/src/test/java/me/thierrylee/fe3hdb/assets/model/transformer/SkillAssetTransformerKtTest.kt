@@ -21,7 +21,8 @@ class SkillAssetTransformerKtTest {
         SkillAssetValue.AUTHORITY to SkillAsset.AUTHORITY,
         SkillAssetValue.ARMOR to SkillAsset.ARMOR,
         SkillAssetValue.RIDING to SkillAsset.RIDING,
-        SkillAssetValue.FLYING to SkillAsset.FLYING
+        SkillAssetValue.FLYING to SkillAsset.FLYING,
+        SkillAssetValue.NONE to SkillAsset.NONE
     )
 
     @Test(expected = IllegalArgumentException::class)

@@ -1,0 +1,71 @@
+ID	LearnSkill	LearnRank
+Sword Prowess Lv 1	Sword	E+
+Sword Prowess Lv 2	Sword	D+
+Sword Prowess Lv 3	Sword	C+
+Sword Prowess Lv 4	Sword	B+
+Sword Prowess Lv 5	Sword	A+
+Lance Prowess Lv 1	Lance	E+
+Lance Prowess Lv 2	Lance	D+
+Lance Prowess Lv 3	Lance	C+
+Lance Prowess Lv 4	Lance	B+
+Lance Prowess Lv 5	Lance	A+
+Axe Prowess Lv 1	Axe	E+
+Axe Prowess Lv 2	Axe	D+
+Axe Prowess Lv 3	Axe	C+
+Axe Prowess Lv 4	Axe	B+
+Axe Prowess Lv 5	Axe	A+
+Bow Prowess Lv 1	Bow	E+
+Bow Prowess Lv 2	Bow	D+
+Bow Prowess Lv 3	Bow	C+
+Bow Prowess Lv 4	Bow	B+
+Bow Prowess Lv 5	Bow	A+
+Brawling Prowess Lv 1	Brawling	E+
+Brawling Prowess Lv 2	Brawling	D+
+Brawling Prowess Lv 3	Brawling	C+
+Brawling Prowess Lv 4	Brawling	B+
+Brawling Prowess Lv 5	Brawling	A+
+Reason Lv 1	Reason	E+
+Reason Lv 2	Reason	D+
+Reason Lv 3	Reason	C+
+Reason Lv 4	Reason	B+
+Reason Lv 5	Reason	A+
+Faith Lv 1	Faith	E+
+Faith Lv 2	Faith	D+
+Faith Lv 3	Faith	C+
+Faith Lv 4	Faith	B+
+Faith Lv 5	Faith	A+
+Authority Lv 1	Authority	E+
+Authority Lv 2	Authority	D+
+Authority Lv 3	Authority	C+
+Authority Lv 4	Authority	B+
+Authority Lv 5	Authority	A+
+Swordfaire	Sword	S+
+Lancefaire	Lance	S+
+Axefaire	Axe	S+
+Bowfaire	Bow	S+
+Fistfaire	Brawling	S+
+White Tomefaire	Faith	S+
+Sword Crit +10	Sword	S
+Lance Crit +10	Lance	S
+Axe Crit +10	Axe	S
+Bow Crit +10	Bow	S
+Brawl Crit +10	Brawling	S
+Dexterity +4	Riding	C
+Movement +1	Riding	A+
+Bowbreaker	Reason	B
+Fistbreaker	Bow	B
+Tomebreaker	Brawling	B
+Defensive Tactics	Authority	B
+Offensive Tactics	Authority	S+
+Swordbreaker	Lance	B
+Lancebreaker	Axe	B
+White Magic Range +1	Faith	S
+Weight -3	Armor	C
+Weight -5	Armor	A
+Axebreaker	Sword	B
+Armored Effect Null	Armor	S+
+Cavalry Effect Null	Riding	S+
+Flying Effect Null	Flying	S+
+Alert Stance	Flying	B
+Alert Stance+	Flying	A+
+Close Counter	Bow	C

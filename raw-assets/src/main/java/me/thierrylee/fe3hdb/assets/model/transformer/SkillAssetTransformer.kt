@@ -14,6 +14,7 @@ internal object SkillAssetValue {
     const val ARMOR = "ARMOR"
     const val RIDING = "RIDING"
     const val FLYING = "FLYING"
+    const val NONE = "NONE"
 }
 
 internal fun String.toSkillAsset() = when (this.toUpperCase().trim()) {
@@ -28,5 +29,6 @@ internal fun String.toSkillAsset() = when (this.toUpperCase().trim()) {
     SkillAssetValue.ARMOR -> SkillAsset.ARMOR
     SkillAssetValue.RIDING -> SkillAsset.RIDING
     SkillAssetValue.FLYING -> SkillAsset.FLYING
+    SkillAssetValue.NONE -> SkillAsset.NONE
     else -> throw IllegalArgumentException("Invalid skill : $this")
 }

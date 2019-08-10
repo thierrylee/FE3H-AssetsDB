@@ -4,8 +4,8 @@ import me.thierrylee.fe3hdb.assets.model.CharacterAsset
 
 internal object CharacterAssetTransformer : AbstractAssetTransformer<CharacterAsset>() {
 
-    override fun getAssetFile() = "characters.tsv"
-    override fun getColumnCount() = 46
+    override fun getAssetFile() = "characters"
+    override fun getColumnCount() = 47
 
     override fun internalBuildAsset(rawValues: List<String>) = CharacterAsset(
         id = rawValues[0].toId(),
