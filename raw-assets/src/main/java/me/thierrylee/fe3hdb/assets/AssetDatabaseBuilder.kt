@@ -9,7 +9,13 @@ class AssetDatabaseBuilder {
         crestAssets = CrestAssetTransformer.retrieveAssets(),
         classAssets = ClassAssetTransformer.retrieveAssets(),
         abilityAssets = AbilityAssetTransformer.retrieveAssets(),
-        combatArtAssets = CombatArtAssetTransformer.retrieveAssets()
+        combatArtAssets = CombatArtAssetTransformer.retrieveAssets(),
+        magicAssets = MagicAssetTransformer.retrieveAssets(),
+        combatArtRequirementAssets = listOf(
+            *CombatArtRequirementAssetTransformer.UniversalLearn.retrieveAssets().toTypedArray(),
+            *CombatArtRequirementAssetTransformer.ClassMastered.retrieveAssets().toTypedArray(),
+            *CombatArtRequirementAssetTransformer.PersonalLearn.retrieveAssets().toTypedArray()
+        )
     )
 
 }
