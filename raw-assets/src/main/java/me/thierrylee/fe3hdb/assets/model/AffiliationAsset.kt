@@ -1,6 +1,6 @@
 package me.thierrylee.fe3hdb.assets.model
 
-enum class FactionAsset{
+enum class AffiliationAsset{
     NONE,
     BLACK_EAGLES,
     BLUE_LIONS,

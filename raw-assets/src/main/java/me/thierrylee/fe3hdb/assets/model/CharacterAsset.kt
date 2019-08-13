@@ -3,7 +3,7 @@ package me.thierrylee.fe3hdb.assets.model
 data class CharacterAsset(
     val id: String,
     val name: String,
-    val faction: FactionAsset,
+    val affiliation: AffiliationAsset,
     val gender: GenderAsset,
     val recruitmentRequirements: String,
     val growthHp: Int,

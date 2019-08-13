@@ -19,8 +19,8 @@ class CharacterAssetTransformerTest {
         assertThat(characterAsset).isEqualTo(
             CharacterAsset(
                 id = "BylethM",
-                name = "BylethM",
-                faction = FactionAsset.NONE,
+                name = "Byleth (M)",
+                affiliation = AffiliationAsset.CHURCH_OF_SEIROS,
                 gender = GenderAsset.MALE,
                 recruitmentRequirements = "",
                 growthHp = 45,

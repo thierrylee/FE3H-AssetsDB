@@ -1,6 +1,6 @@
 ID	Faction	Gender	RecruitReq	GrowthHP	GrowthStr	GrowthMag	GrowthDex	GrowthSpd	GrowthLck	GrowthDef	GrowthRes	GrowthCha	MaxHp	MaxStr	MaxMag	MaxDex	MaxSpd	MaxLuck	MaxDef	MaxRes	MaxCha	SwordProficiency	LanceProficiency	AxeProficiency	BowProficiency	BrawlingProficiency	ReasonProficiency	FaithProficiency	AuthorityProficiency	ArmorProficiency	RidingProficiency	FlyingProficiency	BaseSword	BaseLance	BaseAxe	BaseBow	BaseBrawling	BaseReason	BaseFaith	BaseAuthority	BaseArmor	BaseRiding	BaseFlying	Major Crest	Minor Crest	Supports
-BylethM		M		45	45	35	45	45	45	35	30	45	88	77	55	66	66	66	55	55	99	U	-	-	-	U	-	-	U	-	-	-	D+	-	-	-	E+	-	-	D	-	-	-	Flames	-	-
-BylethF		F		45	45	35	45	45	45	35	30	45	88	77	55	66	66	66	55	55	99	U	-	-	-	U	-	-	U	-	-	-	D+	-	-	-	E+	-	-	D	-	-	-	Flames	-	-
+Byleth (M)	Church of Seiros	M		45	45	35	45	45	45	35	30	45	88	77	55	66	66	66	55	55	99	U	-	-	-	U	-	-	U	-	-	-	D+	-	-	-	E+	-	-	D	-	-	-	Flames	-	-
+Byleth (F)	Church of Seiros	F		45	45	35	45	45	45	35	30	45	88	77	55	66	66	66	55	55	99	U	-	-	-	U	-	-	U	-	-	-	D+	-	-	-	E+	-	-	D	-	-	-	Flames	-	-
 Edelgard	Black Eagles	F	Black Eagle only	40	55	45	45	40	30	35	35	60	81	81	72	61	57	42	61	47	85	U	-	U	D	-	-	D	U	U	-	-	E+	-	D	-	-	-	-	D	D	-	-	Flames	Seiros	-
 Hubert	Black Eagles	M	Black Eagle only	35	30	55	45	45	35	25	40	35	67	43	80	62	63	51	45	57	49	-	-	D	U	-	U	D	U	-	-	D	-	-	-	E+	-	D	-	E+	-	-	-	-	-	-
 Dorothea	Black Eagles	F	High Charm & Authorithy skill level	40	20	40	45	40	35	15	35	40	76	30	61	62	57	49	38	50	58	U	-	-	-	-	U	D	-	-	D	D	E+	-	-	-	-	D	-	-	-	-	-	-	-	-
