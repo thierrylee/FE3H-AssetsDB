@@ -11,7 +11,6 @@ import org.junit.runner.RunWith
 class AffiliationAssetTransformerKtTest {
 
     fun testCases() = arrayOf(
-        AffiliationValue.NONE to AffiliationAsset.NONE,
         AffiliationValue.BLACK_EAGLES to AffiliationAsset.BLACK_EAGLES,
         AffiliationValue.BLUE_LIONS to AffiliationAsset.BLUE_LIONS,
         AffiliationValue.GOLDEN_DEERS to AffiliationAsset.GOLDEN_DEERS,

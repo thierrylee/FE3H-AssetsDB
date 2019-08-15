@@ -3,7 +3,6 @@ package me.thierrylee.fe3hdb.assets.model.transformer
 import me.thierrylee.fe3hdb.assets.model.AffiliationAsset
 
 internal object AffiliationValue {
-    const val NONE = ""
     const val BLACK_EAGLES = "BLACK EAGLES"
     const val BLUE_LIONS = "BLUE LIONS"
     const val GOLDEN_DEERS = "GOLDEN DEERS"
@@ -11,7 +10,6 @@ internal object AffiliationValue {
 }
 
 internal fun String.toAffiliationAsset() = when (this.toUpperCase().trim()) {
-    AffiliationValue.NONE -> AffiliationAsset.NONE
     AffiliationValue.BLACK_EAGLES -> AffiliationAsset.BLACK_EAGLES
     AffiliationValue.BLUE_LIONS -> AffiliationAsset.BLUE_LIONS
     AffiliationValue.GOLDEN_DEERS -> AffiliationAsset.GOLDEN_DEERS
