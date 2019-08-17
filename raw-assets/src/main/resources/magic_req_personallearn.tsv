@@ -1,19 +1,20 @@
 ID	LearnSkill	Rank	Character
 Fire	Reason	D+	Ferdinand, Linhardt, Flayn
-Fire	Reason	D	BylethM, BylethF, Caspar, Dedue, Mercedes, Sylvain, Lorenz; Catherine, Alois
+Fire	Reason	D	BylethM, BylethF, Edelgard, Caspar, Dedue, Mercedes, Sylvain, Lorenz, Raphael, Leonie, Catherine, Alois
 Fire	Reason	E+	Rhea
-Bolganone	Reason	B	Ferdinand, Seteth
-Bolganone	Reason	C	BylethM, BylethF, Edegard, Caspar, Dedue, Mercedes, Sylvain, Raphael, Leonie, Manuela, Catherine, Alois
+Bolganone	Reason	B	Ferdinand, Linhardt, Seteth
+Bolganone	Reason	C	BylethM, BylethF, Edelgard, Caspar, Dedue, Mercedes, Sylvain, Raphael, Leonie, Manuela, Catherine, Alois
 Bolganone	Reason	D	Rhea
-Ragnarok	Reason	A	BylethM, BylethF, Dedue, Mercedes, Sylvain, Loenie, Rhea, Hanneman, Catherine
+Ragnarok	Reason	A	BylethM, BylethF, Dedue, Mercedes, Sylvain, Leonie, Rhea, Hanneman, Catherine
 Ragnarok	Reason	B	Lorenz
 Thunder	Reason	D+	BylethM, BylethF, Bernadetta, Mercedes
 Thunder	Reason	D	Dorothea, Ferdinand, Dimitri, Felix, Hilda, Manuela, Gilbert
 Thoron	Reason	B	Hanneman
-Thoron	Reason	C	Dorothea, Ferdinand, Bernadette, Dimitri, Felix, Ingrid, Hilda, Marianne, Gilbert
+Thoron	Reason	C	Dorothea, Ferdinand, Bernadetta, Dimitri, Felix, Ingrid, Hilda, Marianne, Gilbert
+Bolting	Reason	A	Hilda, Manuela
 Wind	Reason	D+	Shamir
 Wind	Reason	D	Petra, Linhardt, Ashe, Annette, Claude, Hanneman, Seteth, Flayn, Cyril
-Cutting Gale	Reason	B	Claude; Marianne
+Cutting Gale	Reason	B	Claude, Marianne
 Cutting Gale	Reason	C	Linhardt, Ashe, Annette, Ignatz, Seteth, Flayn, Cyril
 Excalibur	Reason	A	Linhardt, Annette, Claude, Seteth, Flayn
 Blizzard	Reason	D	Bernadetta, Ingrid, Ignatz, Marianne, Shamir
@@ -29,14 +30,14 @@ Mire Β	Reason	D+	Hubert
 Swarm Ζ	Reason	D+	Lysithea
 Banshee Θ	Reason	C	Hubert
 Death Γ	Reason	B	Hubert
-Luna Λ	Reason	B	Hubert
+Luna Λ	Reason	B	Edelgard, Hubert
 Luna Λ	Reason	C	Lysithea
 Dark Spikes Τ	Reason	A	Hubert
 Dark Spikes Τ	Reason	B	Lysithea
 Hades Ω	Reason	A	Edelgard, Lysithea
 Heal	Faith	D	BylethM, BylethF, Edelgard, Hubert, Dorothea, Ferdinand, Bernadetta, Caspar, Petra, Linhardt, Dimitri, Dedue, Felix, Mercedes, Ashe, Annette, Sylvain, Ingrid, Claude, Lorenz, Hilda, Raphael, Lysithea, Ignatz, Marianne, Leonie, Rhea, Manuela, Hanneman, Seteth, Flayn, Cyril, Jeralt, Catherine, Alois, Gilbert, Shamir
 Recover	Faith	C	BylethM, BylethF, Edelgard, Hubert, Caspar, Dimitri, Dedue, Felix, Annette, Claude, Lorenz, Hilda, Raphael, Rhea, Hanneman, Seteth, Cyril, Jeralt, Catherine, Alois
-Physic	Faith	C	Dorothea, Bernadetta, Mercedes, Ashe, Sylvain, Ingrid, Ignatz, Marianne, Leonie, Shamir
+Physic	Faith	C	Dorothea, Bernadetta, Linhardt, Mercedes, Ashe, Sylvain, Ingrid, Ignatz, Marianne, Leonie, Shamir
 Fortify	Faith	A	Mercedes, Flayn
 Nosferatu	Faith	D+	BylethM, BylethF, Edelgard, Hubert, Dorothea, Ferdinand, Bernadetta, Caspar, Petra, Linhardt, Dimitri, Dedue, Felix, Mercedes, Ashe, Annette, Sylvain, Ingrid, Claude, Lorenz, Hilda, Raphael, Lysithea, Ignatz, Marianne, Leonie, Rhea, Manuela, Hanneman, Seteth, Flayn, Cyril, Jeralt, Catherine, Alois, Gilbert, Shamir
 Seraphim	Faith	B	Edelgard, Sylvain, Ingrid
@@ -45,7 +46,7 @@ Aura	Faith	A	BylethM, BylethF, Dimitri, Marianne
 Abraxas	Faith	A	Annette, Lysithea
 Restore	Faith	B	Ferdinand, Linhardt, Felix, Mercedes, Leonie
 Restore	Faith	C	Petra, Flayn
-Ward	Faith	B	Lorenz, Ignatz, Hannema
+Ward	Faith	B	Lorenz, Ignatz, Hanneman
 Ward	Faith	C	Ferdinand, Manuela, Gilbert
 Silence	Faith	A	Claude
 Silence	Faith	B	Marianne, Manuela
