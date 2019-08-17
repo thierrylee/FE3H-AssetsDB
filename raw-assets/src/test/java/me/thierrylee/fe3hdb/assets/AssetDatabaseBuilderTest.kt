@@ -100,4 +100,23 @@ class AssetDatabaseBuilderTest {
         // Some characters can have Thunder at D+ rank
     }
 
+    @Test
+    fun `buildDatabase - should have expected dark magics and remove unrelated requirements`() {
+        // Given
+        val database = AssetDatabaseBuilder.buildAssetDatabase()
+        val character = database.characters.find { it.id == "Lysithea" }!!
+
+        // When
+        val magics = database.getCharacterMagics(character)
+
+        // Then
+        assertThat(magics).isNotEmpty
+        assertThat(magics.map { it.key.id }).contains("Luna")
+
+        val requirements = magics.getValue(magics.keys.first { it.id == "Luna" })
+        assertThat(requirements).hasSize(1)
+        assertThat(requirements[0].requiredRank).isEqualTo(RankAsset.C)
+        // Some characters can have Luna at B rank
+    }
+
 }
