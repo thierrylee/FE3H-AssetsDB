@@ -64,7 +64,8 @@ class CharacterAssetTransformerTest {
                 baseRidingSkill = RankAsset.D,
                 baseFlyingSkill = RankAsset.E,
                 majorCrest = "Flames",
-                minorCrest = ""
+                minorCrest = "",
+                supportCharacters = listOf("Edelgard", "Dimitri", "Claude")
             )
         )
     }

@@ -47,5 +47,6 @@ data class CharacterAsset(
     val baseRidingSkill: RankAsset,
     val baseFlyingSkill: RankAsset,
     val majorCrest: String,
-    val minorCrest: String
+    val minorCrest: String,
+    val supportCharacters: List<String>
 )

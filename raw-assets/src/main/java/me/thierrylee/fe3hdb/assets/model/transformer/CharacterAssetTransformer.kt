@@ -54,6 +54,7 @@ internal object CharacterAssetTransformer : AbstractAssetTransformer<CharacterAs
         baseRidingSkill = rawValues[42].toRankAsset(),
         baseFlyingSkill = rawValues[43].toRankAsset(),
         majorCrest = rawValues[44].toId(),
-        minorCrest = rawValues[45].toId()
+        minorCrest = rawValues[45].toId(),
+        supportCharacters = rawValues[46].split().map { it.toId() }
     )
 }
