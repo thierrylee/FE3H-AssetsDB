@@ -137,7 +137,7 @@ Renewal	Unit recovers up to 20% of max HP at the start of each turn.
 Catnap	If unit takes no action except Wait, recovers up to 10% of max HP.
 Goody Basket	Chance to recover up to 10% of max HP at the start of each turn. Trigger % = Lck stat.
 Songstress	Adjacent allies recover up to 10% of max HP at the start of each turn.
-Hunter’s Boon	Grants Crit +20 when foe’s HP is ? 50%.
+Hunter’s Boon	Grants Crit +20 when foe’s HP is < 50%.
 Poison Strike	If unit initiates combat and lands a hit, targeted foe loses up to 20% of max HP after combat.
 Live to Serve	When healing an ally with white magic, unit recovers the same amount of HP.
 Lifetaker	Unit recovers HP equal to 50% of damage dealt after defeating a foe.
