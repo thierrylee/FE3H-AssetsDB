@@ -1,48 +1,48 @@
-ID	ReqLevel	ReqSkill	ReqRank	OneReq	ReqGender	UseMagic	CharacterExclusive	SwordProficiency	LanceProficiency	AxeProficiency	BowProficiency	BrawlingProficiency	ReasonProficiency	FaithProficiency	AuthorityProficiency	ArmorProficiency	RidingProficiency	FlyingProficiency	GrowthHP	GrowthStr	GrowthMag	GrowthDex	GrowthSpd	GrowthLck	GrowthDef	GrowthRes	GrowthCha
-Noble	0			-	M, F	Y	Edelgard, Hubert, Ferdinand, Bernadetta, Caspar, Linhardt, Dimitri, Felix, Annette, Sylvain, Ingrid, Claude, Lorenz, Hilda, Lysithea, Ignatz, Marianne, Rhea, Manuela, Hanneman, Seteth, Flayn, Cyril, Jeralt, Catherine, Alois, Gilbert, Shamir	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	5
-Commoner	0			-	M, F	Y	BylethM, BylethF, Dorothea, Petra, Dedue, Ashe, Mercedes, Raphael, Leonie	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
-Dancer	0			-	M, F	Y		2	-	-	-	-	-	-	2	-	-	-	20	-5	-	-	-	-	-5	-5	10
-Myrmidon	5	Sword	D	-	M, F	-		1	-	-	-	-	-	-	-	-	-	-	10	-	-	-	5	-	-	-5	5
-Soldier	5	Lance	D	-	M, F	-		-	1	-	-	-	-	-	-	-	-	-	10	-	-	5	-	-	-	-5	5
-Fighter	5	Axe, Bow, Brawling	D, D, D	Y	M, F	-		-	-	1	1	1	-	-	-	-	-	-	10	5	-	-	-	-	-	-5	5
-Monk	5	Reason, Faith	D, D	Y	M, F	Y		-	-	-	-	-	1	1	-	-	-	-	5	-	-	-	-	-	-	5	5
-Lord	10	Sword, Authority	D+, C	-	M, F	-	Edelgard, Dimitri, Claude	2	1	-	-	-	-	-	2	-	-	-	20	-	-	10	-	-	-	-	10
-Mercenary	10	Sword	C	-	M, F	-		2	-	1	-	-	-	-	-	-	-	-	20	5	-	-	5	-	-	-5	5
-Thief	10	Sword	C	-	M, F	-		2	-	-	1	-	-	-	-	-	-	-	20	-	-	10	10	-	-	-	5
-Armored Knight	10	Axe, Armor	C, D	-	M, F	-		-	1	2	-	-	-	-	-	2	-	-	20	-	-	-	-10	-	10	-5	5
-Cavalier	10	Lance, Riding	C, D	-	M, F	-		1	2	-	-	-	-	-	-	-	2	-	20	5	-	5	-10	-	5	-	5
-Brigand	10	Axe	C	-	M, F	-		-	-	2	-	1	-	-	-	-	-	-	30	10	-	-	-	-	-	-5	5
-Archer	10	Bow	C	-	M, F	-		1	-	-	2	-	-	-	-	-	-	-	5	-	-	10	-	5	-	-	5
-Brawler	10	Brawling	C	-	M	-		-	-	1	-	2	-	-	-	-	-	-	30	-	-10	10	10	-	-	-10	5
-Mage	10	Reason	C	-	M, F	Y		-	-	-	-	-	2	1	-	-	-	-	5	-5	10	5	-	-	-5	5	5
-Dark Mage	10	Reason	C	-	M	Y		-	-	-	-	-	2	1	-	-	-	-	5	-5	10	5	-	-	-5	5	-
-Priest	10	Faith	C	-	M, F	Y		-	-	-	-	-	1	2	-	-	-	-	5	-5	5	5	-	-	-5	10	10
-Pegasus Knight	10	Lance, Flying	C, D	-	F	-		1	2	-	-	-	-	-	-	-	-	2	15	-	-	-	10	-	-	5	10
-Armored Lord	20			-	M, F	-	Edelgard	-	-	3	-	-	-	-	3	3	-	-	20	5	5	-	-	-	5	5	10
-High Lord	20			-	M, F	-	Dimitri	3	3	-	-	-	-	-	3	-	-	-	20	5	-	5	-	-	5	-	10
-Wyvern Master	20			-	M, F	-	Wyvern Master	-	-	-	3	-	-	-	3	-	-	3	20	10	-	-	5	-	5	-	10
-Hero	20	Sword, Axe	B, C	-	M	-		3	-	2	-	-	-	-	-	-	-	-	30	10	-	-	10	-	-	-5	5
-Swordmaster	20	Sword	A	-	M, F	-		3	-	-	-	-	-	-	-	-	-	-	25	10	-	-	20	-	-	-5	5
-Assassin	20	Sword, Bow	B, C	-	M, F	-		3	-	-	2	-	-	-	-	-	-	-	20	-	-	20	20	-	-	-	-
-Fortress Knight	20	Axe, Armor	B, B	-	M, F	-		-	2	3	-	-	-	-	-	3	-	-	30	10	-	-	-10	-	15	-	5
-Paladin	20	Lance, Riding	B, B	-	M, F	-		2	3	-	-	-	-	-	-	-	3	-	30	10	-	5	-10	5	5	5	5
-Wyvern Rider	20	Axe, Flying	B, C	-	M, F	-		-	2	3	-	-	-	-	-	-	-	3	30	10	-5	-	-	-	5	-5	5
-Warrior	20	Axe	A	-	M, F	-		-	-	3	-	-	-	-	-	-	-	-	40	15	-5	-	-	-	-	-	5
-Sniper	20	Bow	A	-	M, F	-		-	-	-	3	-	-	-	-	-	-	-	10	5	-	20	-	10	-	-	5
-Grappler	20	Brawling	A	-	M	-		-	-	-	-	3	-	-	-	-	-	-	40	10	-	10	10	-	-	-	5
-Warlock	20	Reason	A	-	M, F	Y		-	-	-	-	-	3	2	-	-	-	-	10	-	10	-	-	-	-5	5	5
-Dark Bishop	20	Reason	A	-	M	Y		-	-	-	-	-	3	2	-	-	-	-	10	-	10	-	-	-	-5	5	-
-Bishop	20	Faith	A	-	M, F	Y		-	-	-	-	-	2	3	-	-	-	-	10	-	10	-	-	10	-5	5	10
-Enlighted One	30			-	M, F	Y	BylethM, BylethF	3	-	-	-	2	-	3	3	-	-	-	20	10	10	-	-	-	5	-	5
-Emperor	30			-	M, F	-	Edelgard	-	-	3	-	-	-	-	3	3	-	-	30	10	10	-	-	-	5	5	10
-Great Lord	30			-	M, F	-	Dimitri	3	3	-	-	-	-	-	3	-	-	-	30	10	-	10	-	-	5	-	10
-Barbarossa	30			-	M, F	-	Claude	-	-	-	3	-	-	-	3	-	-	3	30	15	-	-	10	-	5	-	10
-Falcon Knight	30	Sword, Lance, Flying	C, A, B+	-	F	-		3	3	-	-	-	-	-	-	-	-	3	30	10	-	-	20	-	-	5	10
-Wyvern Lord	30	Lance, Axe, Flying	C, A, A	-	M, F	-		-	3	3	-	-	-	-	-	-	-	3	30	15	-5	-	10	-	5	-	5
-Mortal Savant	30	Sword, Reason	A, B+	-	M, F	Y		3	-	-	-	-	3	-	-	-	-	-	20	10	10	-	-10	10	-	-	5
-Great Knight	30	Axe, Armor, Riding	B+, A, B+	-	M, F	-		-	3	3	-	-	-	-	-	3	-	-	30	10	-	-	-10	-	5	-5	5
-Bow Knight	30	Lance, Bow, Riding	C, A, A	-	M, F	-		-	3	-	3	-	-	-	-	-	3	-	10	-	-	-	-5	-	-	-	5
-Dark Knight	30	Lance, Reason, Riding	C, B+, A	-	M, F	-		-	3	-	-	-	3	-	-	-	3	-	10	5	10	-	-5	-	5	10	5
-Holy Knight	30	Lance, Faith, Riding	C, B+, A	-	M, F	-		-	3	-	-	-	-	3	-	-	3	-	10	-	10	-	-5	10	5	10	10
-War Master	30	Axe, Brawling	A, A	-	M	-		-	-	3	-	3	-	-	-	-	-	-	40	15	-	-	10	-	-	-	5
-Gremory	30	Reason, Faith	A, A	-	F	Y		-	-	-	-	-	3	3	-	-	-	-	10	-	10	10	-	-	-	5	10
+ID	ReqLevel	ReqSkill	ReqRank	OneReq	ReqGender	CharacterExclusive	UnitType	SwordProficiency	LanceProficiency	AxeProficiency	BowProficiency	BrawlingProficiency	ReasonProficiency	FaithProficiency	AuthorityProficiency	ArmorProficiency	RidingProficiency	FlyingProficiency	GrowthHP	GrowthStr	GrowthMag	GrowthDex	GrowthSpd	GrowthLck	GrowthDef	GrowthRes	GrowthCha
+Noble	0			-	M, F	Edelgard, Hubert, Ferdinand, Bernadetta, Caspar, Linhardt, Dimitri, Felix, Annette, Sylvain, Ingrid, Claude, Lorenz, Hilda, Lysithea, Ignatz, Marianne, Rhea, Manuela, Hanneman, Seteth, Flayn, Cyril, Jeralt, Catherine, Alois, Gilbert, Shamir	Magic	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	5
+Commoner	0			-	M, F	BylethM, BylethF, Dorothea, Petra, Dedue, Ashe, Mercedes, Raphael, Leonie	Magic	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+Dancer	0			-	M, F		Magic	2	-	-	-	-	-	-	2	-	-	-	20	-5	-	-	-	-	-5	-5	10
+Myrmidon	5	Sword	D	-	M, F			1	-	-	-	-	-	-	-	-	-	-	10	-	-	-	5	-	-	-5	5
+Soldier	5	Lance	D	-	M, F			-	1	-	-	-	-	-	-	-	-	-	10	-	-	5	-	-	-	-5	5
+Fighter	5	Axe, Bow, Brawling	D, D, D	Y	M, F			-	-	1	1	1	-	-	-	-	-	-	10	5	-	-	-	-	-	-5	5
+Monk	5	Reason, Faith	D, D	Y	M, F		Magic	-	-	-	-	-	1	1	-	-	-	-	5	-	-	-	-	-	-	5	5
+Lord	10	Sword, Authority	D+, C	-	M, F	Edelgard, Dimitri, Claude		2	1	-	-	-	-	-	2	-	-	-	20	-	-	10	-	-	-	-	10
+Mercenary	10	Sword	C	-	M, F			2	-	1	-	-	-	-	-	-	-	-	20	5	-	-	5	-	-	-5	5
+Thief	10	Sword	C	-	M, F			2	-	-	1	-	-	-	-	-	-	-	20	-	-	10	10	-	-	-	5
+Armored Knight	10	Axe, Armor	C, D	-	M, F		Armor	-	1	2	-	-	-	-	-	2	-	-	20	-	-	-	-10	-	10	-5	5
+Cavalier	10	Lance, Riding	C, D	-	M, F		Riding	1	2	-	-	-	-	-	-	-	2	-	20	5	-	5	-10	-	5	-	5
+Brigand	10	Axe	C	-	M, F			-	-	2	-	1	-	-	-	-	-	-	30	10	-	-	-	-	-	-5	5
+Archer	10	Bow	C	-	M, F			1	-	-	2	-	-	-	-	-	-	-	5	-	-	10	-	5	-	-	5
+Brawler	10	Brawling	C	-	M			-	-	1	-	2	-	-	-	-	-	-	30	-	-10	10	10	-	-	-10	5
+Mage	10	Reason	C	-	M, F		Magic	-	-	-	-	-	2	1	-	-	-	-	5	-5	10	5	-	-	-5	5	5
+Dark Mage	10	Reason	C	-	M		Magic	-	-	-	-	-	2	1	-	-	-	-	5	-5	10	5	-	-	-5	5	-
+Priest	10	Faith	C	-	M, F		Magic	-	-	-	-	-	1	2	-	-	-	-	5	-5	5	5	-	-	-5	10	10
+Pegasus Knight	10	Lance, Flying	C, D	-	F		Flying	1	2	-	-	-	-	-	-	-	-	2	15	-	-	-	10	-	-	5	10
+Armored Lord	20			-	M, F	Edelgard	Armor	-	-	3	-	-	-	-	3	3	-	-	20	5	5	-	-	-	5	5	10
+High Lord	20			-	M, F	Dimitri		3	3	-	-	-	-	-	3	-	-	-	20	5	-	5	-	-	5	-	10
+Wyvern Master	20			-	M, F	Wyvern Master	Flying	-	-	-	3	-	-	-	3	-	-	3	20	10	-	-	5	-	5	-	10
+Hero	20	Sword, Axe	B, C	-	M			3	-	2	-	-	-	-	-	-	-	-	30	10	-	-	10	-	-	-5	5
+Swordmaster	20	Sword	A	-	M, F			3	-	-	-	-	-	-	-	-	-	-	25	10	-	-	20	-	-	-5	5
+Assassin	20	Sword, Bow	B, C	-	M, F			3	-	-	2	-	-	-	-	-	-	-	20	-	-	20	20	-	-	-	-
+Fortress Knight	20	Axe, Armor	B, B	-	M, F		Armor	-	2	3	-	-	-	-	-	3	-	-	30	10	-	-	-10	-	15	-	5
+Paladin	20	Lance, Riding	B, B	-	M, F		Riding	2	3	-	-	-	-	-	-	-	3	-	30	10	-	5	-10	5	5	5	5
+Wyvern Rider	20	Axe, Flying	B, C	-	M, F		Flying	-	2	3	-	-	-	-	-	-	-	3	30	10	-5	-	-	-	5	-5	5
+Warrior	20	Axe	A	-	M, F			-	-	3	-	-	-	-	-	-	-	-	40	15	-5	-	-	-	-	-	5
+Sniper	20	Bow	A	-	M, F			-	-	-	3	-	-	-	-	-	-	-	10	5	-	20	-	10	-	-	5
+Grappler	20	Brawling	A	-	M			-	-	-	-	3	-	-	-	-	-	-	40	10	-	10	10	-	-	-	5
+Warlock	20	Reason	A	-	M, F		Magic	-	-	-	-	-	3	2	-	-	-	-	10	-	10	-	-	-	-5	5	5
+Dark Bishop	20	Reason	A	-	M		Magic	-	-	-	-	-	3	2	-	-	-	-	10	-	10	-	-	-	-5	5	-
+Bishop	20	Faith	A	-	M, F		Magic	-	-	-	-	-	2	3	-	-	-	-	10	-	10	-	-	10	-5	5	10
+Enlighted One	30			-	M, F	BylethM, BylethF	Magic	3	-	-	-	2	-	3	3	-	-	-	20	10	10	-	-	-	5	-	5
+Emperor	30			-	M, F	Edelgard	Armor	-	-	3	-	-	-	-	3	3	-	-	30	10	10	-	-	-	5	5	10
+Great Lord	30			-	M, F	Dimitri		3	3	-	-	-	-	-	3	-	-	-	30	10	-	10	-	-	5	-	10
+Barbarossa	30			-	M, F	Claude	Flying	-	-	-	3	-	-	-	3	-	-	3	30	15	-	-	10	-	5	-	10
+Falcon Knight	30	Sword, Lance, Flying	C, A, B+	-	F			3	3	-	-	-	-	-	-	-	-	3	30	10	-	-	20	-	-	5	10
+Wyvern Lord	30	Lance, Axe, Flying	C, A, A	-	M, F		Flying	-	3	3	-	-	-	-	-	-	-	3	30	15	-5	-	10	-	5	-	5
+Mortal Savant	30	Sword, Reason	A, B+	-	M, F		Magic	3	-	-	-	-	3	-	-	-	-	-	20	10	10	-	-10	10	-	-	5
+Great Knight	30	Axe, Armor, Riding	B+, A, B+	-	M, F		Riding, Armor	-	3	3	-	-	-	-	-	3	-	-	30	10	-	-	-10	-	5	-5	5
+Bow Knight	30	Lance, Bow, Riding	C, A, A	-	M, F		Riding	-	3	-	3	-	-	-	-	-	3	-	10	-	-	-	-5	-	-	-	5
+Dark Knight	30	Lance, Reason, Riding	C, B+, A	-	M, F		Riding, Magic	-	3	-	-	-	3	-	-	-	3	-	10	5	10	-	-5	-	5	10	5
+Holy Knight	30	Lance, Faith, Riding	C, B+, A	-	M, F		Riding, Magic	-	3	-	-	-	-	3	-	-	3	-	10	-	10	-	-5	10	5	10	10
+War Master	30	Axe, Brawling	A, A	-	M			-	-	3	-	3	-	-	-	-	-	-	40	15	-	-	10	-	-	-	5
+Gremory	30	Reason, Faith	A, A	-	F		Magic	-	-	-	-	-	3	3	-	-	-	-	10	-	10	10	-	-	-	5	10

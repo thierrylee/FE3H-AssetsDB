@@ -1,10 +1,7 @@
 package me.thierrylee.fe3hdb.assets.model.transformer
 
 import me.thierrylee.fe3hdb.assets.RawAssetFileExtractor
-import me.thierrylee.fe3hdb.assets.model.ClassAsset
-import me.thierrylee.fe3hdb.assets.model.GenderAsset
-import me.thierrylee.fe3hdb.assets.model.RankAsset
-import me.thierrylee.fe3hdb.assets.model.SkillAsset
+import me.thierrylee.fe3hdb.assets.model.*
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.Test
 
@@ -31,6 +28,7 @@ class ClassAssetTransformerTest {
                 isOneRequirementOnly = false,
                 availableGenders = listOf(GenderAsset.MALE, GenderAsset.FEMALE),
                 characterExclusive = listOf("Edelgard", "Dimitri", "Claude"),
+                unitTypes = listOf(UnitTypeAsset.MAGIC),
                 swordProficiency = 2,
                 lanceProficiency = 1,
                 axeProficiency = 0,

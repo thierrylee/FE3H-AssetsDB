@@ -8,6 +8,7 @@ data class ClassAsset(
     val isOneRequirementOnly: Boolean,
     val availableGenders: List<GenderAsset>,
     val characterExclusive: List<String>,
+    val unitTypes: List<UnitTypeAsset>,
     val swordProficiency: Int,
     val lanceProficiency: Int,
     val axeProficiency: Int,
