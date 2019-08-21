@@ -19,7 +19,7 @@ class AssetDatabaseBuilderTest {
             assertThat(characters).hasSize(35)
             assertThat(crests).hasSize(25)
             assertThat(classes).hasSize(47)
-            assertThat(abilities).hasSize(239)
+            assertThat(abilities).hasSize(238)
             assertThat(combatArts).hasSize(77)
             assertThat(magics).hasSize(38)
             assertThat(combatArtRequirements.filterIsInstance<CombatArtRequirementAsset.UniversalLearn>()).hasSize(11)
@@ -28,7 +28,7 @@ class AssetDatabaseBuilderTest {
             assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.UniversalLearn>()).hasSize(70)
             assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.Personal>()).hasSize(37)
             assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.PersonalLearn>()).hasSize(30)
-            assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.ClassUse>()).hasSize(35)
+            assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.ClassUse>()).hasSize(34)
             assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.ClassMastered>()).hasSize(36)
             assertThat(magicRequirements).hasSize(55)
         }
