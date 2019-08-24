@@ -44,8 +44,12 @@ data class AssetDatabase(
             requirements.filter { requirement ->
                 when (requirement) {
                     is CombatArtRequirementAsset.UniversalLearn -> true
-                    is CombatArtRequirementAsset.PersonalLearn -> requirement.characterIds.contains(character.id)
-                    is CombatArtRequirementAsset.BuddingTalent -> requirement.characterIds.contains(character.id)
+                    is CombatArtRequirementAsset.PersonalLearn -> requirement.characterIds.contains(
+                        character.id
+                    )
+                    is CombatArtRequirementAsset.BuddingTalent -> requirement.characterIds.contains(
+                        character.id
+                    )
                     is CombatArtRequirementAsset.ClassMastered -> getCharacterClasses(character).map { it.id }.contains(
                         requirement.classId
                     )
@@ -60,8 +64,12 @@ data class AssetDatabase(
                 when (requirement) {
                     is AbilityRequirementAsset.UniversalLearn -> true
                     is AbilityRequirementAsset.Personal -> (requirement.characterId == character.id)
-                    is AbilityRequirementAsset.PersonalLearn -> requirement.characterIds.contains(character.id)
-                    is AbilityRequirementAsset.BuddingTalent -> requirement.characterIds.contains(character.id)
+                    is AbilityRequirementAsset.PersonalLearn -> requirement.characterIds.contains(
+                        character.id
+                    )
+                    is AbilityRequirementAsset.BuddingTalent -> requirement.characterIds.contains(
+                        character.id
+                    )
                     is AbilityRequirementAsset.ClassUse -> getCharacterClasses(character).map { it.id }.intersect(
                         requirement.classIds
                     ).isNotEmpty()
