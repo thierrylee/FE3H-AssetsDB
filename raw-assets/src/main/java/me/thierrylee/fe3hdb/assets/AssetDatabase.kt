@@ -73,9 +73,9 @@ data class AssetDatabase(
                     is AbilityRequirementAsset.ClassUse -> getCharacterClasses(character).map { it.id }.intersect(
                         requirement.classIds
                     ).isNotEmpty()
-                    is AbilityRequirementAsset.ClassMastered -> getCharacterClasses(character).map { it.id }.contains(
-                        requirement.classId
-                    )
+                    is AbilityRequirementAsset.ClassMastered -> getCharacterClasses(character).map { it.id }.intersect(
+                        requirement.classIds
+                    ).isNotEmpty()
                 }
             }
         }.filterValues { it.isNotEmpty() }

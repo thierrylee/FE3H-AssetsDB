@@ -33,7 +33,7 @@ sealed class AbilityRequirementAsset(open val abilityId: String) {
 
     data class ClassMastered(
         override val abilityId: String,
-        val classId: String
+        val classIds: List<String>
     ) : AbilityRequirementAsset(abilityId)
 
 }
