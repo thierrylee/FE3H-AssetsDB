@@ -88,7 +88,7 @@ Leicester Lineage	Multiplies experience earned by 1.2.
 Mastermind	Doubles skill experience earned in battle.
 Death Blow	If unit initiates combat, grants Str +6 during combat.
 Fiendish Blow	If unit initiates combat, grants Mag +6 during combat
-Darting Blow	If unit initiates combat, grants AS +6 during combat
+Darting Blow	If unit initiates combat, grants Spd +6 during combat
 Armored Blow	If unit initiates combat, grants Def +6 during combat
 Warding Blow	If unit initiates combat, grants Res +6 during combat
 Officer Duty	Grants Mt +5 with gambits.
