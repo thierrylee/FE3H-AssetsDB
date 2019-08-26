@@ -28,5 +28,6 @@ data class ClassAsset(
     val growthLck: Int,
     val growthDef: Int,
     val growthRes: Int,
-    val growthCha: Int
+    val growthCha: Int,
+    val movement: Int
 )

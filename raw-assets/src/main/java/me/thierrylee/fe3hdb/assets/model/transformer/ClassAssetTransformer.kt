@@ -7,7 +7,7 @@ import me.thierrylee.fe3hdb.assets.model.SkillAsset
 internal object ClassAssetTransformer : AbstractAssetTransformer<ClassAsset>() {
 
     override fun getAssetFile() = "classes"
-    override fun getColumnCount() = 28
+    override fun getColumnCount() = 29
 
     override fun internalBuildAsset(rawValues: List<String>): ClassAsset {
         return ClassAsset(
@@ -38,7 +38,8 @@ internal object ClassAssetTransformer : AbstractAssetTransformer<ClassAsset>() {
             growthLck = rawValues[24].toIntOrZero(),
             growthDef = rawValues[25].toIntOrZero(),
             growthRes = rawValues[26].toIntOrZero(),
-            growthCha = rawValues[27].toIntOrZero()
+            growthCha = rawValues[27].toIntOrZero(),
+            movement = rawValues[28].toIntOrZero()
         )
     }
 

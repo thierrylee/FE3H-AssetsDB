@@ -48,7 +48,8 @@ class ClassAssetTransformerTest {
                 growthLck = 0,
                 growthDef = 0,
                 growthRes = 0,
-                growthCha = 10
+                growthCha = 10,
+                movement = 5
             )
         )
     }
