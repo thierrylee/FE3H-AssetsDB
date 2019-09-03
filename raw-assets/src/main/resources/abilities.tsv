@@ -1,239 +1,239 @@
-ID	Description
-Sword Prowess Lv 1	Grants Hit +5, Avo +7, and Crit Avo +5 when using a sword.
-Sword Prowess Lv 2	Grants Hit +6, Avo +10, and Crit Avo +6 when using a sword.
-Sword Prowess Lv 3	Grants Hit +7, Avo +13, and Crit Avo +7 when using a sword.
-Sword Prowess Lv 4	Grants Hit +8, Avo +16, and Crit Avo +8 when using a sword.
-Sword Prowess Lv 5	Grants Hit +10, Avo +20, and Crit Avo +10 when using a sword.
-Lance Prowess Lv 1	Grants Hit +6, Avo +6, and Crit Avo +5 when using a lance.
-Lance Prowess Lv 2	Grants Hit +8, Avo +8, and Crit Avo +6 when using a lance.
-Lance Prowess Lv 3	Grants Hit +10, Avo +10, and Crit Avo +7 when using a lance.
-Lance Prowess Lv 4	Grants Hit +12, Avo +12, and Crit Avo +8 when using a lance.
-Lance Prowess Lv 5	Grants Hit +15, Avo +15, and Crit Avo +10 when using a lance.
-Axe Prowess Lv 1	Grants Hit +7, Avo +5, and Crit Avo +5 when using an axe.
-Axe Prowess Lv 2	Grants Hit +10, Avo +6, and Crit Avo +6 when using an axe.
-Axe Prowess Lv 3	Grants Hit +13, Avo +7, and Crit Avo +7 when using an axe.
-Axe Prowess Lv 4	Grants Hit +16, Avo +8, and Crit Avo +8 when using an axe.
-Axe Prowess Lv 5	Grants Hit +20, Avo +10, and Crit Avo +10 when using an axe.
-Bow Prowess Lv 1	Grants Hit +6, Avo +6, and Crit Avo +5 when using a bow.
-Bow Prowess Lv 2	Grants Hit +8, Avo +8, and Crit Avo +6 when using a bow.
-Bow Prowess Lv 3	Grants Hit +10, Avo +10, and Crit Avo +7 when using a bow.
-Bow Prowess Lv 4	Grants Hit +12, Avo +12, and Crit Avo +8 when using a bow.
-Bow Prowess Lv 5	Grants Hit +15, Avo +15, and Crit Avo +10 when using a bow.
-Brawling Prowess Lv 1	Grants Hit +5, Avo +7, and Crit Avo +5 when brawling.
-Brawling Prowess Lv 2	Grants Hit +6, Avo +10, and Crit Avo +6 when brawling.
-Brawling Prowess Lv 3	Grants Hit +7, Avo +13, and Crit Avo +7 when brawling.
-Brawling Prowess Lv 4	Grants Hit +8, Avo +16, and Crit Avo +8 when brawling.
-Brawling Prowess Lv 5	Grants Hit +10, Avo +20, and Crit Avo +10 when brawling.
-Reason Lv 1	Grants Hit +7, Avo +5, and Crit Avo +5 when using black or dark magic.
-Reason Lv 2	Grants Hit +10, Avo +6, and Crit Avo +6 when using black or dark magic.
-Reason Lv 3	Grants Hit +13, Avo +7, and Crit Avo +7 when using black or dark magic.
-Reason Lv 4	Grants Hit +16, Avo +8, and Crit Avo +8 when using black or dark magic.
-Reason Lv 5	Grants Hit +20, Avo +10, and Crit Avo +10 when using black or dark magic.
-Faith Lv 1	Grants Hit +5, Avo +7, and Crit Avo +5 when using white magic.
-Faith Lv 2	Grants Hit +6, Avo +10, and Crit Avo +6 when using white magic.
-Faith Lv 3	Grants Hit +7, Avo +13, and Crit Avo +7 when using white magic.
-Faith Lv 4	Grants Hit +8, Avo +16, and Crit Avo +8 when using white magic.
-Faith Lv 5	Grants Hit +10, Avo +20, and Crit Avo +10 when using white magic.
-Authority Lv 1	Grants Mt +2 with gambits.
-Authority Lv 2	Grants Mt +4 with gambits.
-Authority Lv 3	Grants Mt +6 with gambits.
-Authority Lv 4	Grants Mt +8 with gambits.
-Authority Lv 5	Grants Mt +10 with gambits.
-Swordfaire	Grants Atk +5 when using a sword.
-Lancefaire	Grants Atk +5 when using a lance.
-Axefaire	Grants Atk +5 when using an axe.
-Bowfaire	Grants Atk +5 when using a bow.
-Fistfaire	Grants Atk +5 when brawling.
-Black Tomefaire	Grants Atk +5 when using black magic.
-White Tomefaire	Grants Atk +5 when using white magic.
-Dark Tomefaire	Grants Atk +5 when using dark magic.
-Sword Crit +10	Grants Crit +10 when using a sword.
-Lance Crit +10	Grants Crit +10 when using a lance.
-Axe Crit +10	Grants Crit +10 when using an axe.
-Bow Crit +10	Grants Crit +10 when using a bow.
-Brawl Crit +10	Grants Crit +10 when brawling.
-Black Magic Crit +10	Grants Crit +10 when using black magic.
-White Magic Crit +10	When using white magic, Grants Crit +10 .
-Dark Magic Crit +10	When using dark magic, Grants Crit +10 .
-Sword Avo +20	Grants Avo +20 when using a sword.
-Lance Avo +20	When using a lance, Grants Avo +20 .
-Axe Avo +20	Grants Avo +20 when using an axe.
-Bow Avo +20	Grants Avo +20 when using a bow.
-Brawl Avo +20	Grants Avo +20 when brawling.
-Black Magic Avo +20	Grants Avo +20 when using black magic.
-White Magic Avo +20	Grants Avo +20 when using white magic.
-Dark Magic Avo +20	When using dark magic, Grants Avo +20 .
-HP +5	Increases maximum HP by 5.
-Strength +2	Increases Str by 2.
-Magic +2	Increases Mag by 2.
-Dexterity +4	Increases Dex by 4.
-Speed +2	Increases Spd by 2.
-Pomp & Circumstance	Grants Lck/Cha +4.
-Defense +2	Increases Def by 2.
-Resistance +2	Increases Res by 2.
-Movement +1	Increases Mv by 1.
-Hit +20	Increases Hit by 20.
-Avo +10	Increases Avo by 10.
-Crit +20	Increases Crit by 20.
-Defiant Str	Grants Str +8 when HP is ≤ 25%.
-Defiant Mag	Grants Mag +8 when HP is ≤ 25%.
-Defiant Spd	Grants Spd +8 when HP is ≤ 25%.
-Defiant Def	Grants Def +8 when HP is ≤ 25%.
-Defiant Res	Grants Res +8 when HP is ≤ 25%.
-Defiant Avo	Grants Avo +30 when HP is ≤ 25%.
-Defiant Crit	Grants Crit +50 when HP is ≤ 25%.
-Imperial Lineage	Multiplies experience earned by 1.2.
-Royal Lineage	Multiplies experience earned by 1.2.
-Leicester Lineage	Multiplies experience earned by 1.2.
-Mastermind	Doubles skill experience earned in battle.
-Death Blow	If unit initiates combat, grants Str +6 during combat.
-Fiendish Blow	If unit initiates combat, grants Mag +6 during combat
-Darting Blow	If unit initiates combat, grants Spd +6 during combat
-Armored Blow	If unit initiates combat, grants Def +6 during combat
-Warding Blow	If unit initiates combat, grants Res +6 during combat
-Officer Duty	Grants Mt +5 with gambits.
-Lady Knight	Grants Mt +3 and Hit +5 with gambits.
-Watchful Eye	Grants Hit +20.
-Distinguished House	Unit deals 2 extra damage while in formation with a battalion.
-Veteran Knight	Unit takes 2 less damage while in formation with a battalion.
-Charm	Adjacent allies deal 3 extra damage during combat.
-Advocate	Adjacent male allies deal 3 extra damage during combat.
-Guardian	Adjacent female allies deal 3 extra damage during combat.
-Lily’s Poise	Adjacent allies take 3 less damage during combat.
-Infirmary Master	Adjacent allies gain Crit Avo +10 during combat.
-Philanderer	If a female ally is adjacent, unit deals 2 extra damage and takes 2 less damage during combat.
-Rivalry	If a male ally is adjacent, unit deals 2 extra damage and takes 2 less damage during combat.
-Born Fighter	Adjacent foes suffer Avo -10 during combat.
-Rally Strength	Use Rally to grant Str +4 to an ally.
-Rally Magic	Use Rally to grant Mag +4 to an ally.
-Rally Speed	Use Rally to grant Spd +4 to an ally.
-Rally Defense	Use Rally to grant Def +4 to an ally.
-Rally Resistance	Use Rally to grant Res +4 to an ally.
-Rally Movement	Use Rally to grant Mv +1 to an ally.
-Rally Dexterity	Use Rally to grant Dex +8 to an ally.
-Rally Luck	Use Rally to grant Lck +8 to an ally.
-Rally Charm	Use Rally to grant Cha +8 to an ally.
-Seal Strength	If unit damages foe during combat, foe suffers Str -6 for 1 turn after combat.
-Seal Magic	If unit damages foe during combat, foe suffers Mag -6 for 1 turn after combat.
-Seal Speed	If unit damages foe during combat, foe suffers Spd -6 for 1 turn after combat.
-Seal Defense	If unit damages foe during combat, foe suffers Def -6 for 1 turn after combat.
-Seal Resistance	If unit damages foe during combat, foe suffers Res -6 for 1 turn after combat.
-Seal Movement	If unit damages foe during combat, foe suffers Mv -1 for 1 turn after combat.
-Heartseeker	Adjacent foes suffer Avo -20 during combat.
-Swordbreaker+	Grants Hit/Avo +30 when using a lance against sword users.
-Lancebreaker+	Grants Hit/Avo +30 when using an axe against lance users.
-Axebreaker+	Grants Hit/Avo +30 when using a sword against axe users.
-Bowbreaker	Grants Hit/Avo +20 when using magic against bow users.
-Fistbreaker	Grants Hit/Avo +20 when using a bow against brawlers.
-Tomebreaker	Grants Hit/Avo +20 when brawling against magic users.
-Model Leader	Doubles experience earned for battalions.
-Defensive Tactics	Battalion endurance takes half damage.
-Offensive Tactics	Grants Mt +5 and Hit +20 with gambits.
-Fire	Allows unit to cast Fire. If Fire is already available, then unit can cast it twice as often.
-Miasma Δ	Allows unit to cast Miasma Δ. If Miasma Δ is already available, then unit can cast it twice as often.
-Heal	Allows unit to cast Heal. If Heal is already available, then unit can cast it twice as often.
-Renewal	Unit recovers up to 20% of max HP at the start of each turn.
-Catnap	If unit takes no action except Wait, recovers up to 10% of max HP.
-Goody Basket	Chance to recover up to 10% of max HP at the start of each turn. Trigger % = Lck stat.
-Songstress	Adjacent allies recover up to 10% of max HP at the start of each turn.
-Hunter’s Boon	Grants Crit +20 when foe’s HP is < 50%.
-Poison Strike	If unit initiates combat and lands a hit, targeted foe loses up to 20% of max HP after combat.
-Live to Serve	When healing an ally with white magic, unit recovers the same amount of HP.
-Lifetaker	Unit recovers HP equal to 50% of damage dealt after defeating a foe.
-Survival Instinct	If unit initiates combat and defeats foe, grants Str/Mag/Dex/Spd +4 for one turn.
-Lethality	Chance to instantly kill a foe when dealing damage. Trigger % = 0.25×Dex.
-Poison	Chance to inflict poison on foe when dealing damage. Trigger % = Dex stat.
-Pavise	Chance to reduce sword/lance/axe/brawling damage by half. Trigger % = Dex stat.
-Aegis	Chance to reduce bow/magic damage by half. Trigger % = Dex stat.
-Miracle	Chance to survive lethal damage with 1 HP, if HP is > 1. Trigger % = Lck stat.
-Terrain Resistance	Nullifies damage from terrain.
-Special Dance	When using the Dance ability, grant Dex/Spd/Lck +4 to target ally.
-Paragon	Doubles experience earned.
-Professor’s Guidance	Multiplies this unit’s and adjacent allies’ experience earned by 1.2.
-Discipline	Doubles skill experience earned in battle.
-Aptitude	Makes each stat 20% more likely to increase on level up.
-Vantage	When foe initiates combat, unit still attacks first if HP is ≤ 50%.
-Missing Number	Missing Number (icon is based on Wary Fighter)
-Desperation	If unit initiates combat with HP ≤ 50%, unit’s follow-up attack (if possible) occurs before foe’s counterattack.
-Quick Riposte	If foe initiates combat while unit’s HP is ≥ 50%, unit makes guaranteed follow-up attack.
-Wrath	If foe initiates combat while unit’s HP is ≤ 50%, grants Crit +50.
-Dance	Use Dance to allow an ally to move again.
-Steal	Allows unit to steal a non-weapon item from a foe with a lower Spd stat.
-Locktouch	Allows unit to open doors and chests without keys.
-Stealth	Makes it more difficult for foes to target unit.
-Canto	Allows unit to move again after completing certain actions, if there is movement remaining.
-Pass	Allows unit to pass through spaces occupied by foes.
-Swordbreaker	Grants Hit/Avo +20 when using a lance against sword users.
-Lancebreaker	Grants Hit/Avo +20 when using an axe against lance users.
-Bowrange +1	Increases bow range by 1.
-Bowrange +2	Increases bow range by 2.
-Black Magic Range +1	Increases black magic range by 1.
-Dark Magic Range +1	Increases dark magic range by 1.
-White Magic Range +1	Increases white magic range by 1 for attacks that damage foes.
-Unarmed Combat	Allows unit to fight without a weapon.
-Black Magic Uses x2	Doubles the number of uses for black magic.
-Dark Magic Uses x2	Doubles the number of uses for dark magic.
-White Magic Uses x2	Doubles the number of uses for white magic.
-White Magic Heal +5	Heal 5 extra HP when using white magic.
-White Magic Heal +10	Heal 10 extra HP when using white magic.
-Weight -3	Reduces total equipment weight by 3.
-Weight -5	Reduces total equipment weight by 5.
-Axebreaker	Grants Hit/Avo +20 when using a sword against axe users.
-Unsealable Magic	Prevents unit from being silenced.
-Immune Status	Nullifies status effects and debuffs.
-General	Nullifies instant death effects and halves damage from enemy gambits.
-Commander	Nullifies instant death effects, status effects, and movement effects, and greatly reduces damage from enemy gambits.
-Infinite Magic	Removes the limitation on the number of times magic can be used.
-Magic Bind	If unit lands a hit, targeted foe is unable to use magic for 1 turn.
-Infantry Effect Null	Cancels effectiveness against infantry units.
-Armored Effect Null	Nullifies any extra effectiveness against armored units.
-Cavalry Effect Null	Nullifies any extra effectiveness against cavalry units.
-Flying Effect Null	Nullifies any extra effectiveness against fliers.
-Dragon Effect Null	Cancels effectiveness against dragons.
-Monster Effect Null	Nullifies any extra effectiveness against monsters.
-Effect Null	Cancels all types of effectiveness.
-Air of Intimidation	On Hold
-Vital Defense	Makes critical hits against this unit impossible.
-Giant Wings	Grants Avo +30 against sword, lance, or axe users.
-Anti-Magic Armor	Nullifies damage from magic attacks.
-Divine Dragon Horn	Unit recovers 100% of HP at the start of each turn if a White Beast is within 10 spaces.
-Path of the Conqueror	On Hold
-Noncombatant	Unit cannot be targeted by foes.
-Battalion Desperation	If unit initiates combat when battalion endurance is ≤ 1/3, unit’s follow-up attack (if possible) occurs before foe’s counterattack.
-Cursed Power	Unit recovers HP on swamp terrain.
-Anchor	Prevents unit from being moved.
-Counterattack	Allows unit to counterattack regardless of distance to attacker.
-Twin Crests	Allows unit to take two actions in one turn.
-Ancient Dragon Wrath	Calculates damage using the lower of foe’s Prt or Rsl.
-Surging Light	Performs Staggering Blow immediately.
-Ancient Dragonskin	Halves all damage taken, negates some abilities and combat arts, and prevents unit from being moved.
-Keen Intuition	Grants Avo +30 during combat with a foe 2 or more spaces away.
-Staunch Shield	If unit takes no action except Wait, grants Def +4 for 1 turn.
-Lone Wolf	Unit deals 5 extra damage when no battalion is assigned or when battalion endurance is 0.
-Fighting Spirit	Unit takes 5 less damage when no battalion is assigned or when battalion endurance is 0.
-Confidence	Grants Hit/Avo +15 when unit is at full HP.
-Persecution Complex	Grants Atk +5 when unit is not at full HP.
-Animal Friend	Unit recovers up to 20% of max HP at the start of each turn when adjacent to a cavalry or flying ally.
-Perseverance	Use Rally to grant Str +4 to an ally.
-Crest Scholar	Use Rally to grant Mag +4 to an ally.
-Compassion	Use Rally to grant Lck +8 to an ally.
-Lockpick	Allows unit to open doors and chests without keys.
-Battalion Vantage	When foe initiates combat, unit still attacks first if battalion endurance is ≤ 1/3.
-Battalion Wrath	If foe initiates combat while unit’s battalion endurance is ≤ 1/3, grants Crit +50.
-Battalion Renewal	Unit recovers up to 30% of max HP at the start of each turn while battalion endurance is ≤ 1/3.
-Black Magic Uses Up+	Quadruples the number of uses for black magic.
-Dark Magic Uses x4	Quadruples the number of uses for dark magic.
-White Magic Uses Up+	Quadruples the number of uses for white magic.
-Mighty King of Legend	Negates 1 attack per turn and strengthens stats while the 10 Elites are present.
-10 Elites	Grants power to the Mighty King of Legend.
-Alert Stance	If unit takes no action except Wait, grants Avo +15 for 1 turn.
-Alert Stance+	If unit takes no action except Wait, grants Avo +30 for 1 turn.
-Close Counter	Allows unit to counterattack adjacent foes.
-Professor’s Guidance+	Unit deals 2 extra damage during combat. Multiplies this unit’s and adjacent allies’ experience earned by 1.2.
-Imperial Lineage+	If unit takes no action except Wait, grants Res +4 for 1 turn. Multiplies experience earned by 1.2.
-Royal Lineage+	Grants Avo +20 while unit is at full HP. Multiplies experience earned by 1.2.
-Leicester Lineage+	Allows unit to pass through spaces occupied by foes. Multiplies experience earned by 1.2.
-Murderous Intent	If unit initiates combat, grants Hit +20 during combat.
-Sacred Power	Adjacent allies deal 3 extra damage and take 3 less damage during combat.
-Agarthan Technology	Adjacent foes deal 3 less damage during combat.
-Blade Breaker	If unit damages foe, foe suffers Str/Def -6 for 1 turn after combat.
+ID	Description	Skill	Hides
+Sword Prowess Lv 1	Grants Hit +5, Avo +7, and Crit Avo +5 when using a sword.	Sword	
+Sword Prowess Lv 2	Grants Hit +6, Avo +10, and Crit Avo +6 when using a sword.	Sword	Sword Prowess Lv 1
+Sword Prowess Lv 3	Grants Hit +7, Avo +13, and Crit Avo +7 when using a sword.	Sword	Sword Prowess Lv 2, Sword Prowess Lv 1
+Sword Prowess Lv 4	Grants Hit +8, Avo +16, and Crit Avo +8 when using a sword.	Sword	Sword Prowess Lv 3, Sword Prowess Lv 2, Sword Prowess Lv 0
+Sword Prowess Lv 5	Grants Hit +10, Avo +20, and Crit Avo +10 when using a sword.	Sword	Sword Prowess Lv 4, Sword Prowess Lv 3, Sword Prowess Lv 2, Sword Prowess Lv 1
+Lance Prowess Lv 1	Grants Hit +6, Avo +6, and Crit Avo +5 when using a lance.	Lance	
+Lance Prowess Lv 2	Grants Hit +8, Avo +8, and Crit Avo +6 when using a lance.	Lance	Lance Prowess Lv 1
+Lance Prowess Lv 3	Grants Hit +10, Avo +10, and Crit Avo +7 when using a lance.	Lance	Lance Prowess Lv 2, Lance Prowess Lv 1
+Lance Prowess Lv 4	Grants Hit +12, Avo +12, and Crit Avo +8 when using a lance.	Lance	Lance Prowess Lv 3, Lance Prowess Lv 2, Lance Prowess Lv 0
+Lance Prowess Lv 5	Grants Hit +15, Avo +15, and Crit Avo +10 when using a lance.	Lance	Lance Prowess Lv 4, Lance Prowess Lv 3, Lance Prowess Lv 2, Lance Prowess Lv 1
+Axe Prowess Lv 1	Grants Hit +7, Avo +5, and Crit Avo +5 when using an axe.	Axe	
+Axe Prowess Lv 2	Grants Hit +10, Avo +6, and Crit Avo +6 when using an axe.	Axe	Axe Prowess Lv 1
+Axe Prowess Lv 3	Grants Hit +13, Avo +7, and Crit Avo +7 when using an axe.	Axe	Axe Prowess Lv 2, Axe Prowess Lv 1
+Axe Prowess Lv 4	Grants Hit +16, Avo +8, and Crit Avo +8 when using an axe.	Axe	Axe Prowess Lv 3, Axe Prowess Lv 2, Axe Prowess Lv 0
+Axe Prowess Lv 5	Grants Hit +20, Avo +10, and Crit Avo +10 when using an axe.	Axe	Axe Prowess Lv 4, Axe Prowess Lv 3, Axe Prowess Lv 2, Axe Prowess Lv 1
+Bow Prowess Lv 1	Grants Hit +6, Avo +6, and Crit Avo +5 when using a bow.	Bow	
+Bow Prowess Lv 2	Grants Hit +8, Avo +8, and Crit Avo +6 when using a bow.	Bow	Bow Prowess Lv 1
+Bow Prowess Lv 3	Grants Hit +10, Avo +10, and Crit Avo +7 when using a bow.	Bow	Bow Prowess Lv 2, Bow Prowess Lv 1
+Bow Prowess Lv 4	Grants Hit +12, Avo +12, and Crit Avo +8 when using a bow.	Bow	Bow Prowess Lv 3, Bow Prowess Lv 2, Bow Prowess Lv 1
+Bow Prowess Lv 5	Grants Hit +15, Avo +15, and Crit Avo +10 when using a bow.	Bow	Bow Prowess Lv 4, Bow Prowess Lv 3, Bow Prowess Lv 2, Bow Prowess Lv 1
+Brawling Prowess Lv 1	Grants Hit +5, Avo +7, and Crit Avo +5 when brawling.	Brawling	
+Brawling Prowess Lv 2	Grants Hit +6, Avo +10, and Crit Avo +6 when brawling.	Brawling	Brawling Prowess Lv 1
+Brawling Prowess Lv 3	Grants Hit +7, Avo +13, and Crit Avo +7 when brawling.	Brawling	Brawling Prowess Lv 2, Brawling Prowess Lv 1
+Brawling Prowess Lv 4	Grants Hit +8, Avo +16, and Crit Avo +8 when brawling.	Brawling	Brawling Prowess Lv 3, Brawling Prowess Lv 2, Brawling Prowess Lv 1
+Brawling Prowess Lv 5	Grants Hit +10, Avo +20, and Crit Avo +10 when brawling.	Brawling	Brawling Prowess Lv 4, Brawling Prowess Lv 3, Brawling Prowess Lv 2, Brawling Prowess Lv 1
+Reason Lv 1	Grants Hit +7, Avo +5, and Crit Avo +5 when using black or dark magic.	Reason	
+Reason Lv 2	Grants Hit +10, Avo +6, and Crit Avo +6 when using black or dark magic.	Reason	Reason Lv 1
+Reason Lv 3	Grants Hit +13, Avo +7, and Crit Avo +7 when using black or dark magic.	Reason	Reason Lv 2, Reason Lv 1
+Reason Lv 4	Grants Hit +16, Avo +8, and Crit Avo +8 when using black or dark magic.	Reason	Reason Lv 3, Reason Lv 2, Reason Lv 1
+Reason Lv 5	Grants Hit +20, Avo +10, and Crit Avo +10 when using black or dark magic.	Reason	Reason Lv 4, Reason Lv 3, Reason Lv 2, Reason Lv 1
+Faith Lv 1	Grants Hit +5, Avo +7, and Crit Avo +5 when using white magic.	Faith	
+Faith Lv 2	Grants Hit +6, Avo +10, and Crit Avo +6 when using white magic.	Faith	Faith Lv 1
+Faith Lv 3	Grants Hit +7, Avo +13, and Crit Avo +7 when using white magic.	Faith	Faith Lv 2, Faith Lv 1
+Faith Lv 4	Grants Hit +8, Avo +16, and Crit Avo +8 when using white magic.	Faith	Faith Lv 3, Faith Lv 2, Faith Lv 1
+Faith Lv 5	Grants Hit +10, Avo +20, and Crit Avo +10 when using white magic.	Faith	Faith Lv 4, Faith Lv 3, Faith Lv 2, Faith Lv 1
+Authority Lv 1	Grants Mt +2 with gambits.	Authority	
+Authority Lv 2	Grants Mt +4 with gambits.	Authority	Authority Lv 1
+Authority Lv 3	Grants Mt +6 with gambits.	Authority	Authority Lv 2, Authority Lv 1
+Authority Lv 4	Grants Mt +8 with gambits.	Authority	Authority Lv 3, Authority Lv 2, Authority Lv 1
+Authority Lv 5	Grants Mt +10 with gambits.	Authority	Authority Lv 4, Authority Lv 3, Authority Lv 2, Authority Lv 1
+Swordfaire	Grants Atk +5 when using a sword.	Sword	
+Lancefaire	Grants Atk +5 when using a lance.	Lance	
+Axefaire	Grants Atk +5 when using an axe.	Axe	
+Bowfaire	Grants Atk +5 when using a bow.	Bow	
+Fistfaire	Grants Atk +5 when brawling.	Brawling	
+Black Tomefaire	Grants Atk +5 when using black magic.	Reason	
+White Tomefaire	Grants Atk +5 when using white magic.	Faith	
+Dark Tomefaire	Grants Atk +5 when using dark magic.	Reason	
+Sword Crit +10	Grants Crit +10 when using a sword.	Sword	
+Lance Crit +10	Grants Crit +10 when using a lance.	Lance	
+Axe Crit +10	Grants Crit +10 when using an axe.	Axe	
+Bow Crit +10	Grants Crit +10 when using a bow.	Bow	
+Brawl Crit +10	Grants Crit +10 when brawling.	Brawling	
+Black Magic Crit +10	Grants Crit +10 when using black magic.	Reason	
+White Magic Crit +10	When using white magic, Grants Crit +10 .	Faith	
+Dark Magic Crit +10	When using dark magic, Grants Crit +10 .	Reason	
+Sword Avo +20	Grants Avo +20 when using a sword.	Sword	
+Lance Avo +20	When using a lance, Grants Avo +20 .	Lance	
+Axe Avo +20	Grants Avo +20 when using an axe.	Axe	
+Bow Avo +20	Grants Avo +20 when using a bow.	Bow	
+Brawl Avo +20	Grants Avo +20 when brawling.	Brawling	
+Black Magic Avo +20	Grants Avo +20 when using black magic.	Reason	
+White Magic Avo +20	Grants Avo +20 when using white magic.	Faith	
+Dark Magic Avo +20	When using dark magic, Grants Avo +20 .	Reason	
+HP +5	Increases maximum HP by 5.	None	
+Strength +2	Increases Str by 2.	None	
+Magic +2	Increases Mag by 2.	None	
+Dexterity +4	Increases Dex by 4.	Riding	
+Speed +2	Increases Spd by 2.	None	
+Pomp & Circumstance	Grants Lck/Cha +4.	None	
+Defense +2	Increases Def by 2.	None	
+Resistance +2	Increases Res by 2.	None	
+Movement +1	Increases Mv by 1.	Riding	
+Hit +20	Increases Hit by 20.	None	
+Avo +10	Increases Avo by 10.	None	
+Crit +20	Increases Crit by 20.	None	
+Defiant Str	Grants Str +8 when HP is ≤ 25%.	None	
+Defiant Mag	Grants Mag +8 when HP is ≤ 25%.	None	
+Defiant Spd	Grants Spd +8 when HP is ≤ 25%.	None	
+Defiant Def	Grants Def +8 when HP is ≤ 25%.	None	
+Defiant Res	Grants Res +8 when HP is ≤ 25%.	None	
+Defiant Avo	Grants Avo +30 when HP is ≤ 25%.	None	
+Defiant Crit	Grants Crit +50 when HP is ≤ 25%.	None	
+Imperial Lineage	Multiplies experience earned by 1.2.	None	
+Royal Lineage	Multiplies experience earned by 1.2.	None	
+Leicester Lineage	Multiplies experience earned by 1.2.	None	
+Mastermind	Doubles skill experience earned in battle.	None	
+Death Blow	If unit initiates combat, grants Str +6 during combat.	None	
+Fiendish Blow	If unit initiates combat, grants Mag +6 during combat	None	
+Darting Blow	If unit initiates combat, grants Spd +6 during combat	None	
+Armored Blow	If unit initiates combat, grants Def +6 during combat	None	
+Warding Blow	If unit initiates combat, grants Res +6 during combat	None	
+Officer Duty	Grants Mt +5 with gambits.	Authority	
+Lady Knight	Grants Mt +3 and Hit +5 with gambits.	Authority	
+Watchful Eye	Grants Hit +20.	None	
+Distinguished House	Unit deals 2 extra damage while in formation with a battalion.	Authority	
+Veteran Knight	Unit takes 2 less damage while in formation with a battalion.	Authority	
+Charm	Adjacent allies deal 3 extra damage during combat.	None	
+Advocate	Adjacent male allies deal 3 extra damage during combat.	None	
+Guardian	Adjacent female allies deal 3 extra damage during combat.	None	
+Lily’s Poise	Adjacent allies take 3 less damage during combat.	None	
+Infirmary Master	Adjacent allies gain Crit Avo +10 during combat.	None	
+Philanderer	If a female ally is adjacent, unit deals 2 extra damage and takes 2 less damage during combat.	None	
+Rivalry	If a male ally is adjacent, unit deals 2 extra damage and takes 2 less damage during combat.	None	
+Born Fighter	Adjacent foes suffer Avo -10 during combat.	None	
+Rally Strength	Use Rally to grant Str +4 to an ally.	None	
+Rally Magic	Use Rally to grant Mag +4 to an ally.	None	
+Rally Speed	Use Rally to grant Spd +4 to an ally.	None	
+Rally Defense	Use Rally to grant Def +4 to an ally.	None	
+Rally Resistance	Use Rally to grant Res +4 to an ally.	None	
+Rally Movement	Use Rally to grant Mv +1 to an ally.	None	
+Rally Dexterity	Use Rally to grant Dex +8 to an ally.	None	
+Rally Luck	Use Rally to grant Lck +8 to an ally.	None	
+Rally Charm	Use Rally to grant Cha +8 to an ally.	None	
+Seal Strength	If unit damages foe during combat, foe suffers Str -6 for 1 turn after combat.	None	
+Seal Magic	If unit damages foe during combat, foe suffers Mag -6 for 1 turn after combat.	None	
+Seal Speed	If unit damages foe during combat, foe suffers Spd -6 for 1 turn after combat.	None	
+Seal Defense	If unit damages foe during combat, foe suffers Def -6 for 1 turn after combat.	None	
+Seal Resistance	If unit damages foe during combat, foe suffers Res -6 for 1 turn after combat.	None	
+Seal Movement	If unit damages foe during combat, foe suffers Mv -1 for 1 turn after combat.	None	
+Heartseeker	Adjacent foes suffer Avo -20 during combat.	None	
+Swordbreaker+	Grants Hit/Avo +30 when using a lance against sword users.	Lance	Swordbreaker
+Lancebreaker+	Grants Hit/Avo +30 when using an axe against lance users.	Axe	Lancebreaker
+Axebreaker+	Grants Hit/Avo +30 when using a sword against axe users.	Sword	Axebreaker
+Bowbreaker	Grants Hit/Avo +20 when using magic against bow users.	Reason	
+Fistbreaker	Grants Hit/Avo +20 when using a bow against brawlers.	Bow	
+Tomebreaker	Grants Hit/Avo +20 when brawling against magic users.	Brawling	
+Model Leader	Doubles experience earned for battalions.	Authority	
+Defensive Tactics	Battalion endurance takes half damage.	Authority	
+Offensive Tactics	Grants Mt +5 and Hit +20 with gambits.	Authority	
+Fire	Allows unit to cast Fire. If Fire is already available, then unit can cast it twice as often.	Reason	
+Miasma Δ	Allows unit to cast Miasma Δ. If Miasma Δ is already available, then unit can cast it twice as often.	Reason	
+Heal	Allows unit to cast Heal. If Heal is already available, then unit can cast it twice as often.	Faith	
+Renewal	Unit recovers up to 20% of max HP at the start of each turn.	None	
+Catnap	If unit takes no action except Wait, recovers up to 10% of max HP.	None	
+Goody Basket	Chance to recover up to 10% of max HP at the start of each turn. Trigger % = Lck stat.	None	
+Songstress	Adjacent allies recover up to 10% of max HP at the start of each turn.	None	
+Hunter’s Boon	Grants Crit +20 when foe’s HP is < 50%.	None	
+Poison Strike	If unit initiates combat and lands a hit, targeted foe loses up to 20% of max HP after combat.	None	
+Live to Serve	When healing an ally with white magic, unit recovers the same amount of HP.	Faith	
+Lifetaker	Unit recovers HP equal to 50% of damage dealt after defeating a foe.	None	
+Survival Instinct	If unit initiates combat and defeats foe, grants Str/Mag/Dex/Spd +4 for one turn.	None	
+Lethality	Chance to instantly kill a foe when dealing damage. Trigger % = 0.25×Dex.	None	
+Poison	Chance to inflict poison on foe when dealing damage. Trigger % = Dex stat.	None	
+Pavise	Chance to reduce sword/lance/axe/brawling damage by half. Trigger % = Dex stat.	None	
+Aegis	Chance to reduce bow/magic damage by half. Trigger % = Dex stat.	None	
+Miracle	Chance to survive lethal damage with 1 HP, if HP is > 1. Trigger % = Lck stat.	None	
+Terrain Resistance	Nullifies damage from terrain.	None	
+Special Dance	When using the Dance ability, grant Dex/Spd/Lck +4 to target ally.	None	
+Paragon	Doubles experience earned.	None	
+Professor’s Guidance	Multiplies this unit’s and adjacent allies’ experience earned by 1.2.	None	
+Discipline	Doubles skill experience earned in battle.	None	
+Aptitude	Makes each stat 20% more likely to increase on level up.	None	
+Vantage	When foe initiates combat, unit still attacks first if HP is ≤ 50%.	None	
+Missing Number	Missing Number (icon is based on Wary Fighter)	None	
+Desperation	If unit initiates combat with HP ≤ 50%, unit’s follow-up attack (if possible) occurs before foe’s counterattack.	None	
+Quick Riposte	If foe initiates combat while unit’s HP is ≥ 50%, unit makes guaranteed follow-up attack.	None	
+Wrath	If foe initiates combat while unit’s HP is ≤ 50%, grants Crit +50.	None	
+Dance	Use Dance to allow an ally to move again.	None	
+Steal	Allows unit to steal a non-weapon item from a foe with a lower Spd stat.	None	
+Locktouch	Allows unit to open doors and chests without keys.	None	
+Stealth	Makes it more difficult for foes to target unit.	None	
+Canto	Allows unit to move again after completing certain actions, if there is movement remaining.	None	
+Pass	Allows unit to pass through spaces occupied by foes.	None	
+Swordbreaker	Grants Hit/Avo +20 when using a lance against sword users.	Lance	
+Lancebreaker	Grants Hit/Avo +20 when using an axe against lance users.	Axe	
+Bowrange +1	Increases bow range by 1.	Bow	
+Bowrange +2	Increases bow range by 2.	Bow	
+Black Magic Range +1	Increases black magic range by 1.	Reason	
+Dark Magic Range +1	Increases dark magic range by 1.	Reason	
+White Magic Range +1	Increases white magic range by 1 for attacks that damage foes.	Faith	
+Unarmed Combat	Allows unit to fight without a weapon.	Brawling	
+Black Magic Uses x2	Doubles the number of uses for black magic.	Reason	
+Dark Magic Uses x2	Doubles the number of uses for dark magic.	Reason	
+White Magic Uses x2	Doubles the number of uses for white magic.	Faith	
+White Magic Heal +5	Heal 5 extra HP when using white magic.	Faith	
+White Magic Heal +10	Heal 10 extra HP when using white magic.	Faith	
+Weight -3	Reduces total equipment weight by 3.	Armor	
+Weight -5	Reduces total equipment weight by 5.	Armor	
+Axebreaker	Grants Hit/Avo +20 when using a sword against axe users.	Sword	
+Unsealable Magic	Prevents unit from being silenced.	None	
+Immune Status	Nullifies status effects and debuffs.	None	
+General	Nullifies instant death effects and halves damage from enemy gambits.	None	
+Commander	Nullifies instant death effects, status effects, and movement effects, and greatly reduces damage from enemy gambits.	None	
+Infinite Magic	Removes the limitation on the number of times magic can be used.	None	
+Magic Bind	If unit lands a hit, targeted foe is unable to use magic for 1 turn.	None	
+Infantry Effect Null	Cancels effectiveness against infantry units.	None	
+Armored Effect Null	Nullifies any extra effectiveness against armored units.	Armor	
+Cavalry Effect Null	Nullifies any extra effectiveness against cavalry units.	Riding	
+Flying Effect Null	Nullifies any extra effectiveness against fliers.	Flying	
+Dragon Effect Null	Cancels effectiveness against dragons.	None	
+Monster Effect Null	Nullifies any extra effectiveness against monsters.	None	
+Effect Null	Cancels all types of effectiveness.	None	
+Air of Intimidation	On Hold	None	
+Vital Defense	Makes critical hits against this unit impossible.	None	
+Giant Wings	Grants Avo +30 against sword, lance, or axe users.	None	
+Anti-Magic Armor	Nullifies damage from magic attacks.	None	
+Divine Dragon Horn	Unit recovers 100% of HP at the start of each turn if a White Beast is within 10 spaces.	None	
+Path of the Conqueror	On Hold	None	
+Noncombatant	Unit cannot be targeted by foes.	None	
+Battalion Desperation	If unit initiates combat when battalion endurance is ≤ 1/3, unit’s follow-up attack (if possible) occurs before foe’s counterattack.	None	
+Cursed Power	Unit recovers HP on swamp terrain.	None	
+Anchor	Prevents unit from being moved.	None	
+Counterattack	Allows unit to counterattack regardless of distance to attacker.	None	
+Twin Crests	Allows unit to take two actions in one turn.	None	
+Ancient Dragon Wrath	Calculates damage using the lower of foe’s Prt or Rsl.	None	
+Surging Light	Performs Staggering Blow immediately.	None	
+Ancient Dragonskin	Halves all damage taken, negates some abilities and combat arts, and prevents unit from being moved.	None	
+Keen Intuition	Grants Avo +30 during combat with a foe 2 or more spaces away.	None	
+Staunch Shield	If unit takes no action except Wait, grants Def +4 for 1 turn.	None	
+Lone Wolf	Unit deals 5 extra damage when no battalion is assigned or when battalion endurance is 0.	None	
+Fighting Spirit	Unit takes 5 less damage when no battalion is assigned or when battalion endurance is 0.	None	
+Confidence	Grants Hit/Avo +15 when unit is at full HP.	None	
+Persecution Complex	Grants Atk +5 when unit is not at full HP.	None	
+Animal Friend	Unit recovers up to 20% of max HP at the start of each turn when adjacent to a cavalry or flying ally.	None	
+Perseverance	Use Rally to grant Str +4 to an ally.	None	
+Crest Scholar	Use Rally to grant Mag +4 to an ally.	None	
+Compassion	Use Rally to grant Lck +8 to an ally.	None	
+Lockpick	Allows unit to open doors and chests without keys.	None	
+Battalion Vantage	When foe initiates combat, unit still attacks first if battalion endurance is ≤ 1/3.	Authority	
+Battalion Wrath	If foe initiates combat while unit’s battalion endurance is ≤ 1/3, grants Crit +50.	Authority	
+Battalion Renewal	Unit recovers up to 30% of max HP at the start of each turn while battalion endurance is ≤ 1/3.	Authority	
+Black Magic Uses Up+	Quadruples the number of uses for black magic.	Reason	Black Magic Uses Up
+Dark Magic Uses x4	Quadruples the number of uses for dark magic.	Reason	
+White Magic Uses Up+	Quadruples the number of uses for white magic.	Faith	White Magic Uses Up
+Mighty King of Legend	Negates 1 attack per turn and strengthens stats while the 10 Elites are present.	None	
+10 Elites	Grants power to the Mighty King of Legend.	None	
+Alert Stance	If unit takes no action except Wait, grants Avo +15 for 1 turn.	Flying	
+Alert Stance+	If unit takes no action except Wait, grants Avo +30 for 1 turn.	Flying	
+Close Counter	Allows unit to counterattack adjacent foes.	Bow	
+Professor’s Guidance+	Unit deals 2 extra damage during combat. Multiplies this unit’s and adjacent allies’ experience earned by 1.2.	None	Professor’s Guidance
+Imperial Lineage+	If unit takes no action except Wait, grants Res +4 for 1 turn. Multiplies experience earned by 1.2.	None	Imperial Lineage
+Royal Lineage+	Grants Avo +20 while unit is at full HP. Multiplies experience earned by 1.2.	None	Royal Lineage
+Leicester Lineage+	Allows unit to pass through spaces occupied by foes. Multiplies experience earned by 1.2.	None	Leicester Lineage
+Murderous Intent	If unit initiates combat, grants Hit +20 during combat.	None	
+Sacred Power	Adjacent allies deal 3 extra damage and take 3 less damage during combat.	None	
+Agarthan Technology	Adjacent foes deal 3 less damage during combat.	None	
+Blade Breaker	If unit damages foe, foe suffers Str/Def -6 for 1 turn after combat.	None	
