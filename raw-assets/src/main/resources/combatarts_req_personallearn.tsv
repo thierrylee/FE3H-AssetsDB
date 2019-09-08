@@ -3,7 +3,7 @@ Sunder	Sword	C+	Ferdinand, Dimitri, Felix
 Hexblade	Sword	A	Edelgard, Ingrid
 Hexblade	Sword	C+	Dorothea, Manuela
 Windsweep	Sword	A	BylethM, BylethF, Dimitri
-Haze Slice	Sword	C+	Ignatz, Seteth
+Haze Slice	Sword	C+	Edelgard, Ignatz, Seteth
 Bane of Monsters	Sword	C+	BylethM, BylethF, Petra, Claude, Catherine
 Finesse Blade	Sword	A	Petra, Felix, Claude, Catherine
 Soulblade	Sword	C+	Marianne
@@ -19,8 +19,8 @@ Frozen Lance	Lance	A	Ingrid, Flayn
 Frozen Lance	Lance	C+	Lorenz
 Spike	Axe	C+	Sylvain, Hilda, Alois, Gilbert
 Monster Breaker	Axe	C+	Edelgard, Dedue, Cyril
-Diamond Axe	Axe	A	Petra, Hilda, Seteh
-Exhaustive Strike	Axe	A	Caspa, Alois
+Diamond Axe	Axe	A	Petra, Hilda, Seteth
+Exhaustive Strike	Axe	A	Caspar, Alois
 Armored Strike	Axe	A	Ferdinand, Dedue, Cyril
 Wild Abandon	Axe	C+	Caspar, Petra, Raphael
 Focused Strike	Axe	C+	Ferdinand, Ashe, Seteth
@@ -30,7 +30,8 @@ Deadeye	Bow	C+	Bernadetta, Ashe
 Heavy Draw	Bow	C+	Hubert, Felix, Shamir
 Encloser	Bow	A	Bernadetta, Claude
 Ward Arrow	Bow	A	Ignatz, Hanneman
-Point-Blank Volley	Bow	A	Leonie, Cyril
+Point-Blank Volley	Bow	A	Leonie
+Point-Blank Volley	Bow	C+	Cyril
 Monster Blast	Bow	A	Shamir
 Monster Blast	Bow	C+	Claude
 Waning Shot	Bow	A	Ashe
