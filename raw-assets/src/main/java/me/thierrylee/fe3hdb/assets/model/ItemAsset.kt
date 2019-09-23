@@ -1,7 +1,7 @@
 package me.thierrylee.fe3hdb.assets.model
 
-data class GiftAsset(
+data class ItemAsset(
     val name: String,
     val characterId: String,
-    val isLiked: Boolean
+    val itemType: ItemTypeAsset
 )

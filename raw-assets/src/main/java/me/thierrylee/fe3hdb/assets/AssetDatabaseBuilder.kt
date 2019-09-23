@@ -26,10 +26,10 @@ object AssetDatabaseBuilder {
             *AbilityRequirementAssetTransformer.ClassMastered.retrieveAssets().toTypedArray()
         ),
         magicRequirements = MagicRequirementAssetTransformer.retrieveAssets(),
-        lostItems = LostItemAssetTransformer.retrieveAssets(),
-        gifts = listOf(
-            *GiftAssetTransformer.Liked.retrieveAssets().toTypedArray(),
-            *GiftAssetTransformer.Disliked.retrieveAssets().toTypedArray()
+        items = listOf(
+            *ItemAssetTransformer.Lost.retrieveAssets().toTypedArray(),
+            *ItemAssetTransformer.LikedGift.retrieveAssets().toTypedArray(),
+            *ItemAssetTransformer.DislikedGift.retrieveAssets().toTypedArray()
         )
     )
 
