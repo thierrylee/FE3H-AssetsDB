@@ -14,7 +14,9 @@ data class AssetDatabase(
     val magics: List<MagicAsset>,
     val combatArtRequirements: List<CombatArtRequirementAsset>,
     val abilityRequirements: List<AbilityRequirementAsset>,
-    val magicRequirements: List<MagicRequirementAsset>
+    val magicRequirements: List<MagicRequirementAsset>,
+    val lostItems: List<LostItemAsset>,
+    val gifts: List<GiftAsset>
 ) {
 
     fun getCombatArtsAndRequirements(): Map<CombatArtAsset, List<CombatArtRequirementAsset>> {

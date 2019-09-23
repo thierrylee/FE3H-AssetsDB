@@ -25,7 +25,12 @@ object AssetDatabaseBuilder {
             *AbilityRequirementAssetTransformer.ClassUse.retrieveAssets().toTypedArray(),
             *AbilityRequirementAssetTransformer.ClassMastered.retrieveAssets().toTypedArray()
         ),
-        magicRequirements = MagicRequirementAssetTransformer.retrieveAssets()
+        magicRequirements = MagicRequirementAssetTransformer.retrieveAssets(),
+        lostItems = LostItemAssetTransformer.retrieveAssets(),
+        gifts = listOf(
+            *GiftAssetTransformer.Liked.retrieveAssets().toTypedArray(),
+            *GiftAssetTransformer.Disliked.retrieveAssets().toTypedArray()
+        )
     )
 
 }
