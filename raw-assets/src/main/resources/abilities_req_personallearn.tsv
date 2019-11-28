@@ -15,17 +15,19 @@ Rally Resistance	Authority	S	Seteth
 Rally Movement	Authority	S	Byleth, Annette
 Rally Dexterity	Authority	D	Ferdinand
 Rally Dexterity	Authority	C+	Ignatz
-Rally Luck	Authority	D	Flayn
+Rally Luck	Authority	D	Flayn, Anna
 Rally Charm	Authority	S	Eldegard, Dimitri, Claude
 Rally Charm	Authority	D	Dorothea, Manuela
 Model Leader	Authority	C+	BylethM, BylethF, Edelgard, Dimitri, Seteth
 Black Magic Range +1	Reason	S	BylethM, BylethF, Dorothea, Ferdinand, Bernadetta, Caspar, Petra, Linhardt, Dimitri, Dedue, Felix, Mercedes, Ashe, Annette, Sylvain, Ingrid, Claude, Lorenz, Hilda, Raphael, Ignatz, Marianne, Leonie, Rhea, Manuela, Hanneman, Seteth, Flayn, Cyril, Jeralt, Catherine, Alois, Gilbert, Shamir
 Dark Magic Range +1	Reason	S	Edelgard, Hubert, Lysithea
 Battalion Desperation	Authority	C	Dorothea, Ferdinand, Ashe, Ingrid, Claude, Lysithea, Ignatz, Leonie, Hanneman, Cyril or Shamir
+Battalion Desperation	Authority	B	Jeritza
 Battalion Desperation	Authority	A	BylethM, BylethF, Hubert, Seteth
-Battalion Vantage	Authority	C	BylethM, BylethF, Edelgard, Felix, Sylvain, Lorenz, Catherine
+Battalion Vantage	Authority	C	BylethM, BylethF, Edelgard, Felix, Sylvain, Lorenz, Catherine, Anna
 Battalion Vantage	Authority	A	Dimitri, Ignatz
-Battalion Wrath	Authority	C	Hubert, Bernadetta, Caspar, Petra, Dimitri, Dedue, Hilda, Raphael, Seteth, Alois, Gibert
+Battalion Wrath	Authority	C	Hubert, Bernadetta, Caspar, Petra, Dimitri, Dedue, Hilda, Raphael, Seteth, Alois, Gibert, Jeritza
 Battalion Wrath	Authority	A	Annette, Claude
 Battalion Renewal	Authority	C	Linhardt, Mercedes, Annette, Marianne, Manuela, Flayn
 Battalion Renewal	Authority	A	Edelgard
+Mastermind	Sword	A+	Jeritza

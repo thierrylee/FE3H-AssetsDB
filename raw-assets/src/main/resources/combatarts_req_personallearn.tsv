@@ -1,27 +1,27 @@
 ID	LearnSkill	LearnRank	Character
 Sunder	Sword	C+	Ferdinand, Dimitri, Felix
-Hexblade	Sword	A	Edelgard, Ingrid
+Hexblade	Sword	A	Edelgard, Ingrid, Anna
 Hexblade	Sword	C+	Dorothea, Manuela
-Windsweep	Sword	A	BylethM, BylethF, Dimitri
-Haze Slice	Sword	C+	Edelgard, Ignatz, Seteth
+Windsweep	Sword	A	BylethM, BylethF, Dimitri, Jeritza
+Haze Slice	Sword	C+	Edelgard, Ignatz, Seteth, Jeritza
 Bane of Monsters	Sword	C+	BylethM, BylethF, Petra, Claude, Catherine
 Finesse Blade	Sword	A	Petra, Felix, Claude, Catherine
-Soulblade	Sword	C+	Marianne
-Shatter Slash	Lance	C+	Ferdinand, Hilda, Gilbert
+Soulblade	Sword	C+	Marianne, Anna
+Shatter Slash	Lance	C+	Ferdinand, Hilda, Gilbert, Jeritza
 Hit and Run	Lance	C+	Flayn, Shamir
 Hit and Run	Lance	C	Ingrid
 Monster Piercer	Lance	C+	Dimitri, Sylvain, Leonie, Seteth
 Lance Jab	Lance	A	Leonie, Cyril, Shamir
 Vengeance	Lance	C+	Bernadetta, Dedue, Cyril
-Glowing Ember	Lance	A	Dimitri, Gilbert
+Glowing Ember	Lance	A	Dimitri, Gilbert, Jeritza
 Swift Strikes	Lance	A	Ferdinand, Sylvain, Seteth
 Frozen Lance	Lance	A	Ingrid, Flayn
 Frozen Lance	Lance	C+	Lorenz
-Spike	Axe	C+	Sylvain, Hilda, Alois, Gilbert
+Spike	Axe	C+	Sylvain, Hilda, Alois, Gilbert, Anna
 Monster Breaker	Axe	C+	Edelgard, Dedue, Cyril
 Diamond Axe	Axe	A	Petra, Hilda, Seteth
 Exhaustive Strike	Axe	A	Caspar, Alois
-Armored Strike	Axe	A	Ferdinand, Dedue, Cyril
+Armored Strike	Axe	A	Ferdinand, Dedue, Cyril, Anna
 Wild Abandon	Axe	C+	Caspar, Petra, Raphael
 Focused Strike	Axe	C+	Ferdinand, Ashe, Seteth
 Lightning Axe	Axe	A	Edelgard, Sylvain
@@ -36,7 +36,7 @@ Monster Blast	Bow	A	Shamir
 Monster Blast	Bow	C+	Claude
 Waning Shot	Bow	A	Ashe
 Waning Shot	Bow	C+	Petra
-Break Shot	Bow	C+	Ignatz, Leonie
+Break Shot	Bow	C+	Ignatz, Leonie, Anna
 Schism Shot	Bow	A	Hubert
 Schism Shot	Bow	C+	Hanneman
 Draining Blow	Brawling	A	Raphael
@@ -45,6 +45,6 @@ Mighty Blow	Brawling	A	Caspar, Dedue, Alois
 Bombard	Brawling	A	Catherine
 Bombard	Brawling	C+	Caspar
 Mystic Blow	Brawling	A	BylethM, BylethF, Felix
-Nimble Combo	Brawling	C+	Felix, Catherine
+Nimble Combo	Brawling	C+	Felix, Catherine, Jeritza
 One-Two Punch	Brawling	C+	Dedue, Alois
 Monster Crusher	Brawling	C+	Raphael

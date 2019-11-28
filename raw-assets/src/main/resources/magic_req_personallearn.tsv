@@ -1,16 +1,16 @@
 ID	LearnSkill	Rank	Character
 Fire	Reason	D+	Ferdinand, Linhardt, Flayn
-Fire	Reason	D	BylethM, BylethF, Edelgard, Caspar, Dedue, Mercedes, Sylvain, Lorenz, Raphael, Leonie, Catherine, Alois
+Fire	Reason	D	BylethM, BylethF, Edelgard, Caspar, Dedue, Mercedes, Sylvain, Lorenz, Raphael, Leonie, Catherine, Alois, Anna
 Fire	Reason	E+	Rhea
 Bolganone	Reason	B	Ferdinand, Linhardt, Seteth
 Bolganone	Reason	C	BylethM, BylethF, Edelgard, Caspar, Dedue, Mercedes, Sylvain, Raphael, Leonie, Manuela, Catherine, Alois
 Bolganone	Reason	D	Rhea
 Ragnarok	Reason	A	BylethM, BylethF, Dedue, Mercedes, Sylvain, Leonie, Rhea, Hanneman, Catherine
 Ragnarok	Reason	B	Lorenz
-Thunder	Reason	D+	BylethM, BylethF, Bernadetta, Mercedes
-Thunder	Reason	D	Dorothea, Ferdinand, Dimitri, Felix, Hilda, Manuela, Gilbert
+Thunder	Reason	D+	BylethM, BylethF, Bernadetta, Mercedes, Anna
+Thunder	Reason	D	Dorothea, Ferdinand, Dimitri, Felix, Hilda, Manuela, Gilbert, Jeritza
 Thoron	Reason	B	Hanneman
-Thoron	Reason	C	Dorothea, Ferdinand, Bernadetta, Dimitri, Felix, Ingrid, Hilda, Marianne, Gilbert
+Thoron	Reason	C	Dorothea, Ferdinand, Bernadetta, Dimitri, Felix, Ingrid, Hilda, Marianne, Gilbert, Jeritza
 Bolting	Reason	A	Hilda, Manuela
 Wind	Reason	D+	Shamir
 Wind	Reason	D	Petra, Linhardt, Ashe, Annette, Claude, Hanneman, Seteth, Flayn, Cyril
@@ -21,7 +21,7 @@ Blizzard	Reason	D	Bernadetta, Ingrid, Ignatz, Marianne, Shamir
 Fimbulvetr	Reason	A	Bernadetta, Ingrid, Ignatz, Marianne, Shamir
 Sagittae	Reason	B	Dorothea, Annette, Sylvain
 Sagittae	Reason	C	Petra, Claude, Lorenz, Hanneman, Shamir
-Meteor	Reason	A	Dorothea
+Meteor	Reason	A	Dorothea, Anna
 Meteor	Reason	A+	Hanneman
 Agnea’s Arrow	Reason	A+	Dorothea
 Agnea’s Arrow	Reason	A	Lorenz, Rhea
@@ -29,7 +29,7 @@ Miasma Δ	Reason	D	Hubert, Lysithea
 Mire Β	Reason	D+	Hubert
 Swarm Ζ	Reason	D+	Lysithea
 Banshee Θ	Reason	C	Hubert
-Death Γ	Reason	B	Hubert
+Death Γ	Reason	B	Hubert, Jeritza
 Luna Λ	Reason	B	Edelgard
 Luna Λ	Reason	C	Lysithea
 Dark Spikes Τ	Reason	A	Hubert
