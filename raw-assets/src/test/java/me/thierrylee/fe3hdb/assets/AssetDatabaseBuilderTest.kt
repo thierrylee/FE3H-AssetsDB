@@ -32,7 +32,7 @@ class AssetDatabaseBuilderTest {
             assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.ClassMastered>()).hasSize(39)
             assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.BuddingTalent>()).hasSize(10)
             assertThat(magicRequirements).hasSize(55)
-            assertThat(items).hasSize(100+135+83)
+            assertThat(items).hasSize(106+145+88-3) // Lost + Liked + Disliked - 3 headers
         }
     }
 
