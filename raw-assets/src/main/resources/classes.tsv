@@ -1,6 +1,6 @@
 ID	ReqLevel	ReqSkill	ReqRank	OneReq	ReqGender	CharacterExclusive	UnitType	SwordProficiency	LanceProficiency	AxeProficiency	BowProficiency	BrawlingProficiency	ReasonProficiency	FaithProficiency	AuthorityProficiency	ArmorProficiency	RidingProficiency	FlyingProficiency	GrowthHP	GrowthStr	GrowthMag	GrowthDex	GrowthSpd	GrowthLck	GrowthDef	GrowthRes	GrowthCha	Movement
-Noble	0			-	M, F	Edelgard, Hubert, Ferdinand, Bernadetta, Caspar, Linhardt, Dimitri, Felix, Annette, Sylvain, Ingrid, Claude, Lorenz, Hilda, Lysithea, Ignatz, Marianne, Rhea, Manuela, Hanneman, Seteth, Flayn, Cyril, Jeralt, Catherine, Alois, Gilbert, Shamir	Magic	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	5	4
-Commoner	0			-	M, F	BylethM, BylethF, Dorothea, Petra, Dedue, Ashe, Mercedes, Raphael, Leonie	Magic	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	4
+Noble	0			-	M, F	Edelgard, Hubert, Ferdinand, Bernadetta, Caspar, Linhardt, Dimitri, Felix, Annette, Sylvain, Ingrid, Claude, Lorenz, Hilda, Lysithea, Ignatz, Marianne, Rhea, Manuela, Hanneman, Seteth, Flayn, Cyril, Jeralt, Catherine, Alois, Gilbert, Shamir, Jeritza	Magic	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	5	4
+Commoner	0			-	M, F	BylethM, BylethF, Dorothea, Petra, Dedue, Ashe, Mercedes, Raphael, Leonie, Anna	Magic	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	4
 Dancer	0			-	M, F		Magic	2	-	-	-	-	-	-	2	-	-	-	20	-5	-	-	-	-	-5	-5	10	4
 Myrmidon	5	Sword	D	-	M, F			1	-	-	-	-	-	-	-	-	-	-	10	-	-	-	5	-	-	-5	5	4
 Soldier	5	Lance	D	-	M, F			-	1	-	-	-	-	-	-	-	-	-	10	-	-	5	-	-	-	-5	5	4
