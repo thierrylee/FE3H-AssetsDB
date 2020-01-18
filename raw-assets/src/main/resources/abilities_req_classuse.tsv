@@ -1,6 +1,6 @@
 ID	ClassUse
 Swordfaire	Hero, Swordmaster, Assassin, Enlightened One, Mortal Savant
-Lancefaire	High Lord, Paladin, Great Lord, Falcon Knight, Great Knight
+Lancefaire	High Lord, Paladin, Great Lord, Falcon Knight, Great Knight, Death Knight
 Axefaire	Armored Lord, Fortress Knight, Wyvern Rider, Warrior, Emperor, Wyvern Lord, Great Knight, War Master
 Bowfaire	Wyvern Master, Sniper, Barbarossa, Bow Knight
 Fistfaire	Grappler, War Master
@@ -23,7 +23,7 @@ Dance	Dancer
 Steal	Thief
 Locktouch	Thief, Assassin
 Stealth	Assassin
-Canto	Cavalier, Pegasus Knight, Wyvern Rider, Paladin, Wyvern Lord, Barbarossa, Falcon Knight, Wyvern Lord, Great Knight, Bow Knight, Holy Knight, Dark Knight
+Canto	Cavalier, Pegasus Knight, Wyvern Rider, Paladin, Wyvern Lord, Barbarossa, Falcon Knight, Wyvern Lord, Great Knight, Bow Knight, Holy Knight, Dark Knight, Death Knight
 Bowrange +1	Archer, Sniper
 Bowrange +2	Bow Knight
 Unarmed Combat	Brawler, Grappler

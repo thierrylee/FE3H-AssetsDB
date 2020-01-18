@@ -30,7 +30,16 @@ object AssetDatabaseBuilder {
             *ItemAssetTransformer.Lost.retrieveAssets().toTypedArray(),
             *ItemAssetTransformer.LikedGift.retrieveAssets().toTypedArray(),
             *ItemAssetTransformer.DislikedGift.retrieveAssets().toTypedArray()
-        )
+        ),
+        supports = SupportAssetTransformer.retrieveAssets().filterNot {
+            it.characterId1 == "Sothis" ||
+            it.characterId2 == "Sothis" ||
+            it.characterId1 == "Rhea" ||
+            it.characterId2 == "Rhea"
+        },
+        favoriteTeas = FavoriteTeaAssetTransformer.retrieveAssets(),
+        teaTopics = TeaTopicAssetTransformer.retrieveAssets(),
+        teaAnswers = TeaAnswerAssetTransformer.retrieveAssets()
     )
 
 }

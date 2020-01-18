@@ -10,7 +10,7 @@ import org.junit.Test
 class MagicAssetTransformerTest {
 
     @Test
-    fun `buildAsset - should return expected combat art`() {
+    fun `buildAsset - should return expected magics`() {
         // Given
         val rawValues = RawAssetFileExtractor().extractRawValues("dummy_magics.tsv")[1]
 

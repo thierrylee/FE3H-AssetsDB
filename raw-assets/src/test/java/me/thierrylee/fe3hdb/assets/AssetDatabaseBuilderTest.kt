@@ -18,8 +18,8 @@ class AssetDatabaseBuilderTest {
             assertThat(ranks).isEqualTo(RankAsset.values().toList())
             assertThat(characters).hasSize(37)
             assertThat(crests).hasSize(25)
-            assertThat(classes).hasSize(47)
-            assertThat(abilities).hasSize(239)
+            assertThat(classes).hasSize(48)
+            assertThat(abilities).hasSize(240)
             assertThat(combatArts).hasSize(77)
             assertThat(magics).hasSize(38)
             assertThat(combatArtRequirements.filterIsInstance<CombatArtRequirementAsset.UniversalLearn>()).hasSize(11)
@@ -30,10 +30,14 @@ class AssetDatabaseBuilderTest {
             assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.Personal>()).hasSize(38)
             assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.PersonalLearn>()).hasSize(32)
             assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.ClassUse>()).hasSize(34)
-            assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.ClassMastered>()).hasSize(39)
+            assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.ClassMastered>()).hasSize(40)
             assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.BuddingTalent>()).hasSize(10)
             assertThat(magicRequirements).hasSize(55)
-            assertThat(items).hasSize(106+145+88-3) // Lost + Liked + Disliked - 3 headers
+            assertThat(items).hasSize(106+145+88) // Lost + Liked + Disliked
+            assertThat(supports).hasSize(544) // For now, remove Sothis & Rhea supports
+            assertThat(favoriteTeas).hasSize(83)
+            assertThat(teaTopics).hasSize(1346)
+            assertThat(teaAnswers).hasSize(315)
         }
     }
 

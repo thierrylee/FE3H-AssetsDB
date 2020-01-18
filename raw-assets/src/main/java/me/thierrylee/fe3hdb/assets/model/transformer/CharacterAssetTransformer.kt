@@ -5,7 +5,7 @@ import me.thierrylee.fe3hdb.assets.model.CharacterAsset
 internal object CharacterAssetTransformer : AbstractAssetTransformer<CharacterAsset>() {
 
     override fun getAssetFile() = "characters"
-    override fun getColumnCount() = 56
+    override fun getColumnCount() = 55
 
     override fun internalBuildAsset(rawValues: List<String>) = CharacterAsset(
         id = rawValues[0].toId(),
@@ -63,7 +63,6 @@ internal object CharacterAssetTransformer : AbstractAssetTransformer<CharacterAs
         baseRidingSkill = rawValues[51].toRankAsset(),
         baseFlyingSkill = rawValues[52].toRankAsset(),
         majorCrest = rawValues[53].toId(),
-        minorCrest = rawValues[54].toId(),
-        supportCharacters = rawValues[55].split().map { it.toId() }
+        minorCrest = rawValues[54].toId()
     )
 }
