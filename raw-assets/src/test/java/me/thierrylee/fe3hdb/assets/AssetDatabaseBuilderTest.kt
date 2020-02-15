@@ -16,28 +16,28 @@ class AssetDatabaseBuilderTest {
             assertThat(genders).isEqualTo(GenderAsset.values().toList())
             assertThat(skills).isEqualTo(SkillAsset.values().toList())
             assertThat(ranks).isEqualTo(RankAsset.values().toList())
-            assertThat(characters).hasSize(37)
+            assertThat(characters).hasSize(41)
             assertThat(crests).hasSize(25)
             assertThat(classes).hasSize(53)
-            assertThat(abilities).hasSize(252)
+            assertThat(abilities).hasSize(256)
             assertThat(combatArts).hasSize(79)
             assertThat(magics).hasSize(38)
             assertThat(combatArtRequirements.filterIsInstance<CombatArtRequirementAsset.UniversalLearn>()).hasSize(11)
-            assertThat(combatArtRequirements.filterIsInstance<CombatArtRequirementAsset.PersonalLearn>()).hasSize(49)
+            assertThat(combatArtRequirements.filterIsInstance<CombatArtRequirementAsset.PersonalLearn>()).hasSize(51)
             assertThat(combatArtRequirements.filterIsInstance<CombatArtRequirementAsset.ClassMastered>()).hasSize(17)
-            assertThat(combatArtRequirements.filterIsInstance<CombatArtRequirementAsset.BuddingTalent>()).hasSize(5)
+            assertThat(combatArtRequirements.filterIsInstance<CombatArtRequirementAsset.BuddingTalent>()).hasSize(8)
             assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.UniversalLearn>()).hasSize(70)
-            assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.Personal>()).hasSize(38)
-            assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.PersonalLearn>()).hasSize(32)
+            assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.Personal>()).hasSize(43)
+            assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.PersonalLearn>()).hasSize(33)
             assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.ClassUse>()).hasSize(38)
             assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.ClassMastered>()).hasSize(44)
             assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.BuddingTalent>()).hasSize(10)
-            assertThat(magicRequirements).hasSize(55)
-            assertThat(items).hasSize(106+145+88) // Lost + Liked + Disliked
-            assertThat(supports).hasSize(546) // For now, remove Sothis & Rhea supports
-            assertThat(favoriteTeas).hasSize(83)
-            assertThat(teaTopics).hasSize(1346)
-            assertThat(teaFinalComments).hasSize(315)
+            assertThat(magicRequirements).hasSize(57)
+            assertThat(items).hasSize(114+162+97) // Lost + Liked + Disliked
+            assertThat(supports).hasSize(594) // For now, remove Sothis & Rhea supports
+            assertThat(favoriteTeas).hasSize(98)
+            assertThat(teaTopics).hasSize(1518)
+            assertThat(teaFinalComments).hasSize(369)
         }
     }
 

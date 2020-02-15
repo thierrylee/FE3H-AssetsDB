@@ -251,3 +251,7 @@ Manifest Phantom	Unit births phantoms.	None
 Enhanced Fortitude	Halves all damage taken, negates some abilities and combat arts, and prevents unit from being moved.	None	
 Duelist’s Blow	If unit initiates combat, grants Avo +20 during combat.	None	
 Uncanny Blow	If unit initiates combat, grants Hit +30 during combat.	None	
+Honorable Spirit	If unit is not near an ally, grants Atk +3 when in combat with a foe one space away.	None	
+King of Grappling	Grants Str/Def +6 when HP is <=50%.	None	
+Circadian Beat	Grants Str/Mag +3 when indoors and Def/Res +3 when outdoors.	None	
+Monstrous Appeal	Makes all attacks effective against monsters and makes it easier for monsters to target unit.	None	

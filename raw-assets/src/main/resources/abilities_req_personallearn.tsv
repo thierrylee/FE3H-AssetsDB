@@ -3,30 +3,31 @@ Black Tomefaire	Reason	S+	BylethM, BylethF, Dorothea, Ferdinand, Bernadetta, Cas
 Dark Tomefaire	Reason	S+	Edelgard, Hubert, Lysithea
 Rally Strength	Authority	C	Raphel
 Rally Strength	Authority	S+	Ignatz
-Rally Strength	Authority	D	Alois
-Rally Magic	Authority	D	Hubert, Ingrid
+Rally Strength	Authority	D	Alois, Balthus
+Rally Magic	Authority	D	Hubert, Ingrid, Constance
 Rally Speed	Authority	S	Hubert
 Rally Speed	Authority	C+	Annette
 Rally Speed	Authority	D	Ignatz
 Rally Defense	Authority	D	Seteth, Gilbert
+Rally Resistance	Authority	C	Constance
 Rally Resistance	Authority	C+	Hubert
 Rally Resistance	Authority	D	Annette
 Rally Resistance	Authority	S	Seteth
 Rally Movement	Authority	S	Byleth, Annette
-Rally Dexterity	Authority	D	Ferdinand
+Rally Dexterity	Authority	D	Ferdinand, Hapi
 Rally Dexterity	Authority	C+	Ignatz
 Rally Luck	Authority	D	Flayn, Anna
 Rally Charm	Authority	S	Eldegard, Dimitri, Claude
 Rally Charm	Authority	D	Dorothea, Manuela
-Model Leader	Authority	C+	BylethM, BylethF, Edelgard, Dimitri, Seteth
+Model Leader	Authority	C+	BylethM, BylethF, Edelgard, Dimitri, Seteth, Yuri
 Black Magic Range +1	Reason	S	BylethM, BylethF, Dorothea, Ferdinand, Bernadetta, Caspar, Petra, Linhardt, Dimitri, Dedue, Felix, Mercedes, Ashe, Annette, Sylvain, Ingrid, Claude, Lorenz, Hilda, Raphael, Ignatz, Marianne, Leonie, Rhea, Manuela, Hanneman, Seteth, Flayn, Cyril, Jeralt, Catherine, Alois, Gilbert, Shamir
 Dark Magic Range +1	Reason	S	Edelgard, Hubert, Lysithea
 Battalion Desperation	Authority	C	Dorothea, Ferdinand, Ashe, Ingrid, Claude, Lysithea, Ignatz, Leonie, Hanneman, Cyril or Shamir
-Battalion Desperation	Authority	B	Jeritza
+Battalion Desperation	Authority	B	Jeritza, Balthus
 Battalion Desperation	Authority	A	BylethM, BylethF, Hubert, Seteth
-Battalion Vantage	Authority	C	BylethM, BylethF, Edelgard, Felix, Sylvain, Lorenz, Catherine, Anna
+Battalion Vantage	Authority	C	BylethM, BylethF, Edelgard, Felix, Sylvain, Lorenz, Catherine, Anna, Yuri
 Battalion Vantage	Authority	A	Dimitri, Ignatz
-Battalion Wrath	Authority	C	Hubert, Bernadetta, Caspar, Petra, Dimitri, Dedue, Hilda, Raphael, Seteth, Alois, Gibert, Jeritza
+Battalion Wrath	Authority	C	Hubert, Bernadetta, Caspar, Petra, Dimitri, Dedue, Hilda, Raphael, Seteth, Alois, Gibert, Jeritza, Hapi
 Battalion Wrath	Authority	A	Annette, Claude
 Battalion Renewal	Authority	C	Linhardt, Mercedes, Annette, Marianne, Manuela, Flayn
 Battalion Renewal	Authority	A	Edelgard

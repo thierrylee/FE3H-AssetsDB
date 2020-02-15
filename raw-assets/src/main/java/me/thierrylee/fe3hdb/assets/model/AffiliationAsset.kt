@@ -4,5 +4,6 @@ enum class AffiliationAsset{
     BLACK_EAGLES,
     BLUE_LIONS,
     GOLDEN_DEERS,
-    CHURCH_OF_SEIROS
+    CHURCH_OF_SEIROS,
+    ASHEN_WOLVES
 }

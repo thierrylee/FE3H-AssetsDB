@@ -14,7 +14,8 @@ class AffiliationAssetTransformerKtTest {
         AffiliationValue.BLACK_EAGLES to AffiliationAsset.BLACK_EAGLES,
         AffiliationValue.BLUE_LIONS to AffiliationAsset.BLUE_LIONS,
         AffiliationValue.GOLDEN_DEERS to AffiliationAsset.GOLDEN_DEERS,
-        AffiliationValue.CHURCH_OF_SEIROS to AffiliationAsset.CHURCH_OF_SEIROS
+        AffiliationValue.CHURCH_OF_SEIROS to AffiliationAsset.CHURCH_OF_SEIROS,
+        AffiliationValue.ASHEN_WOLVES to AffiliationAsset.ASHEN_WOLVES
     )
 
     @Test(expected = IllegalArgumentException::class)

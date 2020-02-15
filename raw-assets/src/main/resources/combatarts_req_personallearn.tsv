@@ -1,12 +1,13 @@
 ID	LearnSkill	LearnRank	Character
 Sunder	Sword	C+	Ferdinand, Dimitri, Felix
-Hexblade	Sword	A	Edelgard, Ingrid, Anna
+Hexblade	Sword	A	Edelgard, Ingrid, Anna, Hexblade
 Hexblade	Sword	C+	Dorothea, Manuela
+Windsweep	Sword	C+	Yuri
 Windsweep	Sword	A	BylethM, BylethF, Dimitri, Jeritza
 Haze Slice	Sword	C+	Edelgard, Ignatz, Seteth, Jeritza
-Bane of Monsters	Sword	C+	BylethM, BylethF, Petra, Claude, Catherine
-Finesse Blade	Sword	A	Petra, Felix, Claude, Catherine
-Soulblade	Sword	C+	Marianne, Anna
+Bane of Monsters	Sword	C+	BylethM, BylethF, Petra, Claude, Catherine, Balthus
+Finesse Blade	Sword	A	Petra, Felix, Claude, Catherine, Yuri
+Soulblade	Sword	C+	Marianne, Anna, Constance
 Shatter Slash	Lance	C+	Ferdinand, Hilda, Gilbert, Jeritza
 Hit and Run	Lance	C+	Flayn, Shamir
 Hit and Run	Lance	C	Ingrid
@@ -19,9 +20,10 @@ Frozen Lance	Lance	A	Ingrid, Flayn
 Frozen Lance	Lance	C+	Lorenz
 Spike	Axe	C+	Sylvain, Hilda, Alois, Gilbert, Anna
 Monster Breaker	Axe	C+	Edelgard, Dedue, Cyril
+Diamond Axe	Axe	C+	Balthus
 Diamond Axe	Axe	A	Petra, Hilda, Seteth
 Exhaustive Strike	Axe	A	Caspar, Alois
-Armored Strike	Axe	A	Ferdinand, Dedue, Cyril, Anna
+Armored Strike	Axe	A	Ferdinand, Dedue, Cyril, Anna, Balthus
 Wild Abandon	Axe	C+	Caspar, Petra, Raphael
 Focused Strike	Axe	C+	Ferdinand, Ashe, Seteth
 Lightning Axe	Axe	A	Edelgard, Sylvain
@@ -40,8 +42,8 @@ Break Shot	Bow	C+	Ignatz, Leonie, Anna
 Schism Shot	Bow	A	Hubert
 Schism Shot	Bow	C+	Hanneman
 Draining Blow	Brawling	A	Raphael
-Draining Blow	Brawling	C+	BylethM, BylethF
-Mighty Blow	Brawling	A	Caspar, Dedue, Alois
+Draining Blow	Brawling	C+	BylethM, BylethF, Balthus
+Mighty Blow	Brawling	A	Caspar, Dedue, Alois, Balthus
 Bombard	Brawling	A	Catherine
 Bombard	Brawling	C+	Caspar
 Mystic Blow	Brawling	A	BylethM, BylethF, Felix
