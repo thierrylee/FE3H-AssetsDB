@@ -34,7 +34,7 @@ class AssetDatabaseBuilderTest {
             assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.BuddingTalent>()).hasSize(10)
             assertThat(magicRequirements).hasSize(57)
             assertThat(items).hasSize(114+162+97) // Lost + Liked + Disliked
-            assertThat(supports).hasSize(594) // For now, remove Sothis & Rhea supports
+            assertThat(supports).hasSize(600) // For now, remove Sothis & Rhea supports
             assertThat(favoriteTeas).hasSize(98)
             assertThat(teaTopics).hasSize(1518)
             assertThat(teaFinalComments).hasSize(369)
