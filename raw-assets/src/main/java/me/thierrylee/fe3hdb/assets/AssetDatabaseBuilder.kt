@@ -33,9 +33,7 @@ object AssetDatabaseBuilder {
         ),
         supports = SupportAssetTransformer.retrieveAssets().filterNot {
             it.characterId1 == "Sothis" ||
-            it.characterId2 == "Sothis" ||
-            it.characterId1 == "Rhea" ||
-            it.characterId2 == "Rhea"
+            it.characterId2 == "Sothis"
         },
         favoriteTeas = FavoriteTeaAssetTransformer.retrieveAssets(),
         teaTopics = TeaTopicAssetTransformer.retrieveAssets(),

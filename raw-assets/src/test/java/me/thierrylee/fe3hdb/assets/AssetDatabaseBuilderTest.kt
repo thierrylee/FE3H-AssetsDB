@@ -16,7 +16,7 @@ class AssetDatabaseBuilderTest {
             assertThat(genders).isEqualTo(GenderAsset.values().toList())
             assertThat(skills).isEqualTo(SkillAsset.values().toList())
             assertThat(ranks).isEqualTo(RankAsset.values().toList())
-            assertThat(characters).hasSize(41)
+            assertThat(characters).hasSize(42)
             assertThat(crests).hasSize(25)
             assertThat(classes).hasSize(53)
             assertThat(abilities).hasSize(256)
@@ -33,8 +33,8 @@ class AssetDatabaseBuilderTest {
             assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.ClassMastered>()).hasSize(44)
             assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.BuddingTalent>()).hasSize(10)
             assertThat(magicRequirements).hasSize(57)
-            assertThat(items).hasSize(114+162+97) // Lost + Liked + Disliked
-            assertThat(supports).hasSize(600) // For now, remove Sothis & Rhea supports
+            assertThat(items).hasSize(117+162+97) // Lost + Liked + Disliked
+            assertThat(supports).hasSize(604) // For now, remove Sothis
             assertThat(favoriteTeas).hasSize(98)
             assertThat(teaTopics).hasSize(1518)
             assertThat(teaFinalComments).hasSize(369)
