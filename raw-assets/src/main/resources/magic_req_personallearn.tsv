@@ -35,17 +35,17 @@ Luna Λ	Reason	C	Lysithea
 Dark Spikes Τ	Reason	A	Hubert
 Dark Spikes Τ	Reason	B	Lysithea
 Hades Ω	Reason	A	Edelgard, Lysithea
-Heal	Faith	D	BylethM, BylethF, Edelgard, Hubert, Dorothea, Ferdinand, Bernadetta, Caspar, Petra, Linhardt, Dimitri, Dedue, Felix, Mercedes, Ashe, Annette, Sylvain, Ingrid, Claude, Lorenz, Hilda, Raphael, Lysithea, Ignatz, Marianne, Leonie, Rhea, Manuela, Hanneman, Seteth, Flayn, Cyril, Jeralt, Catherine, Alois, Gilbert, Shamir
+Heal	Faith	D	BylethM, BylethF, Edelgard, Hubert, Dorothea, Ferdinand, Bernadetta, Caspar, Petra, Linhardt, Dimitri, Dedue, Felix, Mercedes, Ashe, Annette, Sylvain, Ingrid, Claude, Lorenz, Hilda, Raphael, Lysithea, Ignatz, Marianne, Leonie, Rhea, Manuela, Hanneman, Seteth, Flayn, Cyril, Jeralt, Catherine, Alois, Gilbert, Shamir, Jeritza
 Recover	Faith	C	BylethM, BylethF, Edelgard, Hubert, Caspar, Dimitri, Dedue, Felix, Annette, Claude, Lorenz, Hilda, Raphael, Rhea, Hanneman, Seteth, Cyril, Jeralt, Catherine, Alois
 Physic	Faith	C	Dorothea, Bernadetta, Linhardt, Mercedes, Ashe, Sylvain, Ingrid, Ignatz, Marianne, Leonie, Shamir
 Fortify	Faith	A	Mercedes, Flayn
-Nosferatu	Faith	D+	BylethM, BylethF, Edelgard, Hubert, Dorothea, Ferdinand, Bernadetta, Caspar, Petra, Linhardt, Dimitri, Dedue, Felix, Mercedes, Ashe, Annette, Sylvain, Ingrid, Claude, Lorenz, Hilda, Raphael, Lysithea, Ignatz, Marianne, Leonie, Rhea, Manuela, Hanneman, Seteth, Flayn, Cyril, Jeralt, Catherine, Alois, Gilbert, Shamir
+Nosferatu	Faith	D+	BylethM, BylethF, Edelgard, Hubert, Dorothea, Ferdinand, Bernadetta, Caspar, Petra, Linhardt, Dimitri, Dedue, Felix, Mercedes, Ashe, Annette, Sylvain, Ingrid, Claude, Lorenz, Hilda, Raphael, Lysithea, Ignatz, Marianne, Leonie, Rhea, Manuela, Hanneman, Seteth, Flayn, Cyril, Jeralt, Catherine, Alois, Gilbert, Shamir, Jeritza
 Seraphim	Faith	B	Edelgard, Sylvain, Ingrid
 Seraphim	Faith	C	Lysithea
 Aura	Faith	A	BylethM, BylethF, Dimitri, Marianne
 Abraxas	Faith	A	Annette, Lysithea
 Restore	Faith	B	Ferdinand, Linhardt, Felix, Mercedes, Leonie
-Restore	Faith	C	Petra, Flayn
+Restore	Faith	C	Petra, Flayn, Jeritza
 Ward	Faith	B	Lorenz, Ignatz, Hanneman
 Ward	Faith	C	Ferdinand, Manuela, Gilbert
 Silence	Faith	A	Claude
