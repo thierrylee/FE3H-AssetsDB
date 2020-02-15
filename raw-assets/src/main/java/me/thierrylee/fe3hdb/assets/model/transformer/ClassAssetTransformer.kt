@@ -7,7 +7,7 @@ import me.thierrylee.fe3hdb.assets.model.SkillAsset
 internal object ClassAssetTransformer : AbstractAssetTransformer<ClassAsset>() {
 
     override fun getAssetFile() = "classes"
-    override fun getColumnCount() = 29
+    override fun getColumnCount() = 30
 
     override fun internalBuildAsset(rawValues: List<String>): ClassAsset {
         return ClassAsset(
@@ -15,7 +15,7 @@ internal object ClassAssetTransformer : AbstractAssetTransformer<ClassAsset>() {
             name = rawValues[0],
             requiredLevel = rawValues[1].toIntOrZero(),
             requiredSkillRanks = toRequiredSkillRanks(rawValues),
-            isOneRequirementOnly = rawValues[4] == "Y",
+            isOneRequirementOnly = (rawValues[4] == "Y"),
             availableGenders = rawValues[5].split().map { it.toGenderAsset() },
             characterExclusive = rawValues[6].split(),
             unitTypes = rawValues[7].split().map { it.toUnitTypeAsset() },
@@ -39,7 +39,8 @@ internal object ClassAssetTransformer : AbstractAssetTransformer<ClassAsset>() {
             growthDef = rawValues[25].toIntOrZero(),
             growthRes = rawValues[26].toIntOrZero(),
             growthCha = rawValues[27].toIntOrZero(),
-            movement = rawValues[28].toIntOrZero()
+            movement = rawValues[28].toIntOrZero(),
+            isDlc = (rawValues[29] == "Y")
         )
     }
 
@@ -55,7 +56,4 @@ internal object ClassAssetTransformer : AbstractAssetTransformer<ClassAsset>() {
         }
     }
 
-    private fun extractRequiredSkills(rawValues: List<String>) = rawValues[2].split().map { it.toSkillAsset() }
-
-    private fun extractRequiredRanks(rawValues: List<String>) = rawValues[3].split().map { it.toRankAsset() }
 }

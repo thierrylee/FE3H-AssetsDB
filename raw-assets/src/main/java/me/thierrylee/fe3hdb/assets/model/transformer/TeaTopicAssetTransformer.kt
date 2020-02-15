@@ -8,7 +8,7 @@ internal object TeaTopicAssetTransformer: AbstractAssetTransformer<TeaTopicAsset
     override fun getColumnCount() = 2
 
     override fun internalBuildAsset(rawValues: List<String>) = TeaTopicAsset(
-        interrestedTopic = rawValues[0],
+        interestedTopic = rawValues[0],
         characterId = rawValues[1].toId()
     )
 

@@ -18,26 +18,26 @@ class AssetDatabaseBuilderTest {
             assertThat(ranks).isEqualTo(RankAsset.values().toList())
             assertThat(characters).hasSize(37)
             assertThat(crests).hasSize(25)
-            assertThat(classes).hasSize(48)
-            assertThat(abilities).hasSize(240)
-            assertThat(combatArts).hasSize(77)
+            assertThat(classes).hasSize(53)
+            assertThat(abilities).hasSize(252)
+            assertThat(combatArts).hasSize(79)
             assertThat(magics).hasSize(38)
             assertThat(combatArtRequirements.filterIsInstance<CombatArtRequirementAsset.UniversalLearn>()).hasSize(11)
             assertThat(combatArtRequirements.filterIsInstance<CombatArtRequirementAsset.PersonalLearn>()).hasSize(49)
-            assertThat(combatArtRequirements.filterIsInstance<CombatArtRequirementAsset.ClassMastered>()).hasSize(14)
+            assertThat(combatArtRequirements.filterIsInstance<CombatArtRequirementAsset.ClassMastered>()).hasSize(17)
             assertThat(combatArtRequirements.filterIsInstance<CombatArtRequirementAsset.BuddingTalent>()).hasSize(5)
             assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.UniversalLearn>()).hasSize(70)
             assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.Personal>()).hasSize(38)
             assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.PersonalLearn>()).hasSize(32)
-            assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.ClassUse>()).hasSize(34)
-            assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.ClassMastered>()).hasSize(40)
+            assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.ClassUse>()).hasSize(38)
+            assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.ClassMastered>()).hasSize(44)
             assertThat(abilityRequirements.filterIsInstance<AbilityRequirementAsset.BuddingTalent>()).hasSize(10)
             assertThat(magicRequirements).hasSize(55)
             assertThat(items).hasSize(106+145+88) // Lost + Liked + Disliked
-            assertThat(supports).hasSize(544) // For now, remove Sothis & Rhea supports
+            assertThat(supports).hasSize(546) // For now, remove Sothis & Rhea supports
             assertThat(favoriteTeas).hasSize(83)
             assertThat(teaTopics).hasSize(1346)
-            assertThat(teaAnswers).hasSize(315)
+            assertThat(teaFinalComments).hasSize(315)
         }
     }
 

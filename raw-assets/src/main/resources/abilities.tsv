@@ -239,3 +239,15 @@ Agarthan Technology	Adjacent foes deal 3 less damage during combat.	None
 Blade Breaker	If unit damages foe, foe suffers Str/Def -6 for 1 turn after combat.	None	
 Business Prosperity	Grants Lck +5.	None	
 Counterattack	Enables unit to counterattack regardless of distance to attacker.	None	
+Lucky Seven	Each turn, grants +5 to one of the following stats: Str, Mag, Spd, Def, Res, Hit, or Avo.	None	
+Transmute	If unit is hit with a magic attack during enemy phase, grants +3 to all stats until next player phase ends.	None	
+Honorable Spirit	If unit is not near an ally, grants Atk +3 when in combat with a foe one space away.	None	
+King of Grappling	Grants Str/Def +6 when HP is <=50%.	None	
+Circadian Beat	Grants Str/Mag +3 when indoors and Def/Res +3 when outdoors.	None	
+Monstrous Appeal	Makes all attacks effective against monsters and makes it easier for monsters to target unit.	None	
+Business Prosperity	Grants Lck +5.	None	
+Umbral Leech	Unit absorbs HP from phantoms.	None	
+Manifest Phantom	Unit births phantoms.	None	
+Enhanced Fortitude	Halves all damage taken, negates some abilities and combat arts, and prevents unit from being moved.	None	
+Duelist’s Blow	If unit initiates combat, grants Avo +20 during combat.	None	
+Uncanny Blow	If unit initiates combat, grants Hit +30 during combat.	None	

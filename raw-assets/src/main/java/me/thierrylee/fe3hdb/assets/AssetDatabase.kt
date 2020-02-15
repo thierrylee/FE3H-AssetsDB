@@ -19,7 +19,7 @@ data class AssetDatabase(
     val supports: List<SupportAsset>,
     val favoriteTeas: List<FavoriteTeaAsset>,
     val teaTopics: List<TeaTopicAsset>,
-    val teaAnswers: List<TeaAnswerAsset>
+    val teaFinalComments: List<TeaFinalCommentAsset>
 ) {
 
     fun getCombatArtsAndRequirements(): Map<CombatArtAsset, List<CombatArtRequirementAsset>> {

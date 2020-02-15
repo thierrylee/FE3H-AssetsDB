@@ -3,8 +3,8 @@ Swordfaire	Hero, Swordmaster, Assassin, Enlightened One, Mortal Savant
 Lancefaire	High Lord, Paladin, Great Lord, Falcon Knight, Great Knight, Death Knight
 Axefaire	Armored Lord, Fortress Knight, Wyvern Rider, Warrior, Emperor, Wyvern Lord, Great Knight, War Master
 Bowfaire	Wyvern Master, Sniper, Barbarossa, Bow Knight
-Fistfaire	Grappler, War Master
-Black Tomefaire	Warlock, Mortal Savant, Dark Knight
+Fistfaire	Grappler, War Master, War Monk, War Cleric
+Black Tomefaire	Warlock, Mortal Savant, Dark Knight, Dark Flier
 White Tomefaire	Holy Knight
 Dark Tomefaire	Dark Knight
 Sword Crit +10	Swordmaster
@@ -16,20 +16,24 @@ Charm	Armored Lord, High Lord, Wyvern Master, Emperor, Great Lord, Barbarossa
 Heartseeker	Dark Mage, Dark Bishop
 Fire	Mage
 Miasma Δ	Dark Mage, Dark Bishop
-Heal	Priest
+Heal	Priest, War Monk, War Cleric
 Terrain Resistance	Paladin, Bishop, Enlightened One, Holy Knight
 Vantage	Hero
 Dance	Dancer
 Steal	Thief
-Locktouch	Thief, Assassin
-Stealth	Assassin
-Canto	Cavalier, Pegasus Knight, Wyvern Rider, Paladin, Wyvern Lord, Barbarossa, Falcon Knight, Wyvern Lord, Great Knight, Bow Knight, Holy Knight, Dark Knight, Death Knight
+Locktouch	Thief, Assassin, Trickster
+Stealth	Assassin, Trickster
+Canto	Cavalier, Pegasus Knight, Wyvern Rider, Paladin, Wyvern Lord, Barbarossa, Falcon Knight, Wyvern Lord, Great Knight, Bow Knight, Holy Knight, Dark Knight, Death Knight, Dark Flier, Valkyrie
 Bowrange +1	Archer, Sniper
 Bowrange +2	Bow Knight
-Unarmed Combat	Brawler, Grappler
+Unarmed Combat	Brawler, Grappler, War Monk, War Cleric
 Black Magic Uses x2	Warlock, Gremory
 Dark Magic Uses x2	Gremory
 White Magic Uses x2	Bishop, Gremory
 White Magic Heal +5	Priest
 White Magic Heal +10	Bishop
 Weight -5	Fortress Knight
+Lucky Seven	Trickster
+Transmute	Dark Flier
+Black Magic Range +1	Valkyrie
+Dark Magic Range +1	Valkyrie

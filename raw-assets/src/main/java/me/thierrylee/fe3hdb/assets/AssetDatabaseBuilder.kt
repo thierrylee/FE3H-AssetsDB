@@ -39,7 +39,7 @@ object AssetDatabaseBuilder {
         },
         favoriteTeas = FavoriteTeaAssetTransformer.retrieveAssets(),
         teaTopics = TeaTopicAssetTransformer.retrieveAssets(),
-        teaAnswers = TeaAnswerAssetTransformer.retrieveAssets()
+        teaFinalComments = TeaFinalCommentAssetTransformer.retrieveAssets()
     )
 
 }

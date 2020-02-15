@@ -76,3 +76,5 @@ Reposition	None	–	–	–	1	–	User moves ally to the space behind the user.
 Draw Back	None	–	–	–	1	–	User moves 1 space backwards and ally is moved to where the user was previously.
 Smite	None	–	–	–	1	–	User pushes ally forward 2 spaces.
 Triangle Attack	None	8	30	40	1	3	Can only be triggered when 3 allied Flying units (including the user) are adjacent to the same enemy.
+Foul Play	None	–	–	–	1~5	–	Unit swaps positions with an ally in range. Exclusive to the Trickster class.
+Pneuma Gale	Brawling	7	10		1~2	3	Magic attack. Can attack from long range. Exclusive to the War Monk class.

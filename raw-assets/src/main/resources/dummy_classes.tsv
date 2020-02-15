@@ -1,2 +1,2 @@
 ID	ReqLevel	ReqSkill	ReqRank	OneReq	ReqGender	UseMagic	CharacterExclusive	SwordProficiency	LanceProficiency	AxeProficiency	BowProficiency	BrawlingProficiency	ReasonProficiency	FaithProficiency	AuthorityProficiency	ArmorProficiency	RidingProficiency	FlyingProficiency	GrowthHP	GrowthStr	GrowthMag	GrowthDex	GrowthSpd	GrowthLck	GrowthDef	GrowthRes	GrowthCha	Movement
-Lord	10	Sword, Authority	D+, C	-	M, F	Edelgard, Dimitri, Claude	Magic	2	1	-	-	-	-	-	2	-	-	-	20	-	-	10	-	-	-	-	10	5
+Lord	10	Sword, Authority	D+, C	-	M, F	Edelgard, Dimitri, Claude	Magic	2	1	-	-	-	-	-	2	-	-	-	20	-	-	10	-	-	-	-	10	5	-
